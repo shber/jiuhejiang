@@ -30,6 +30,9 @@
             :input-user-center="userCenter"
         ></app-account-balance>
 
+        
+        <image class="user_bar" src="/static/image/use_bar.png" @click="goRecharge"></image>
+
         <app-my-order
             v-if="userCenter.is_order_bar_status == 1"
             :margin="true"
@@ -330,6 +333,16 @@
             });
         },
         methods: {
+             // 
+            goRecharge(){
+                if (this.$user.isLogin()) {
+                    uni.navigateTo({
+                        url: '/recharge/check_user/index'
+                    });
+                }else{
+                    uni.showToast({title: '请先登录您的账号', icon: 'none'});
+                }
+            },
             router(name) {
                 let url = '';
                 if (name === '我的收藏') {
@@ -363,7 +376,15 @@
 </script>
 
 <style scoped lang="scss">
+.user_bar{
+    display: block;
+    width: 702rpx;
+    height: 172rpx;
+    margin: 0 auto;
+}
+
 .app-my-service {
+
     width: #{702rpx};
     border-radius: #{16rpx};
     margin: #{24rpx} auto;

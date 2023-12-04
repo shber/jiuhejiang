@@ -1,3 +1,10 @@
+/*
+ * @Author: Shber
+ * @Date: 2022-11-17 11:09:30
+ * @LastEditors: Shber
+ * @LastEditTime: 2023-12-04 11:55:13
+ * @Description: 
+ */
 {
     "pages": [
         {
@@ -25,6 +32,53 @@
         "wx3efb95b9c5579418"
     ],
     "subPackages": [
+        {
+            "root": "recharge",
+            "pages": [
+                {
+                    "path": "check_user/index",
+                    "style": {
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "index/index",
+                    "style": {
+                        "navigationBarTitleText": "充值缴费"
+                    }
+                },
+                {
+                    "path": "status/index",
+                    "style": {
+                        "navigationBarTitleText": ""
+                    }
+                },
+                {
+                    "path": "rules/index",
+                    "style": {
+                        "navigationBarTitleText": "预存金说明"
+                    }
+                },                
+                {
+                    "path": "list/index",
+                    "style": {
+                        "navigationBarTitleText": "充值记录"
+                    }
+                },                
+                {
+                    "path": "user_list/index",
+                    "style": {
+                        "navigationBarTitleText": "同住人列表"
+                    }
+                },
+                {
+                    "path": "bill_list/index",
+                    "style": {
+                        "navigationBarTitleText": "物业缴费"
+                    }
+                }
+            ]
+        },
         {
             "root": "pages/rules",
             "pages": [

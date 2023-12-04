@@ -1,4 +1,19 @@
 const apiUrl = {
+    myrecharge:{
+        bangStatus: 'api/house/bang-status', // 绑定查询
+        bandUser: 'api/house/bang-house', // 绑定提交
+        sendCode: 'api/house/send-code', //发送验证码
+        getBuilding: 'api/house/get-building', // 楼宇数据
+        getUnitFloor:'api/house/get-unit-floor', // 获取楼宇详细信息
+        payLog:'api/house/pay-log', // 充值记录
+        together: 'api/house/together-user', // 同住人列表
+        transfer:'api/house/transfer', // 转赠
+        bill:'api/house/house-bill', // 物业缴费
+        delBang:'api/house/del-bang', // 解除绑定
+        submitOrder:'api/house/submit-order', // 提交订单
+        pay:'api/house/pay', // 支付
+        recharge:'api/house/recharge', // 预存金充值
+    },
     index: {
         config: `api/index/config`,
         newIndex: `api/index/new-index`,
