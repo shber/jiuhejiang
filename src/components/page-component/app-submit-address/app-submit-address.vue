@@ -13,7 +13,7 @@
 			   </view>
 			   <view class="content font" v-else>请选择收货地址</view>
 			   <view>
-				   <image class="icon-image" src="/static/image/icon/arrow-right.png"></image>
+				   <image class="icon-image" src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png"></image>
 			   </view>
 		   </view>
 		   <view class="lifting dir-left-nowrap cross-center main-between" v-else>
@@ -39,7 +39,7 @@
 				  <view class="dir-left-nowrap main-between">
 					  <view class="font">{{store_list[0].name}}</view>
 					  <view>
-						  <image class="location" src="/static/image/icon/location.png"></image>
+						  <image class="location" src="https://yewi.vvv6g.cn/web/mini_images/icon/location.png"></image>
 						  <text class="font">距您{{store_list[0].distance}}</text>
 					  </view>
 				  </view>
@@ -47,7 +47,7 @@
 					  {{store_list[0].address}}
 				  </view>
 			  </view>
-			   <image class="icon-image" src="/static/image/icon/arrow-right.png"></image>
+			   <image class="icon-image" src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png"></image>
 		   </view>
 	   </view>
    </view>

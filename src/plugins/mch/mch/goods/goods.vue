@@ -3,7 +3,7 @@
         <view v-if="id" class="screen" @click='id=null'></view>
         <view class="search main-between">
             <view @click='beSearch' v-if="!toSearch" class="main-center search-content cross-center">
-                <image class="search-icon" src="/static/image/icon/icon-search.png"></image>
+                <image class="search-icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-search.png"></image>
                 <text class="search-text">搜索</text>
             </view>
             <view v-else class="dir-left-nowrap">

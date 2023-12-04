@@ -8,11 +8,11 @@
         </view>
         <view class="goods-list" v-if="detail.detail && detail.detail.length > 0">
             <view :key="item.id" class="dir-left-nowrap cross-center goods-item" v-for="item in detail.detail">
-                <image class="active-icon" src="/static/image/icon/form-er.png" style="background-color: #E2E2E2" v-if="item.choose == 2 && order_refund_id == 0">
+                <image class="active-icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/form-er.png" style="background-color: #E2E2E2" v-if="item.choose == 2 && order_refund_id == 0">
                 </image>
                 <image @click="chooseAddress(item)" class="active-icon" src="./../image/active.png" v-else-if="item.choose">
                 </image>
-                <image @click="chooseAddress(item)" class="active-icon" src="/static/image/icon/form-er.png" v-else>
+                <image @click="chooseAddress(item)" class="active-icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/form-er.png" v-else>
                 </image>
                 <view class="dir-left-nowrap goods">
                     <image :src="item.goods_info.goods_attr.pic_url ? item.goods_info.goods_attr.pic_url : item.goods_info.goods_attr.cover_pic" class="goods-img">
@@ -62,7 +62,7 @@
                         配送员
                     </view>
                     <view @click="toPick" class="dir-right-nowrap cross-center" width="width:30%;">
-                        <image class="to-more" src="/static/image/icon/arrow-right.png">
+                        <image class="to-more" src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png">
                         </image>
                         <text>
                             {{city.delivery}}
@@ -76,7 +76,7 @@
                             选择配送
                         </view>
                         <view @click="toPick" class="dir-right-nowrap cross-center" width="width:30%;">
-                            <image class="to-more" src="/static/image/icon/arrow-right.png">
+                            <image class="to-more" src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png">
                             </image>
                             <text class="t-omit">
                                 {{city.cityService}}
@@ -120,7 +120,7 @@
                         快递公司
                     </view>
                     <view @click="toPick(1)" class="dir-right-nowrap cross-center" width="width:30%;">
-                        <image class="to-more" src="/static/image/icon/arrow-right.png">
+                        <image class="to-more" src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png">
                         </image>
                         <text>
                             {{express}}

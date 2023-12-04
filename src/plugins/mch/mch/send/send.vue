@@ -5,7 +5,7 @@
                 <view class="dir-left-nowrap input-item">
                     <view class='label'>快递公司</view>
                     <view @click='toPick' width="width:30%;" class="dir-right-nowrap cross-center">
-                        <image class="to-more" src='/static/image/icon/arrow-right.png'></image>
+                        <image class="to-more" src='https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png'></image>
                         <text>{{express}}</text>
                     </view>
                 </view>

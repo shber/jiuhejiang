@@ -1,7 +1,7 @@
 <template>
 	<view class="bd-bottom dir-left-nowrap cross-center">
 		<view class="bd-back dir-top-nowrap main-center cross-center" @click="router">
-            <image class="bd-icon" src="../../../static/image/icon/index.png"></image>
+            <image class="bd-icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/index.png"></image>
             <text class="bd-text">首页</text>
 		</view>
         <bd-service :name="name" :url="url"></bd-service>

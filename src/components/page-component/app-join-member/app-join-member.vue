@@ -13,7 +13,7 @@
 				</view>
 				<view class="dir-left cross-center box-grow-0">
 					<view>了解更多</view>
-					<image src="/static/image/icon/arrow-right.png" class="right"></image>
+					<image src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png" class="right"></image>
 				</view>
 			</view>
 		</app-jump-button>

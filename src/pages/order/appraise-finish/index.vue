@@ -2,7 +2,7 @@
     <app-layout>
         <view class='finish-box'>
             <view class='top-box dir-top-nowrap cross-center main-center'>
-                <image class='img' src='/static/image/icon/order/icon-comment.png'></image>
+                <image class='img' src='https://yewi.vvv6g.cn/web/mini_images/icon/order/icon-comment.png'></image>
                 <text class='comment'>评价成功</text>
                 <view class='dir-left-nowrap btn-box'>
                     <app-jump-button url="/pages/index/index" open_type="redirect">
@@ -19,7 +19,7 @@
                     <view class="recommend-title dir-left-nowrap main-center">
                         <view class="dir-left-nowrap cross-center">
                             <view class="border"></view>
-                            <image src="/static/image/icon/icon-favorite.png"></image>
+                            <image src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-favorite.png"></image>
                             <view class="text">您或许喜欢</view>
                             <view class="border"></view>
                         </view>

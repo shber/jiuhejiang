@@ -85,7 +85,7 @@
                 </uni-swiper-dot>
                 <view class="goods-composition-more main-between cross-center">
                     <view>更多套餐组合</view>
-                    <image src="/static/image/icon/arrow-right.png"></image>
+                    <image src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png"></image>
                 </view>
             </view>
             <bd-comments :goods-id="goodsId"></bd-comments>
@@ -113,14 +113,14 @@
                 <view class="bd-bottom u-bottom-height-0 cross-center dir-left-nowrap" >
                     <template v-if="exchangeStatus == null">
                         <view class="bd-back dir-top-nowrap main-center cross-center box-grow-0" @click="back">
-                            <image class="bd-icon" src="../../static/image/icon/index.png"></image>
+                            <image class="bd-icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/index.png"></image>
                             <text class="bd-text">首页</text>
                         </view>
                         <template v-if="is_negotiable !== 1">
                             <bd-service :name="name" :url="sendPath"></bd-service>
                         </template>
                         <view class="bd-back dir-top-nowrap main-center cross-center box-grow-0" @click="setFavorite">
-                            <image class="bd-icon" :src="favorite ? '../../static/image/icon/icon-favorite-active.png' : '../../static/image/icon/icon-favorite.png'"></image>
+                            <image class="bd-icon" :src="favorite ? 'https://yewi.vvv6g.cn/web/mini_images/icon/icon-favorite-active.png' : 'https://yewi.vvv6g.cn/web/mini_images/icon/icon-favorite.png'"></image>
                             <text class="bd-text">收藏</text>
                         </view>
                         <template v-if="is_negotiable !== 1">

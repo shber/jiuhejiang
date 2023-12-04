@@ -428,7 +428,7 @@
             width: #{16rpx};
             height: #{30rpx};
             margin-left: #{16rpx};
-            background-image: url('../../../static/image/icon/arrow-right-white.png');
+            background-image: url('https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right-white.png');
             background-repeat: no-repeat;
             background-size: 100% 100%;
         }
@@ -564,7 +564,7 @@
                 color: #999999;
 
                 .icon-arrow-right {
-                    background-image: url("../../../static/image/icon/arrow-right.png");
+                    background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png");
                     background-size: 100% 100%;
                     background-repeat: no-repeat;
                     width: #{16rpx};

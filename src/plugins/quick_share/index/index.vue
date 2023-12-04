@@ -6,11 +6,11 @@
         <cover-view v-if="friendModel" class="friend-box">
             <cover-view class="info main-center cross-center dir-top-nowrap">
                 <cover-view class="dir-left-nowrap cross-center">
-                    <cover-image src="../../../static/image/icon/friend-v.png" class="icon"></cover-image>
+                    <cover-image src="https://yewi.vvv6g.cn/web/mini_images/icon/friend-v.png" class="icon"></cover-image>
                     <cover-view class="text">文本已复制到剪贴板</cover-view>
                 </cover-view>
                 <cover-view class="dir-left-nowrap cross-center" style="margin-top: 30rpx">
-                    <cover-image src="../../../static/image/icon/friend-v.png" class="icon"></cover-image>
+                    <cover-image src="https://yewi.vvv6g.cn/web/mini_images/icon/friend-v.png" class="icon"></cover-image>
                     <cover-view v-if="is_video" class="text">视频已保存到相册</cover-view>
                     <cover-view v-else class="text">图片已保存到相册</cover-view>
                 </cover-view>
@@ -702,7 +702,7 @@
 
             .video-number {
                 margin-left: #{20rpx};
-                background-image: url("../../../static/image/icon/video-number-2.png");
+                background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/video-number-2.png");
             }
 
             .card {

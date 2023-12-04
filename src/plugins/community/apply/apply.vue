@@ -96,7 +96,7 @@
                     <text class="app-text box-grow-0">所在地区</text>
                     <view class="h-100 main-right dir-left-nowrap cross-center box-grow-1" @click="getChooseLocation" :style="{'opacity': address ? '0.3' : '1'}">
                         <view class="box-grow-0 c-address t-omit" :class="{'placeholder':!location}">{{location ? location : '请选择所在地区'}}</view>
-                        <image src="/static/image/icon/arrow-right.png" class="box-grow-0 icon-arrow-image"></image>
+                        <image src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png" class="box-grow-0 icon-arrow-image"></image>
                     </view>
                 </view>
                 <!-- #endif -->

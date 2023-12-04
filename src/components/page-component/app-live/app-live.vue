@@ -13,7 +13,7 @@
                           :class="{'label-item-over': item.live_status == 103,
                           'label-item-notice': item.live_status == 102}">
                         <image v-if="item.live_status == 101" class="live-ing"
-                               src="/static/image/icon/liveing.png"></image>
+                               src="https://yewi.vvv6g.cn/web/mini_images/icon/liveing.png"></image>
                         <view v-else class="round"></view>
                         <span class="label-text">{{item.status_text}}</span>
                     </view>
@@ -24,7 +24,7 @@
                     <span class="nickname ellipsis">{{item.anchor_name}}</span>
                 </view>
                 <image v-if="item.live_status === 103" class="play-icon"
-                       src="/static/image/video-play.png"></image>
+                       src="https://yewi.vvv6g.cn/web/mini_images/video-play.png"></image>
             </view>
             <span class="title ellipsis">{{item.name}}</span>
             <view v-if="value.is_show_goods == true && item.goods.length > 0" class="goods-info">
@@ -50,7 +50,7 @@
                                   :class="{'label-item-over': item.live_status == 103,
                           'label-item-notice': item.live_status == 102}">
                                 <image v-if="item.live_status == 101" class="live-ing"
-                                       src="/static/image/icon/liveing.png"></image>
+                                       src="https://yewi.vvv6g.cn/web/mini_images/icon/liveing.png"></image>
                                 <view v-else class="round"></view>
                                 <span class="label-text">{{item.status_text}}</span>
                             </view>
@@ -61,7 +61,7 @@
                             <span class="nickname ellipsis">{{item.anchor_name}}</span>
                         </view>
                         <image v-if="item.live_status === 103" class="play-icon"
-                               src="/static/image/video-play.png"></image>
+                               src="https://yewi.vvv6g.cn/web/mini_images/video-play.png"></image>
                     </view>
                     <span class="title ellipsis">{{item.name}}</span>
                     <view v-if="value.is_show_goods == true && item.goods.length > 0" class="goods-info">
@@ -87,14 +87,14 @@
                           :class="{'label-item-over': item.live_status == 103,
                           'label-item-notice': item.live_status == 102}">
                         <image v-if="item.live_status == 101" class="live-ing"
-                               src="/static/image/icon/liveing.png"></image>
+                               src="https://yewi.vvv6g.cn/web/mini_images/icon/liveing.png"></image>
                         <view v-else class="round"></view>
                         <span class="label-text">{{item.status_text}}</span>
                     </view>
                     <span v-if="item.live_status == 102" class="text-time">{{item.text_time}}</span>
                 </view>
                 <image v-if="item.live_status === 103" class="play-icon"
-                       src="/static/image/video-play.png"></image>
+                       src="https://yewi.vvv6g.cn/web/mini_images/video-play.png"></image>
             </view>
             <view class="item-2">
                 <span class="title">{{item.name}}</span>

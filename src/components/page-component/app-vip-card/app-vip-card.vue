@@ -7,7 +7,7 @@
             </view>
             <view @click="router" class="app-vip-btn app-renew-btn cross-center main-center" v-bind:style="[{'background':`${vip_card.setting.form.renew_btn_bg_color}`}]">
                 <text>详情</text>
-                <image class="right-icon" src="/static/image/icon/right.png"></image>
+                <image class="right-icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/right.png"></image>
             </view>
         </view>
         <view v-else class="app-vip-card cross-center dir-left-nowrap" v-bind:style="noVipStyle">

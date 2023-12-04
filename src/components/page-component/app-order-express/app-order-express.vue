@@ -7,7 +7,7 @@
                     <view style="margin-bottom: 15rpx;">快递单号: {{express_no}}</view>
                     <view v-if="merchant_remark">商家物流留言: {{merchant_remark}}</view>
                 </view>
-                <image class='box-grow-0 img' src='/static/image/icon/arrow-right.png'></image>
+                <image class='box-grow-0 img' src='https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png'></image>
             </view>
         </app-jump-button>
     </view>

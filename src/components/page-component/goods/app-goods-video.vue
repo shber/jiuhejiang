@@ -20,8 +20,8 @@
 			@pause="pause"
 		>
 		</video>
-		<image v-if="!play" class="pause" src="/static/image/video-play.png"></image>
-		<image v-if="play && !loading" class="loading" src="/static/image/icon/loading.gif"></image>
+		<image v-if="!play" class="pause" src="https://yewi.vvv6g.cn/web/mini_images/video-play.png"></image>
+		<image v-if="play && !loading" class="loading" src="https://yewi.vvv6g.cn/web/mini_images/icon/loading.gif"></image>
 	</view>
 </template>
 

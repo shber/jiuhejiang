@@ -35,7 +35,7 @@
 								<image class="f-cat-icon"
 									   @click.stop="specification(item)"
 									   :style="{'background-color': item.buy_goods_auth ? theme.background : '#999999'}" 
-									   src="/static/image/icon/cats.png"></image>
+									   src="https://yewi.vvv6g.cn/web/mini_images/icon/cats.png"></image>
 							</view>
 						</view>
 					</view>

@@ -6,7 +6,7 @@
                   :style="userCenter.style_bg_pic_url?`background-image: url(${userCenter.style_bg_pic_url})`:``">
                 <view class="box-grow-0 avatar-container">
                     <image :src="avatar" :class="[is_vip_card_user && is_icon_super_vip == '1' ? 'avatar is_vip' : 'avatar']"></image>
-                    <image v-if="is_vip_card_user && is_icon_super_vip == '1'" src="/static/image/vip_icon.png" class="vip_icon"></image>
+                    <image v-if="is_vip_card_user && is_icon_super_vip == '1'" src="https://yewi.vvv6g.cn/web/mini_images/vip_icon.png" class="vip_icon"></image>
                 </view>
                 <view class="box-grow-1 info-container">
                     <template v-if="isLogin">
@@ -51,13 +51,13 @@
                 <view class="box-grow-0 address-container">
                     <app-jump-button v-if="userInfo && userInfo.is_show_pay_code" form url="/plugins/teller/index/index">
                         <view class="address-btn-3 pay-code">
-                            <image class="pay-code-icon" src="/static/image/icon/pay-code.png"></image>
+                            <image class="pay-code-icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/pay-code.png"></image>
                             <view>付款码</view>
                         </view>
                     </app-jump-button>
                     <app-jump-button form url="/pages/address/address">
                         <view class="address-btn-3">
-                            <image class="address-btn-icon" src="/static/image/icon/address-white.png"></image>
+                            <image class="address-btn-icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/address-white.png"></image>
                             <view>收货地址</view>
                         </view>
                     </app-jump-button>
@@ -70,13 +70,13 @@
         <view class="style-2 box-grow-1" v-else-if="topStyle == '2'">
             <app-jump-button v-if="userInfo && userInfo.is_show_pay_code" form url="/plugins/teller/index/index">
                 <view class="pay-code-btn">
-                    <image class="pay-code-icon" src="/static/image/icon/pay-code.png"></image>
+                    <image class="pay-code-icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/pay-code.png"></image>
                     <view>付款码</view>
                 </view>
             </app-jump-button>
             <view class="avatar-container">
                 <image :src="avatar" :class="[is_vip_card_user && is_icon_super_vip == '1' ? 'avatar is_vip' : 'avatar']"></image>
-                <image v-if="is_vip_card_user  && is_icon_super_vip == '1'" src="/static/image/vip_icon.png" class="vip_icon"></image>
+                <image v-if="is_vip_card_user  && is_icon_super_vip == '1'" src="https://yewi.vvv6g.cn/web/mini_images/vip_icon.png" class="vip_icon"></image>
             </view>
             <view class="info-container">
                 <template v-if="isLogin">
@@ -129,7 +129,7 @@
         <view class="style-1 dir-left-nowrap cross-center box-grow-1" v-else-if="topStyle == '1'">
             <view class="box-grow-0 avatar-container">
                 <image :src="avatar" :class="[is_vip_card_user && is_icon_super_vip == '1' ? 'avatar is_vip' : 'avatar']"></image>
-                <image v-if="is_vip_card_user && is_icon_super_vip == '1'" src="/static/image/vip_icon.png" class="vip_icon"></image>
+                <image v-if="is_vip_card_user && is_icon_super_vip == '1'" src="https://yewi.vvv6g.cn/web/mini_images/vip_icon.png" class="vip_icon"></image>
             </view>
             <view class="box-grow-1 info-container">
                 <template v-if="isLogin">
@@ -170,14 +170,14 @@
             <view class="box-grow-0 address-container">
                 <app-jump-button v-if="userInfo && userInfo.is_show_pay_code" form url="/plugins/teller/index/index">
                     <view class="pay-code">
-                        <image class="pay-code-icon" src="/static/image/icon/pay-code.png"></image>
+                        <image class="pay-code-icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/pay-code.png"></image>
                         <view>付款码</view>
                     </view>
                 </app-jump-button>
                 <app-jump-button form url="/pages/address/address">
                     <view class="address-btn-1 dir-left-nowrap cross-center" >
                         <view>
-                            <image class="address-btn-icon" src="/static/image/icon/address-white.png"></image>
+                            <image class="address-btn-icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/address-white.png"></image>
                         </view>
                         <view>收货地址</view>
                     </view>
@@ -225,7 +225,7 @@
                 if (this.isLogin && this.userInfo) {
                     return this.userInfo.avatar;
                 } else {
-                    return '/static/image/user-default-avatar.png';
+                    return 'https://yewi.vvv6g.cn/web/mini_images/user-default-avatar.png';
                 }
             },
             getMemberPicUrl() {
@@ -522,7 +522,7 @@
         .u-icon {
             width: 21upx;
             height: 21upx;
-            background-image: url('../../../static/image/icon/refresh.png');
+            background-image: url('https://yewi.vvv6g.cn/web/mini_images/icon/refresh.png');
             background-size: 100% 100%;
             background-repeat: no-repeat;
             margin-right: 5upx;

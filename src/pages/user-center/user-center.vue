@@ -31,7 +31,7 @@
         ></app-account-balance>
 
         
-        <image class="user_bar" src="/static/image/use_bar.png" @click="goRecharge"></image>
+        <image class="user_bar" src="https://yewi.vvv6g.cn/web/mini_images/use_bar.png" @click="goRecharge"></image>
 
         <app-my-order
             v-if="userCenter.is_order_bar_status == 1"
@@ -64,7 +64,7 @@
                                 <view class="name">{{item.name}}</view>
                             </view>
                             <view class="box-grow-0" v-if="userCenter.menu_style=='1'">
-                                <image src="/static/image/icon/arrow-right.png" class="arrow"></image>
+                                <image src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png" class="arrow"></image>
                             </view>
                         </view>
                     </app-jump-button>
@@ -91,7 +91,7 @@
                                     <view class="name">{{item.name}}</view>
                                 </view>
                                 <view class="box-grow-0" v-if="userCenter.menu_style=='1'">
-                                    <image src="/static/image/icon/arrow-right.png" class="arrow"></image>
+                                    <image src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png" class="arrow"></image>
                                 </view>
                             </view>
                         </app-jump-button>
@@ -105,7 +105,7 @@
         <!-- #ifdef H5 -->
         <view v-if="userInfo && isShowSetting" class="bd-setting dir-left-nowrap main-between cross-center" @click="routerGo">
             <view>设置</view>
-            <image src="./../../static/image/icon/arrow-right.png" class="bd-arrow"></image>
+            <image src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png" class="bd-arrow"></image>
         </view>
         <!-- #endif -->
 
@@ -242,7 +242,7 @@
                             let classStr = '';
                             let font = '';
                             let padding = '';
-                            let arrow = require("../../static/image/icon/arrow-right.png");
+                            let arrow = require("https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png");
                             if (this.userCenter.menu_style == 1) {
                                 let margin = uni.upx2px(16);
                                 strImg = `<img src="${item.icon_url}" width="${size}" height="${size}" style="margin-right: ${margin}px"/>`;

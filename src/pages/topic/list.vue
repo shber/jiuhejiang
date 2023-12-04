@@ -6,7 +6,7 @@
                        @confirm="searchList"
                        v-model="keyword">
                 <view class="close-tip" @click="clear">
-                    <image class="search-close" v-if="keyword" src="/static/image/icon/delete-yuan.png"></image>
+                    <image class="search-close" v-if="keyword" src="https://yewi.vvv6g.cn/web/mini_images/icon/delete-yuan.png"></image>
                 </view>
                 <view class="box-grow-0 cross-center" @click="searchList">搜索</view>
             </view>
@@ -17,7 +17,7 @@
             <view class="history">
                 <view class="dir-left-nowrap cross-center title">
                     <view class="box-grow-1">历史搜索</view>
-                    <image src="/static/image/icon/delete.png" class="box-grow-0"
+                    <image src="https://yewi.vvv6g.cn/web/mini_images/icon/delete.png" class="box-grow-0"
                            @click="deleteHistory"></image>
                 </view>
                 <view class="dir-left-wrap list">

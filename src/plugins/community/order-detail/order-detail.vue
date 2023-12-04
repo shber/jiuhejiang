@@ -136,7 +136,7 @@
             </view>
             <view @click="toBig" v-if="showQr" class="bg">
                 <view  @click.stop="" class="dialog qr-dialog dir-top-nowrap cross-center">
-                    <image @click.stop="toBig" class="close" src="/static/image/icon/icon-close.png"></image>
+                    <image @click.stop="toBig" class="close" src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-close.png"></image>
                     <image class="qr" :src="detail.no_QrCode.file_path"></image>
                     <view>提货编码 {{detail.no}}</view>
                     <view class="qr-info">仅{{detail.middleman_info.middleman_name}} {{detail.middleman_info.name}} 可以扫码核销</view>

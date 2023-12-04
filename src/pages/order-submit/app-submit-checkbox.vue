@@ -99,7 +99,7 @@
 
     .app-submit-checkbox.active {
         border: none;
-        background-image: url("../../static/image/icon/yes-radio.png");
+        background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/yes-radio.png");
         background-size: 100% 100%;
     }
 </style>

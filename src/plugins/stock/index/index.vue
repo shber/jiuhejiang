@@ -30,8 +30,8 @@
                     </view>
                     <view class="apply-input cross-center" v-if="setting.is_agreement == 1">
                         <view class="read" @click="beRead">
-                            <image src="/static/image/icon/icon-uncheck.png" v-if="read == false"></image>
-                            <image src="/static/image/icon/icon-checkbox-checked-a.png" v-else></image>
+                            <image src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-uncheck.png" v-if="read == false"></image>
+                            <image src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-checkbox-checked-a.png" v-else></image>
                         </view>
                         <text>已阅读并同意《</text>
                         <text class="agreement_title" @click="toRead">{{setting.agreement_title ? setting.agreement_title : '股东分红申请协议'}}</text>

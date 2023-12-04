@@ -4,7 +4,7 @@
 		  <view  class="top dir-left-nowrap main-between cross-center">
 			  <view class="top-input cross-center" @click="go_search()" v-if="!search">
 				  <view class="input main-center cross-center">
-					 <image src="/static/image/icon/icon-search.png"></image>
+					 <image src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-search.png"></image>
 					  <text>搜索</text>
 				  </view>
 			  </view>

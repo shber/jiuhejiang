@@ -534,7 +534,7 @@
                     height: #{56rpx};
 
                     icon {
-                        background-image: url("../../../static/image/poster/mark.png");
+                        background-image: url("https://yewi.vvv6g.cn/web/mini_images/poster/mark.png");
                         background-size: 100% 100%;
                         height: #{21rpx};
                         width: #{21rpx};
@@ -583,7 +583,7 @@
             }
 
             .icon-active {
-                background-image: url("../../../static/image/poster/input-active.png");
+                background-image: url("https://yewi.vvv6g.cn/web/mini_images/poster/input-active.png");
                 height: #{38rpx};
                 width: #{38rpx};
                 background-repeat: no-repeat;

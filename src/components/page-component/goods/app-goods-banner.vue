@@ -21,7 +21,7 @@
             <!-- #ifndef MP-BAIDU || H5 -->
                 <swiper-item v-if="videoUrl && getVideo == 1 && sign !== 'lottery' && sign !== 'bargain' && sign !== 'community' && sign !== 'wholesale'">
                     <view class="swiper-img" @click="routeJumpT" v-bind:style="{backgroundImage: 'url(' + picList[0].pic_url + ')'}">
-                        <image class="video-play" src="/static/image/video-play.png"></image>
+                        <image class="video-play" src="https://yewi.vvv6g.cn/web/mini_images/video-play.png"></image>
                     </view>
                 </swiper-item>
             <!-- #endif-->
@@ -67,12 +67,12 @@
         <view>
             <app-jump-button url="/pages/cart/cart" v-if="isCart">
                 <view class="cart" :class="isScanQrCode ? 'bd-cart-0' : 'bd-cart-1'" >
-                    <image load-lazy src="/static/image/icon/nav-icon-cart.png"></image>
+                    <image load-lazy src="https://yewi.vvv6g.cn/web/mini_images/icon/nav-icon-cart.png"></image>
                 </view>
             </app-jump-button>
         </view>
         <view class="share-commission dir-left-nowrap cross-center" v-if="share > 0">
-            <image load-lazy src="/static/image/icon/share/share_commission.png"></image>
+            <image load-lazy src="https://yewi.vvv6g.cn/web/mini_images/icon/share/share_commission.png"></image>
             <view class="text">
                 <view>分销最高可赚</view>
                 <view>￥{{share}}</view>

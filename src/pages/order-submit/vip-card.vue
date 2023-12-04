@@ -8,11 +8,11 @@
                 <view class="name">{{card.name}}</view>
                 <view style="margin-bottom: 24rpx">开通超级会员可以享受以下权益</view>
                 <view class="dir-left-nowrap cross-center">
-                    <image src="/static/image/icon/vip-card-coupon.png"
+                    <image src="https://yewi.vvv6g.cn/web/mini_images/icon/vip-card-coupon.png"
                            style="width: 42rpx; height: 30rpx; margin-right: 18rpx"></image>
                     <view style="margin-right: 50rpx">{{card.discount == 0 ? '免费' : card.discount + '折'}}</view>
                     <template v-if="card.is_free_delivery == 1 || true">
-                        <image src="/static/image/icon/vip-card-delivery.png"
+                        <image src="https://yewi.vvv6g.cn/web/mini_images/icon/vip-card-delivery.png"
                                style="width: 38rpx; height: 32rpx; margin-right: 18rpx"></image>
                         <view style="margin-right: 32rpx">自营商品包邮</view>
                     </template>

@@ -21,7 +21,7 @@
                        <view class='original' v-if="isUnderlinePrice == 1">￥{{goods.original_price}}</view>
                    </view>
                     <view @click="shareClick" :style="{'background-color': getTheme.background}" class="share dir-left-nowrap main-center cross-center">
-                        <image class="share-image box-grow-0" src="/static/image/icon/icon-share-white.png"></image>
+                        <image class="share-image box-grow-0" src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-share-white.png"></image>
                         <view class="share-text box-grow-0">分享</view>
                     </view>
                </view>
@@ -66,7 +66,7 @@
 	        <view v-if="is_open == 1" class="safe-area-inset-bottom u-bottom-fixed">
                <view class="bd-bottom dir-left-nowrap cross-center">
                    <view class="bd-back dir-top-nowrap main-center cross-center box-grow-0" @click="back">
-                       <image class="bd-icon" src="/static/image/icon/index.png"></image>
+                       <image class="bd-icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/index.png"></image>
                        <text class="bd-text">首页</text>
                    </view>
                    <bd-service :name="goods.name" :url="webUrl"></bd-service>

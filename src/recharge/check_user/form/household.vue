@@ -11,21 +11,21 @@
 			<text class="label">选择楼宇</text>
 			<view style="position: relative;" @click="check()">
 				<input v-model="form.build_name" disabled class="uni-input" placeholder="请选择楼宇" />
-				<image src="/static/image/icon/icon_bottom.png" class="icon_bottom"></image>
+				<image src="https://yewi.vvv6g.cn/web/mini_images/icon/icon_bottom.png" class="icon_bottom"></image>
 			</view>
 		</view>
 		<view class="form_item">
 			<text class="label">选择单元</text>
 			<view style="position: relative;">
 				<input v-model="form.unit" disabled @click="check('unit')" class="uni-input" placeholder="请选择单元" />
-				<image src="/static/image/icon/icon_bottom.png" class="icon_bottom"></image>
+				<image src="https://yewi.vvv6g.cn/web/mini_images/icon/icon_bottom.png" class="icon_bottom"></image>
 			</view>
 		</view>
 		<view class="form_item">
 			<text class="label">选择楼层</text>
 			<view style="position: relative;">
 				<input v-model="form.floornum" disabled @click="check('floornum')" class="uni-input" placeholder="请选择楼层" />
-				<image src="/static/image/icon/icon_bottom.png" class="icon_bottom"></image>
+				<image src="https://yewi.vvv6g.cn/web/mini_images/icon/icon_bottom.png" class="icon_bottom"></image>
 			</view>
 		</view>
 		<view class="form_item">
@@ -57,7 +57,7 @@
 		<uPopup v-model="popupshow" mode="bottom" border-radius="16" :length="630">
 			<view class="popup">
 				<view class="popup_title"> <text class="title">选择楼宇</text>  
-					<image src="/static/image/icon/close.png" class="icon_close" @click="popupshow = false"></image>
+					<image src="https://yewi.vvv6g.cn/web/mini_images/icon/close.png" class="icon_close" @click="popupshow = false"></image>
 				</view>
 				<picker-view 
 					:immediate-change='true' 
@@ -75,7 +75,7 @@
 		<uPopup v-model="infoshow" mode="bottom" border-radius="16" :length="630">
 			<view class="popup">
 				<view class="popup_title"> <text class="title"> 选择{{checkType =='unit' ? '单元' : '楼层'}}</text>  
-					<image src="/static/image/icon/close.png" class="icon_close" @click="infoshow = false"></image>
+					<image src="https://yewi.vvv6g.cn/web/mini_images/icon/close.png" class="icon_close" @click="infoshow = false"></image>
 				</view>
 				<picker-view 
 					:immediate-change='true' 

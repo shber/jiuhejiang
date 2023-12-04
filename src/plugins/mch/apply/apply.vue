@@ -594,7 +594,7 @@ export default {
         }
 
         .icon-arrow-right {
-            background-image: url("../../../static/image/icon/arrow-right.png");
+            background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png");
             height: #{22rpx};
             width: #{12rpx};
             background-size: 100% auto;

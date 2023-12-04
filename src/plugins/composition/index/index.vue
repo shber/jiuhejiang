@@ -7,12 +7,12 @@
         </view>
         <view class="search" @click="toSearch">
             <view class="search-view dir-left-nowrap main-center cross-center">
-                <image class="image" src="/static/image/icon/icon-search.png"></image>
+                <image class="image" src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-search.png"></image>
                 <view class="text">请输入商品名称搜索</view>
             </view>
         </view>
         <view class='no-tip' v-if="list.length == 0">
-            <image src="/static/image/no-goods.png"></image>
+            <image src="https://yewi.vvv6g.cn/web/mini_images/no-goods.png"></image>
             <view>没有任何套餐哦~</view>
         </view>
         <view v-else class="list" :style="{ position: position}">
@@ -21,7 +21,7 @@
                     <template>
                         <view class="look-goods main-center cross-center">
                             <view>套餐商品</view>
-                            <image src="/static/image/icon/icon-down.png"></image>
+                            <image src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-down.png"></image>
                         </view>
                     </template>
                 </app-composition>
@@ -31,11 +31,11 @@
             <view @click.stop="" :class="['dialog', `${iphone_x? 'iphone_x':''}`,`${tabbarbool? 'tabbarbool':''}`]" :style="{'bottom':height +'px'}" :animation="animationData">
                 <view class="dialog-title main-between cross-center">
                     <view @click="toDetail(detail)" class="toBuy dir-left-nowrap cross-center">
-                        <image :style="{'background-color': getTheme.background}" src="/static/image/icon/goods-cart.png"></image>
+                        <image :style="{'background-color': getTheme.background}" src="https://yewi.vvv6g.cn/web/mini_images/icon/goods-cart.png"></image>
                         <view :style="{'color': getTheme.color}">去购买套餐</view>
                     </view>
                     <view class="close">
-                        <image @click="close" src="/static/image/icon/close.png"></image>
+                        <image @click="close" src="https://yewi.vvv6g.cn/web/mini_images/icon/close.png"></image>
                     </view>
                 </view>
                 <view class="dialog-goods-list">

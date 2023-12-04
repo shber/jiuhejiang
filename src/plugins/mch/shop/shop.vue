@@ -91,7 +91,7 @@
                     <view class="act-modal-bg" @click="closeKfModal"></view>
                     <view class="act-modal-pic main-center cross-center">
                         <view class="shop-model">
-                            <image @click="closeKfModal" src="../../../static/image/icon/close.png"></image>
+                            <image @click="closeKfModal" src="https://yewi.vvv6g.cn/web/mini_images/icon/close.png"></image>
                             <view class="kf">联系客服</view>
                             <view class="cross-center dir-top-nowrap">
                                 <view v-if="mch_setting.is_web_service" @click="navigateCs"
@@ -556,7 +556,7 @@
                 height: #{19rpx};
                 width: #{12rpx};
                 margin-left: #{12rpx};
-                background-image: url("../../../static/image/icon/price-sort-default.png");
+                background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/price-sort-default.png");
             }
         }
 

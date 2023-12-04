@@ -29,7 +29,7 @@ export default {
         defaultImg: {
             // 添加图片的默认背景图片
             type: String,
-            default: '/static/image/icon/icon-image.png'
+            default: 'https://yewi.vvv6g.cn/web/mini_images/icon/icon-image.png'
         },
         maxNum: {
             // 可添加最大图片数量

@@ -4,7 +4,7 @@
             <slot name="u-top-name"></slot>
             <view class="dir-left-nowrap cross-center">
                 <view class="box-grow-0 u-more">更多</view>
-                <image class="box-grow-0 u-icon" src="/static/image/icon/arrow-right.png"></image>
+                <image class="box-grow-0 u-icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png"></image>
             </view>
         </view>
         <scroll-view class="u-bottom" scroll-x>

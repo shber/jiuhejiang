@@ -8,7 +8,7 @@
                 </view>
                 <view class="cross-center u-more">
                     <text class="u-more-text">更多</text>
-                    <image class="u-arrow-right" src="/static/image/icon/arrow-right.png"></image>
+                    <image class="u-arrow-right" src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png"></image>
                 </view>
             </view>
             <u-ordinary-list @buyProduct="buyProduct" :is-under-line-price="isListUnderlinePrice == 1 ? true : false" :list="item.goods" :theme="theme" :list-style="item.list_style | listStyle"></u-ordinary-list>

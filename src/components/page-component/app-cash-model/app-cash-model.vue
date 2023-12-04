@@ -5,7 +5,7 @@
             <view slot="content">
                 <view class="dir-top-nowrap">
                     <view class="cash-type-item dir-left-nowrap cross-center" v-if="isAuto">
-                        <image class="icon" src="/static/image/icon/cash/icon-auto.png"></image>
+                        <image class="icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/cash/icon-auto.png"></image>
                         <view class="dir-left-nowrap box-grow-1 cash-type-box cross-center"
                               @click="payTypeChange(`auto`)">
                             <!--  #ifdef MP-WEIXIN -->
@@ -24,7 +24,7 @@
                         </view>
                     </view>
                     <view class="cash-type-item dir-left-nowrap cross-center" v-if="isWx">
-                        <image class="icon" src="/static/image/icon/cash/icon-wechat.png"></image>
+                        <image class="icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/cash/icon-wechat.png"></image>
                         <view class="dir-left-nowrap cross-center box-grow-1 cash-type-box"
                               @click="payTypeChange(`wx`)">
                             <view class="box-grow-1">微信线下打款</view>
@@ -35,7 +35,7 @@
                         </view>
                     </view>
                     <view class="cash-type-item dir-left-nowrap cross-center" v-if="isAlipay">
-                        <image class="icon" src="/static/image/icon/cash/icon-alipay.png"></image>
+                        <image class="icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/cash/icon-alipay.png"></image>
                         <view class="dir-left-nowrap cross-center box-grow-1 cash-type-box"
                               @click="payTypeChange(`alipay`)">
                             <view class="box-grow-1">支付宝线下打款</view>
@@ -46,7 +46,7 @@
                         </view>
                     </view>
                     <view class="cash-type-item dir-left-nowrap cross-center" v-if="isBank">
-                        <image class="icon" src="/static/image/icon/cash/icon-bank.png"></image>
+                        <image class="icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/cash/icon-bank.png"></image>
                         <view class="dir-left-nowrap cross-center box-grow-1 cash-type-box"
                               @click="payTypeChange(`bank`)">
                             <view class="box-grow-1">银联线下打款</view>
@@ -57,7 +57,7 @@
                         </view>
                     </view>
                     <view class="cash-type-item dir-left-nowrap cross-center" v-if="isBalance">
-                        <image class="icon" src="/static/image/icon/cash/icon-balance.png"></image>
+                        <image class="icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/cash/icon-balance.png"></image>
                         <view class="dir-left-nowrap cross-center box-grow-1 cash-type-box"
                               @click="payTypeChange(`balance`)">
                             <view class="box-grow-1">商城余额</view>
@@ -180,7 +180,7 @@
                 border-radius: 50%;
                 background-repeat: repeat;
                 background-size: 100% 100%;
-                background-image: url("../../../static/image/icon/yes-radio.png");
+                background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/yes-radio.png");
             }
         }
 

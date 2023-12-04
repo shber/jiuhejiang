@@ -2,7 +2,7 @@
     <!-- #ifndef MP-TOUTIAO || MP-ALIPAY || H5 -->
     <view class="bd-item-content" v-if="mall.setting.show_contact_type != 0">
         <view v-if="mall.setting.show_contact_type == 2" class="bd-back dir-top-nowrap main-center cross-center box-grow-0" @click="router('/pages/web/web?url=' + encodeURIComponent(mall.setting.web_service_url))">
-            <image class="bd-icon" src="/static/image/icon/detail-tell.png"></image>
+            <image class="bd-icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/detail-tell.png"></image>
             <text class="bd-text">客服</text>
         </view>
         <button v-if="mall.setting.show_contact_type == 1"
@@ -12,12 +12,12 @@
                 :send-message-path="url"
                 class="bd-content bd-back box-grow-0">
             <view class="bd-content-view dir-top-nowrap main-center cross-center ">
-                <image class="bd-icon" src="/static/image/icon/detail-tell.png"></image>
+                <image class="bd-icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/detail-tell.png"></image>
                 <text class="bd-text">客服</text>
             </view>
         </button>
         <view v-if="mall.setting.show_contact_type == 3" class="bd-item-content dir-top-nowrap main-center cross-center box-grow-0" @click="makePhoneCall()">
-            <image class="bd-icon" src="/static/image/icon/detail-tell.png"></image>
+            <image class="bd-icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/detail-tell.png"></image>
             <text class="bd-text">客服</text>
         </view>
     </view>
@@ -25,11 +25,11 @@
     <!-- #ifdef MP-TOUTIAO || MP-ALIPAY || H5 -->
    <view>
        <view v-if="mall.setting.show_contact_type == 2" class="bd-item-content dir-top-nowrap main-center cross-center box-grow-0" @click="router('/pages/web/web?url=' + encodeURIComponent(mall.setting.web_service_url))">
-           <image class="bd-icon" src="/static/image/icon/detail-tell.png"></image>
+           <image class="bd-icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/detail-tell.png"></image>
            <text class="bd-text">客服</text>
        </view>
        <view v-else-if="mall.setting.show_contact_type == 3" class="bd-item-content dir-top-nowrap main-center cross-center box-grow-0" @click="makePhoneCall()">
-           <image class="bd-icon" src="/static/image/icon/detail-tell.png"></image>
+           <image class="bd-icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/detail-tell.png"></image>
            <text class="bd-text">客服</text>
        </view>
    </view>

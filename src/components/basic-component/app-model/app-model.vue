@@ -129,7 +129,7 @@
                 width: #{30rpx};
                 height: #{30rpx};
                 position: absolute;
-                background-image: url("../../../static/image/icon/icon-close.png");
+                background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/icon-close.png");
                 top: #{35rpx};
                 right: #{32rpx};
             }
@@ -147,7 +147,7 @@
             width: #{30rpx};
             height: #{30rpx};
             position: absolute;
-            background-image: url("../../../static/image/icon/icon-close.png");
+            background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/icon-close.png");
             top: #{24rpx};
             right: #{24rpx};
         }

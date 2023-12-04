@@ -3,7 +3,7 @@
         <scroll-view @scrolltolower="getMore" scroll-y :style="{'height':`${windowHeight}px`}">
             <view v-if="search" class="search-item main-between cross-center">
                 <view class="search-input">
-                    <image class="search-icon" src='/static/image/icon/icon-search.png'></image>
+                    <image class="search-icon" src='https://yewi.vvv6g.cn/web/mini_images/icon/icon-search.png'></image>
                     <input @confirm='searchMethod' confirm-type='search' v-model='keyword' placeholder-style='color:#999999;font-size:13px;' :focus="getFocus" @blur="getFocus=false" @focus="getFocus=true" :placeholder="is_user ? '请输入团长手机号':'请输入活动名称或买家手机号'"></input>
                     <image v-if="getFocus && keyword.length > 0" @click="clearSearch" class="search-clear" src="../image/clear.png"></image>
                 </view>
@@ -13,7 +13,7 @@
                 <view v-if="candidate.length != 0" class='main-between search-title'>
                     <view>历史搜索</view>
                     <view @click="clear">
-                        <image class="delete-icon" src="/static/image/icon/delete.png"></image>
+                        <image class="delete-icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/delete.png"></image>
                     </view>
                 </view>
                 <view class='flex-wrap candidate-list'>
@@ -24,7 +24,7 @@
             </view>
             <view v-if="!search" class="search-area main-between cross-center">
                 <view class="search dir-left-nowrap" :class="{'all-search': is_user}" @click="toSearch">
-                    <image class="icon-search" src="/static/image/icon/icon-search.png"></image>
+                    <image class="icon-search" src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-search.png"></image>
                     <text :class="{'keyword':keyword.length> 0}">{{ keyword.length> 0?keyword:is_user ? '请输入团长手机号':'请输入活动名称或买家手机号'}}</text>
                 </view>
                 <view v-if="!is_user" class="choose dir-left-nowrap cross-center" @click='toTime' :style="{'color': getTheme.color}">
@@ -62,7 +62,7 @@
             <view v-if="!search" class="search-palce"></view>
             <!-- 订单信息 -->
             <view class='no-tip' v-if="list.length == 0">
-                <image src="/static/image/order-empty.png"></image>
+                <image src="https://yewi.vvv6g.cn/web/mini_images/order-empty.png"></image>
                 <span>暂无{{activeTab == 0?'未付款': activeTab == 1?'待发货':activeTab == 2?'待提货':''}}订单</span>
             </view>
             <view v-else>

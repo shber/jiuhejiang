@@ -2,14 +2,14 @@
     <app-layout>
         <view class="search">
             <view class="prompt dir-left-nowrap main-center cross-center" v-if="search" @click="search = false">
-                <image src="../../static/image/icon/icon-search.png"></image>
+                <image src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-search.png"></image>
                 <text>请输入收货人或联系电话搜索</text>
             </view>
             <view v-else style="position: relative">
                 <input placeholder="请输入收货人或联系电话搜索" type="text" v-model="keyword" @focus="getFocus=true" focus
                        @blur="inputBlur"/>
                 <image v-if="getFocus && keyword.length" @click.stop="keyword = ''" class="search-clear"
-                       src="../../static/image/icon/delete-yuan.png"></image>
+                       src="https://yewi.vvv6g.cn/web/mini_images/icon/delete-yuan.png"></image>
             </view>
         </view>
 

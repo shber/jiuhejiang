@@ -5,7 +5,7 @@
             <view class="detail-price">{{detail.all_bonus ? detail.all_bonus : '0.00'}}</view>
             <view @click="toDetail" class="to-cash">
                 <text>提现明细</text>
-                <image class="arrow-right" src='/static/image/icon/arrow-right-white.png'></image>
+                <image class="arrow-right" src='https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right-white.png'></image>
             </view>
         </view>
         <view class="cell">
@@ -28,7 +28,7 @@
             <view class="main-between cell-item">
                 <view class="label">用户须知</view>
                 <view>
-                    <image :class="['arrow-right',`${show ? 'show' : ''}`,]" src='/static/image/icon/arrow-right.png'></image>    
+                    <image :class="['arrow-right',`${show ? 'show' : ''}`,]" src='https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png'></image>    
                 </view>
             </view>
             <view v-if="show" class="content">

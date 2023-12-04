@@ -12,12 +12,12 @@
         <view class="cross-center tel">
             <view class="box-grow-0">电话：</view>
             <view class="box-grow-1 info">{{list.mobile}}</view>
-            <image @click="mobile" class="box-grow-0" src="/static/image/icon/store-tel.png"></image>
+            <image @click="mobile" class="box-grow-0" src="https://yewi.vvv6g.cn/web/mini_images/icon/store-tel.png"></image>
         </view>
         <view class="cross-top address">
             <view class="box-grow-0">地址：</view>
             <view class="box-grow-1 info">{{list.address}}</view>
-            <image @click="goto" class="box-grow-0" src="/static/image/icon/store-navigate.png"></image>
+            <image @click="goto" class="box-grow-0" src="https://yewi.vvv6g.cn/web/mini_images/icon/store-navigate.png"></image>
         </view>
         <view class="bg-line"></view>
         <view class="content cross-center">店铺介绍</view>
@@ -128,7 +128,7 @@
             .image {
                 background-repeat: no-repeat;
                 background-size: 100% 100%;
-                background-image: url('../../static/image/icon/store-score.png');
+                background-image: url('https://yewi.vvv6g.cn/web/mini_images/icon/store-score.png');
                 margin-left: #{6rpx};
                 height: #{24rpx};
                 width: #{28rpx};

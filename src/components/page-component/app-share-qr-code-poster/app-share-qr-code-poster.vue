@@ -55,7 +55,7 @@
 	    <view class="app-center dir-top-wrap main-center cross-center" v-else>
 		    <view class="app-close" @click="showHiddenClick"></view>
 		    <view class="app-image-iframe main-center dir-top-nowrap cross-center" v-if="loading">
-			    <image class="loading" src="/static/image/loading.gif"></image>
+			    <image class="loading" src="https://yewi.vvv6g.cn/web/mini_images/loading.gif"></image>
 			    <view class="text">海报生成中</view>
 		    </view>
 		    <image class="app-image-iframe" v-if="!loading" show-menu-by-longpress mode="aspectFit" @click="preview(shareImage)"  :src="shareImage"></image>
@@ -383,13 +383,13 @@
                     margin-bottom: #{24rpx};
                 }
                 .app-share {
-                    background-image: url('../../../static/image/icon/share.png');
+                    background-image: url('https://yewi.vvv6g.cn/web/mini_images/icon/share.png');
                 }
                 .app-code {
-                    background-image: url('../../../static/image/icon/code.png');
+                    background-image: url('https://yewi.vvv6g.cn/web/mini_images/icon/code.png');
                 }
                 .app-video-number {
-                    background-image: url('../../../static/image/icon/video-number.png');
+                    background-image: url('https://yewi.vvv6g.cn/web/mini_images/icon/video-number.png');
                 }
                 .text {
                     font-size: #{26rpx};
@@ -431,7 +431,7 @@
                 height: #{30rpx};
                 background-size: cover;
                 background-repeat: no-repeat;
-                background-image: url("../../../static/image/icon/close.png");
+                background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/close.png");
                 position: absolute;
                 top: #{28rpx};
                 right: #{24rpx};

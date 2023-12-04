@@ -14,8 +14,8 @@
                         <view class="t-omit type">{{item.share_status}}</view>
                         <view class="money">{{item.is_sale == 1 ? "已得佣金:" : "预计佣金:"}}
                             <text class="red-color">{{item.share_money}}</text>元</view>
-                        <image class="close" src="/static/image/share/img-share-down.png" v-if="id == item.id"></image>
-                        <image class="open" src="/static/image/share/img-share-right.png" v-else></image>
+                        <image class="close" src="https://yewi.vvv6g.cn/web/mini_images/share/img-share-down.png" v-if="id == item.id"></image>
+                        <image class="open" src="https://yewi.vvv6g.cn/web/mini_images/share/img-share-right.png" v-else></image>
                     </view>
                 </view>
                 <view class="order" v-if="id == item.id" v-for="goods in item.detail" :key="goods.id">
@@ -29,7 +29,7 @@
             </view>
         </view>
         <view class='no-tip' v-if="list && list.length == 0">
-            <image src="/static/image/order-empty.png"></image>
+            <image src="https://yewi.vvv6g.cn/web/mini_images/order-empty.png"></image>
             <span>暂无{{activeTab == 1?'待付款': activeTab == 2?'已付款':activeTab == 3?'已完成':''}}订单</span>
         </view>
     </app-layout>

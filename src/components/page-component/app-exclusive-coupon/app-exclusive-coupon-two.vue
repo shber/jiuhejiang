@@ -138,13 +138,13 @@
                 //wechat ../../../
                 switch (this.coupon_list.length) {
                     case 1:
-                        return '/static/image/diy/bg_coupon_index_1.png';
+                        return 'https://yewi.vvv6g.cn/web/mini_images/diy/bg_coupon_index_1.png';
                     case 2:
-                        return '/static/image/diy/bg_coupon_index_2.png';
+                        return 'https://yewi.vvv6g.cn/web/mini_images/diy/bg_coupon_index_2.png';
                     case 3:
-                        return '/static/image/diy/bg_coupon_index_3.png';
+                        return 'https://yewi.vvv6g.cn/web/mini_images/diy/bg_coupon_index_3.png';
                     default:
-                        return '/static/image/diy/bg_coupon_index_4.png';
+                        return 'https://yewi.vvv6g.cn/web/mini_images/diy/bg_coupon_index_4.png';
                 }
             },
 

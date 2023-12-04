@@ -6,11 +6,11 @@
                 <view class='card-name'>{{list.card_name}}</view>
                 <view class="dir-left-nowrap main-center" v-if="list.status == 0">
                     <view class="over over-lg dir-left-nowrap cross-top box-grow-0">
-                        <image src="/static/image/icon/icon_ok.png" class="icon_ok box-grow-0"></image>
+                        <image src="https://yewi.vvv6g.cn/web/mini_images/icon/icon_ok.png" class="icon_ok box-grow-0"></image>
                         <view class="box-grow-1" style="height: 100%;">
                             <view>已转赠给：{{list.receive_user_name}}</view>
                         </view>
-                        <image src="/static/image/card/img_seal.png" class="img_seal"></image>
+                        <image src="https://yewi.vvv6g.cn/web/mini_images/card/img_seal.png" class="img_seal"></image>
                     </view>
                 </view>
                 <view class="qr" v-else-if="list.status == 1">
@@ -31,7 +31,7 @@
                 <view class="over" v-else>已过期</view>
             </view>
             <view class='line'>
-                <image src='/static/image/icon/line.png'></image>
+                <image src='https://yewi.vvv6g.cn/web/mini_images/icon/line.png'></image>
             </view>
             <view class='explain use-time' v-if="list.is_show_history">
                 <view class='explain-title'>核销时间</view>

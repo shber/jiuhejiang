@@ -1,7 +1,7 @@
 <template>
 	<view class="app-no-goods dir-top-nowrap main-center cross-center" :style="{'backgroundColor': background}">
-		<image class="icon" v-if="is_image === 0" src="/static/image/no-goods.png"></image>
-		<image class="icon" v-else-if="is_image === 1" src="/static/image/order-empty.png"></image>
+		<image class="icon" v-if="is_image === 0" src="https://yewi.vvv6g.cn/web/mini_images/no-goods.png"></image>
+		<image class="icon" v-else-if="is_image === 1" src="https://yewi.vvv6g.cn/web/mini_images/order-empty.png"></image>
 		<text class="text" :style="{'color': color}">{{title}}</text>
 	</view>
 </template>

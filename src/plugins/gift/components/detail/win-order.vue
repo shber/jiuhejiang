@@ -17,7 +17,7 @@
                             <text>
                                 申请售后中
                             </text>
-                            <image class="icon" :src="item.switch ? '/static/image/icon/icon-up.png' : '/static/image/icon/icon-down.png'"></image>
+                            <image class="icon" :src="item.switch ? 'https://yewi.vvv6g.cn/web/mini_images/icon/icon-up.png' : 'https://yewi.vvv6g.cn/web/mini_images/icon/icon-down.png'"></image>
                         </view>
                     </view>
                     <view class="main-right">

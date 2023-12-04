@@ -20,7 +20,7 @@
                 赠卡券
             </view>
             <view class="content u-line-1 box-grow-1">{{card.title}}</view>
-            <image class="box-grow-0 bd-icon" src="/static/image/icon/arrow-right.png"></image>
+            <image class="box-grow-0 bd-icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png"></image>
         </view>
         <view class="bd-block dir-left-nowrap cross-center" v-if="coupon && coupon.list.length > 0" @click="change('coupon', '优惠券')">
             <view class="box-grow-0">{{!(balance && balance.title && card && card.list.length > 0) ? '促销' : ''}}</view>
@@ -28,7 +28,7 @@
                 赠优惠券
             </view>
             <view class="content u-line-1 box-grow-1">{{coupon.title}}</view>
-            <image class="box-grow-0 bd-icon" src="/static/image/icon/arrow-right.png"></image>
+            <image class="box-grow-0 bd-icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png"></image>
         </view>
         <u-popup v-model="show" mode="bottom" border-radius="14" @close="show = false">
             <view class="model" @touchmove.stop.prevent>
@@ -37,7 +37,7 @@
                         <view class="p-title">{{title}}</view>
                     </view>
                     <view class="f-image" @click="show = false">
-                        <image class="f-img" src="/static/image/icon/icon-close.png"></image>
+                        <image class="f-img" src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-close.png"></image>
                     </view>
                 </view>
                 <scroll-view scroll-y class="f-scroll">
@@ -169,7 +169,7 @@ export default {
         .card {
             width: 100%;
             height: #{160rpx};
-            background-image: url('../../../static/image/icon/goods-card.png');
+            background-image: url('https://yewi.vvv6g.cn/web/mini_images/icon/goods-card.png');
             background-position: center;
             background-repeat: no-repeat;
             background-size: contain;
@@ -202,7 +202,7 @@ export default {
         .coupon {
             width: 100%;
             height: #{160rpx};
-            background-image: url('../../../static/image/icon/goods-card.png');
+            background-image: url('https://yewi.vvv6g.cn/web/mini_images/icon/goods-card.png');
             background-position: center;
             background-repeat: no-repeat;
             background-size: contain;

@@ -38,8 +38,8 @@
                 <view class="add-default add-diy-form">
                     <view class="add-info" style="font-size:13px;">
                         <view class="read" @click="toRead">
-                            <image src="/static/image/icon/icon-uncheck.png" v-if="read == false"></image>
-                            <image :class="[`red-background`]" src="/static/image/icon/icon-checkbox-checked.png" v-else></image>
+                            <image src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-uncheck.png" v-if="read == false"></image>
+                            <image :class="[`red-background`]" src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-checkbox-checked.png" v-else></image>
                         </view>
                         我已经阅读并了解
                         <text style="color:#014c8c" @click="protocol = true">【{{custom_setting.apply.share_apply_pact.name ? custom_setting.apply.share_apply_pact.name : custom_setting.apply.share_apply_pact.default}}】</text>

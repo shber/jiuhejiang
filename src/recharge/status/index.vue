@@ -9,7 +9,7 @@
   <app-layout>
     <view class="recharge_user recharge_shadow">
         <view v-if="dataInfo.verify_status == 1" class="padding_content">
-            <image src="/static/image/recharge/index_bg.png" class='bg'></image>
+            <image src="https://yewi.vvv6g.cn/web/mini_images/recharge/index_bg.png" class='bg'></image>
             <view class="card_info">
             <view class="house_info">
                 <text class="label">房屋信息</text>
@@ -22,14 +22,14 @@
                 房号：<text>{{userInfo.number}}</text>
             </view>
             <view class="together" @click="goPath('/recharge/user_list/index')"><text>同住人列表</text> 
-                <image src="/static/image/recharge/right.png" class='turn_right'></image>
+                <image src="https://yewi.vvv6g.cn/web/mini_images/recharge/right.png" class='turn_right'></image>
             </view>
             </view>
             <view class="card_info">
             <view class="house_info">
                 <text class="label">物业预存金</text>
                 <view class="left_laber" @click="goPath('/recharge/rules/index')">        
-                <image src="/static/image/recharge/question.png" class='icon_question'></image>
+                <image src="https://yewi.vvv6g.cn/web/mini_images/recharge/question.png" class='icon_question'></image>
                 预存金说明</view>
             </view>
             <view>
@@ -45,17 +45,17 @@
 
             <view class="bottom_group">
             <view @click="goPath('/recharge/list/index')">
-                <image src="/static/image/recharge/bottom1.png" class='bottom_img'></image>
+                <image src="https://yewi.vvv6g.cn/web/mini_images/recharge/bottom1.png" class='bottom_img'></image>
             </view>
             <view @click="goPath('/recharge/bill_list/index')">
-                <image src="/static/image/recharge/bottom2.png" class='bottom_img'></image>
+                <image src="https://yewi.vvv6g.cn/web/mini_images/recharge/bottom2.png" class='bottom_img'></image>
             </view>
             </view>
         </view>
 
         <view class="status_group" v-else>
-            <image v-if="dataInfo.verify_status == 0" src="/static/image/recharge/status1.png" class='status_img'></image>
-            <image v-else src="/static/image/recharge/status2.png" class='status_img1'></image>
+            <image v-if="dataInfo.verify_status == 0" src="https://yewi.vvv6g.cn/web/mini_images/recharge/status1.png" class='status_img'></image>
+            <image v-else src="https://yewi.vvv6g.cn/web/mini_images/recharge/status2.png" class='status_img1'></image>
 
             <text class="status_text"> {{ dataInfo.verify_status == 2 ? '申请驳回，请再次申请...': '申请审核中，请耐心等待...' }} </text>
             <view class="remark" v-if="dataInfo.verify_status == 2">

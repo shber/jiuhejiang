@@ -27,7 +27,7 @@
                             </view>
                             <view class="box-grow-0 dir-left-nowrap cross-center right" @click="ruleClick(item)">
                                 <view class="box-grow-0">等级说明</view>
-                                <image class="box-grow-0 arrow-right" src="/static/image/icon/arrow-right.png"></image>
+                                <image class="box-grow-0 arrow-right" src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png"></image>
                             </view>
                         </view>
                     </block>
@@ -44,7 +44,7 @@
                 </view>
                 <view class="dialog dir-left-nowrap main-center cross-center" v-if="rule.show">
                     <view class="rule dir-top-nowrap cross-center">
-                        <image class="box-grow-0 close" @click="rule.show = false" src="/static/image/icon/icon-close.png"></image>
+                        <image class="box-grow-0 close" @click="rule.show = false" src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-close.png"></image>
                         <view class="rule-title">等级说明</view>
                         <text class="rule-content">{{rule.content}}</text>
                         <view class="btn" @click="rule.show = false">我知道了</view>

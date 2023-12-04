@@ -3,7 +3,7 @@
         <view class="recommend-title dir-left-nowrap main-center">
             <view class="dir-left-nowrap cross-center">
                 <view class="border"></view>
-                <image src="../../../static/image/icon/icon-favorite.png"></image>
+                <image src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-favorite.png"></image>
                 <view class="text">您或许喜欢</view>
                 <view class="border"></view>
             </view>

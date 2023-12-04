@@ -50,7 +50,7 @@
 					   </view>
 				   </view>
 				   <view class="empty-goods dir-left-nowrap main-center cross-center" v-if="is_booking">
-					   <image src="/static/image/icon/empty.png"></image>
+					   <image src="https://yewi.vvv6g.cn/web/mini_images/icon/empty.png"></image>
 					   <view>
 						   <view style="color: #353535;">今日已无更多场次</view>
 						   <view style="color: #999999;">

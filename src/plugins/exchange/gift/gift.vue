@@ -16,7 +16,7 @@
                     <view class="code" :style="{'color': status == 'unused' ? getTheme.color : '#999999','background-color': status == 'unused' ? getTheme.background_o : '#f5f5f5'}">{{code}}</view>
                     <view v-if="status == 'unused'" class="app-share">
                         <app-form-id @click="shareShow = true">
-                            <image class="app-icon" src="../../../static/image/icon/icon-share.png"></image>
+                            <image class="app-icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-share.png"></image>
                             <text class="app-text">赠送</text>
                         </app-form-id>
                     </view>

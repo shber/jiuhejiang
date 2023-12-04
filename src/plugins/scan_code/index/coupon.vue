@@ -152,7 +152,7 @@
         height: #{70rpx};
         width: #{70rpx};
         z-index: 1;
-        background-image: url("../../../static/image/icon/coupon-select.png");
+        background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/coupon-select.png");
         background-size: 100% auto;
         background-repeat: no-repeat;
     }

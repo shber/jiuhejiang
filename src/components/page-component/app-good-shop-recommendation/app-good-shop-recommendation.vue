@@ -252,7 +252,7 @@
                 .icon {
                     width: #{46rpx};
                     height: #{46rpx};
-                    background-image: url("../../../static/image/icon/good-shop.png");
+                    background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/good-shop.png");
                     margin-left: #{24rpx};
 
                 }
@@ -270,7 +270,7 @@
                 .icon {
                     width: #{12rpx};
                     height: #{22rpx};
-                    background-image: url("../../../static/image/icon/arrow-right.png");
+                    background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png");
                     margin-right: #{24rpx};
                 }
 

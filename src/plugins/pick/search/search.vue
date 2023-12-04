@@ -4,13 +4,13 @@
             <view class="search-input dir-left-nowrap cross-center main-center">
                 <input type="text" class="input" v-model="keyword" @confirm="search" focus>
                 <text class="search-text" @click="search">搜索</text>
-                <image class="delete" @click="deleteKeyword" v-if="keyword.length > 0" src="/static/image/icon/delete-yuan.png"></image>
+                <image class="delete" @click="deleteKeyword" v-if="keyword.length > 0" src="https://yewi.vvv6g.cn/web/mini_images/icon/delete-yuan.png"></image>
             </view>
 
             <view v-if="!isSearch && historyList.length > 0" class="history">
                 <view class="dir-left-nowrap cross-center title">
                     <view class="box-grow-1">历史搜索</view>
-                    <image src="/static/image/icon/delete.png" class="box-grow-0" @click="deleteHistory"></image>
+                    <image src="https://yewi.vvv6g.cn/web/mini_images/icon/delete.png" class="box-grow-0" @click="deleteHistory"></image>
                 </view>
                 <view class="dir-left-wrap history-list">
                     <view v-for="(item, index) in historyList"
@@ -47,7 +47,7 @@
                     <template v-if="list.length <= 0">
                         <view class="main-center no-result">
                             <view class="dir-left-nowrap cross-center">
-                                <image class="box-grow-0 empty" src="/static/image/icon/empty.png"></image>
+                                <image class="box-grow-0 empty" src="https://yewi.vvv6g.cn/web/mini_images/icon/empty.png"></image>
                                 <view class="box-grow-1">
                                     <view>抱歉，没有相关商品</view>
                                 </view>

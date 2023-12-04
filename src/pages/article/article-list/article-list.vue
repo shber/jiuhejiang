@@ -5,7 +5,7 @@
 		        <app-form-id @click="toDetail(item.id)">
 		            <view class='article-item main-between'>
 		                <text class="t-omit" style="width: 90%">{{item.title}}</text>
-		                <image class='enter' src='/static/image/icon/arrow-right.png'></image>
+		                <image class='enter' src='https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png'></image>
 		            </view>
 		        </app-form-id>
 		    </view>

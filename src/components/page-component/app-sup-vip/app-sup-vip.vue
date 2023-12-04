@@ -1,7 +1,7 @@
 <template>
     <view v-if="is_show" class="vip-price dir-left-nowrap" :style="{'margin': `${margin}`}">
         <view class="item vip-left">
-            <image class="vip-icon" src="/static/image/icon/S-VIP.png"></image>
+            <image class="vip-icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/S-VIP.png"></image>
         </view>
         <view class="item vip-right">{{discount == 0 ? '免费' :  discount +'折' }}</view>
     </view>

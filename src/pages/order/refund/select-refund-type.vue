@@ -13,14 +13,14 @@
                             <view>仅退款（无需退货）</view>
                             <view class="remark">没收到货，或与卖家协商同意无需退货只退款</view>
                         </view>
-                        <image class="arrow-right" src="/static/image/icon/arrow-right.png"></image>
+                        <image class="arrow-right" src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png"></image>
                     </view>
                     <view class="content-item" @click="jump(2)">
                         <view class="left-item">
                             <view>退货退款</view>
                             <view class="remark">退还货物并且退款</view>
                         </view>
-                        <image class="arrow-right" src="/static/image/icon/arrow-right.png"></image>
+                        <image class="arrow-right" src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png"></image>
                     </view>
                 </template>
                 <view v-if="orderDetail.is_confirm == 1" class="content-item" @click="jump(3)">
@@ -28,7 +28,7 @@
                         <view>换货</view>
                         <view class="remark">已收到货，需要更换已收到的货物</view>
                     </view>
-                    <image class="arrow-right" src="/static/image/icon/arrow-right.png"></image>
+                    <image class="arrow-right" src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png"></image>
                 </view>
             </view>
         </view>

@@ -13,7 +13,7 @@
                                     class="navPicUrl app-icon image-no-rep image-cover"
                                     v-for="(score, index) of item.score"
                                     :key="index"
-                                    :src="scorePicUrl ? scorePicUrl : '/static/image/icon/store-score.png'"
+                                    :src="scorePicUrl ? scorePicUrl : 'https://yewi.vvv6g.cn/web/mini_images/icon/store-score.png'"
                                 ></image>
 							</view>
 						</view>
@@ -24,7 +24,7 @@
 			</view>
 			<view class="app-jump">
 				<app-jump-button open_type="map" arrangement="column" form backgroundColor="white" :latitude="item.latitude" :longitude="item.longitude">
-					<image :src="navPicUrl ? navPicUrl : '/static/image/icon/navigation.png'" class="scorePicUrl app-icon image-no-rep image-cover"></image>
+					<image :src="navPicUrl ? navPicUrl : 'https://yewi.vvv6g.cn/web/mini_images/icon/navigation.png'" class="scorePicUrl app-icon image-no-rep image-cover"></image>
 					<text class="app-text">一键导航</text>
 				</app-jump-button>
 			</view>

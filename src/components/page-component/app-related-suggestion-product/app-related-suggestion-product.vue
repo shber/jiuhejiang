@@ -182,7 +182,7 @@
 				.app-icon-love {
 					width: #{24rpx};
 					height: #{24rpx};
-					background-image: url('../../../static/image/icon/icon-favorite.png');
+					background-image: url('https://yewi.vvv6g.cn/web/mini_images/icon/icon-favorite.png');
 				}
 				.app-text {
 					font-size: #{24rpx};

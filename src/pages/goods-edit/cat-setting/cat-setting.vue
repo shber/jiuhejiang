@@ -11,8 +11,8 @@
                 <view class="main-between cat-item" @click="toggle(item)">
                     <view class="dir-left-nowrap cat-name">
                         <view v-if="item.children" class="show-more cross-center main-center">
-                            <image v-if="!item.show" src='/static/image/icon/right.png'></image>
-                            <image class="bottom" v-else src='/static/image/icon/bottom.png'></image>
+                            <image v-if="!item.show" src='https://yewi.vvv6g.cn/web/mini_images/icon/right.png'></image>
+                            <image class="bottom" v-else src='https://yewi.vvv6g.cn/web/mini_images/icon/bottom.png'></image>
                         </view>
                         <view :class="[`${item.children ? '' : 'cat-left'}`]">{{item.label}}</view>
                     </view>
@@ -26,8 +26,8 @@
                         <view class="show-more"></view>
                         <view class="dir-left-nowrap cat-name">
                             <view v-if="sec.children" class="show-more cross-center main-center">
-                                <image v-if="!sec.show" src='/static/image/icon/right.png'></image>
-                                <image class="bottom" v-else src='/static/image/icon/bottom.png'></image>
+                                <image v-if="!sec.show" src='https://yewi.vvv6g.cn/web/mini_images/icon/right.png'></image>
+                                <image class="bottom" v-else src='https://yewi.vvv6g.cn/web/mini_images/icon/bottom.png'></image>
                             </view>
                             <view :class="[`${sec.children ? '' : 'cat-left'}`]">{{sec.label}}</view>
                         </view>

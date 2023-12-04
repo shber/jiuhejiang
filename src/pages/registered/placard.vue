@@ -1,6 +1,6 @@
 <template>
     <view class="dir-top-nowrap cross-center main-center">
-        <image class="bd-wechart" src="/static/image/icon/wechart.png"></image>
+        <image class="bd-wechart" src="https://yewi.vvv6g.cn/web/mini_images/icon/wechart.png"></image>
         <text class="bd-text">完成支付后请返回公众号继续操作</text>
     </view>
 </template>

@@ -2,7 +2,7 @@ f<template>
     <app-layout>
         <app-tab-nav :tabList="tabList" background="#f7f7f7" padding="0" :shadow="noBorder" :border="noBorder" :activeItem="activeTab" @click="tabStatus" :theme="getTheme"></app-tab-nav>
         <view class="no-list" v-if="list.length == 0">
-            <image src="/static/image/order-empty.png"></image>
+            <image src="https://yewi.vvv6g.cn/web/mini_images/order-empty.png"></image>
             <view>暂无任何明细</view>
         </view>
         <view v-else class="list" v-for="item in list" :key="item.id">

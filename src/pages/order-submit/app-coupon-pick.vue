@@ -26,7 +26,7 @@
                 <view v-if="list === null" style="padding: 50rpx; text-align: center; color: #999;">加载中</view>
                 <template v-else>
                     <view v-if="!list.length" style="padding: 128rpx; text-align: center;">
-                        <image src="/static/image/no-goods.png"
+                        <image src="https://yewi.vvv6g.cn/web/mini_images/no-goods.png"
                                style="width: 240rpx;height: 240rpx;margin-bottom: 36rpx;"></image>
                         <view style="color: #999999;">暂无可用优惠券</view>
                     </view>
@@ -75,7 +75,7 @@
                 <view v-if="cantUseList === null" style="padding: 50rpx; text-align: center; color: #999;">加载中</view>
                 <template v-else>
                     <view v-if="!cantUseList.length" style="padding-top: 128rpx; text-align: center;">
-                        <image src="/static/image/no-goods.png"
+                        <image src="https://yewi.vvv6g.cn/web/mini_images/no-goods.png"
                                style="width: 240rpx;height: 240rpx;margin-bottom: 36rpx;"></image>
                         <view style="color: #999999;">暂无不可用优惠券</view>
                     </view>

@@ -81,7 +81,7 @@ export default {
     width: #{25rpx};
     height: #{25rpx};
     background-size: 100% 100%;
-    background-image: url("../../../static/image/icon/search.png");
+    background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/search.png");
 }
 
 .input {

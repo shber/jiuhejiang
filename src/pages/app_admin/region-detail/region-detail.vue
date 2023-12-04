@@ -11,14 +11,14 @@
                 <view class="item-content t-omit" v-if="detail.level == 1">省代理</view>
                 <view class="item-content t-omit" v-if="detail.level == 2">市代理</view>
                 <view class="item-content t-omit" v-if="detail.level == 3">区/县代理</view>
-                <image v-if="change && show_dialog && dialog_title == '选择代理级别'" class="more" src="/static/image/icon/icon-up.png"></image>
-                <image v-if="change && dialog_title != '选择代理级别'" class="more" src="/static/image/icon/icon-down.png"></image>
+                <image v-if="change && show_dialog && dialog_title == '选择代理级别'" class="more" src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-up.png"></image>
+                <image v-if="change && dialog_title != '选择代理级别'" class="more" src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-down.png"></image>
             </view>
             <view @click="choose(2)" class="dir-left-nowrap form-item" :class="change ? 'change-item' : ''">
             	<view @click.stop="" class="label">归属省</view>
 	            <view class="item-content t-omit">{{choose_province.name}}</view>
-                <image v-if="change && show_dialog && dialog_title == '选择省'" class="more" src="/static/image/icon/icon-up.png"></image>
-                <image v-if="change && dialog_title != '选择省'" class="more" src="/static/image/icon/icon-down.png"></image>
+                <image v-if="change && show_dialog && dialog_title == '选择省'" class="more" src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-up.png"></image>
+                <image v-if="change && dialog_title != '选择省'" class="more" src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-down.png"></image>
             </view>
             <view @click="choose(3)" class="dir-left-nowrap form-item" :class="change ? 'change-item' : ''" v-if="detail.level > 1">
             	<view @click.stop="" class="label">归属市</view>
@@ -30,8 +30,8 @@
 	                </text>
 	            </view>
 	            <view class="item-content t-omit" v-if="detail.level == 3">{{choose_city.name}}</view>
-                <image v-if="change && (show_dialog || show_list) && dialog_title == '选择市'" class="more" src="/static/image/icon/icon-up.png"></image>
-                <image v-if="change && dialog_title != '选择市'" class="more" src="/static/image/icon/icon-down.png"></image>
+                <image v-if="change && (show_dialog || show_list) && dialog_title == '选择市'" class="more" src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-up.png"></image>
+                <image v-if="change && dialog_title != '选择市'" class="more" src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-down.png"></image>
             </view>
             <view @click="choose(4)" class="dir-left-nowrap form-item" :class="change ? 'change-item' : ''" v-if="detail.level == 3">
             	<view @click.stop="" class="label">代理区域</view>
@@ -42,8 +42,8 @@
 	                    {{item.name}}
 	                </text>
 	            </view>
-                <image v-if="change && (show_dialog || show_list) && dialog_title == '选择区/县'" class="more" src="/static/image/icon/icon-up.png"></image>
-                <image v-if="change && dialog_title != '选择区/县'" class="more" src="/static/image/icon/icon-down.png"></image>
+                <image v-if="change && (show_dialog || show_list) && dialog_title == '选择区/县'" class="more" src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-up.png"></image>
+                <image v-if="change && dialog_title != '选择区/县'" class="more" src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-down.png"></image>
             </view>
             <view v-if="!change" @click="toChange" class="to-change">修改申请信息</view>
         </view>

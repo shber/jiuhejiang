@@ -1,7 +1,7 @@
 <template>
     <view class="bd-detail">
         <view class="detail" v-if="newDetail">
-            <image src="/static/image/icon/goods-detail.png"></image>
+            <image src="https://yewi.vvv6g.cn/web/mini_images/icon/goods-detail.png"></image>
             <app-rich-text
                 :content="newDetail"
             ></app-rich-text>

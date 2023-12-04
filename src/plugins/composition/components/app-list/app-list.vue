@@ -4,15 +4,15 @@
             <view class="app-item" v-for="(item,index) in list" :key="item.id">
                 <view class="dir-left-nowrap cross-center app-item-title">
                     <view class="check-icon" @click="choose(index,item)">
-                        <image src="/static/image/icon/icon-uncheck.png" v-if="!item.choose"></image>
-                        <image :style="{'background-color': theme.background,'opacity': `${item.type == 1 ? '0.3' : '1'}`}"  src="/static/image/icon/icon-checkbox-checked.png" v-else></image>
+                        <image src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-uncheck.png" v-if="!item.choose"></image>
+                        <image :style="{'background-color': theme.background,'opacity': `${item.type == 1 ? '0.3' : '1'}`}"  src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-checkbox-checked.png" v-else></image>
                     </view>
                     <view :style="{'color': theme.color}" class="item-type">{{item.type_text}}</view>
                     <view class="item-name">{{item.name}}</view>
                 </view>
                 <view class="item-goods dir-left-nowrap" v-for="goods in item.host_list" :key="goods.id">
                     <view class="check-icon">
-                        <image :style="{'background-color': theme.background,'opacity': `${goods.opacity}`}" src="/static/image/icon/icon-checkbox-checked.png"></image>
+                        <image :style="{'background-color': theme.background,'opacity': `${goods.opacity}`}" src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-checkbox-checked.png"></image>
                     </view>
                     <image @click="toDetail(goods.goods_id)" class="goods-img" :src="goods.cover_pic"></image>
                     <view v-if="goods.stock == 0 || item.stock == 0" class="out-dialog">
@@ -23,21 +23,21 @@
                         <view class="item-good-num">x1</view>
                         <view class="item-good-attr" v-if="!goods.choose_attr" @click="chooseAttr(goods,index)">
                             <view class="item-good-attr-text t-omit-two">未选择</view>
-                            <image class="item-good-attr-arrow" src="/static/image/icon/bottom.png"></image>
+                            <image class="item-good-attr-arrow" src="https://yewi.vvv6g.cn/web/mini_images/icon/bottom.png"></image>
                         </view>
                         <view class="item-good-attr" v-else @click="chooseAttr(goods,index)">
                             <view class="item-good-attr-text t-omit-two">
                                 <text v-for="attr in goods.choose_attr.attr_list" :key="attr.attr_id">{{attr.attr_group_name}}:{{attr.attr_name}}</text>
                             </view>
-                            <image class="item-good-attr-arrow" src="/static/image/icon/bottom.png"></image>
+                            <image class="item-good-attr-arrow" src="https://yewi.vvv6g.cn/web/mini_images/icon/bottom.png"></image>
                         </view>
                         <view v-if="item.type == 2 && goods.choose_attr" :style="{'color': theme.color}" class="choose_price">￥{{goods.total_price}}</view>
                     </view>
                 </view>                    
                 <view class="item-goods dir-left-nowrap" v-for="(goods,idx) in item.goods_list" :key="goods.id">
                     <view class="check-icon" v-if="item.type == 2" @click="chooseGoods(idx,index,goods)">
-                        <image src="/static/image/icon/icon-uncheck.png" v-if="!goods.choose_goods"></image>
-                        <image :style="{'background-color': theme.background}" src="/static/image/icon/icon-checkbox-checked.png" v-else></image>
+                        <image src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-uncheck.png" v-if="!goods.choose_goods"></image>
+                        <image :style="{'background-color': theme.background}" src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-checkbox-checked.png" v-else></image>
                     </view>
                     <image @click="toDetail(goods.goods_id)" class="goods-img" :src="goods.cover_pic"></image>
                     <view v-if="goods.stock == 0 || item.stock == 0" class="out-dialog">
@@ -48,7 +48,7 @@
                         <view class="item-good-num">x1</view>
                         <view class="item-good-attr" v-if="!goods.choose_attr" @click="chooseAttr(goods,index)">
                             <view class="item-good-attr-text t-omit-two">未选择</view>
-                            <image class="item-good-attr-arrow" src="/static/image/icon/bottom.png"></image>
+                            <image class="item-good-attr-arrow" src="https://yewi.vvv6g.cn/web/mini_images/icon/bottom.png"></image>
                         </view>
                         <view class="item-good-attr" v-else @click="chooseAttr(goods,index)">
                             <view class="item-good-attr-text t-omit-two">
@@ -57,7 +57,7 @@
                                     <text>{{attr.attr_group_name}}:{{attr.attr_name}}</text>
                                 </text>
                             </view>
-                            <image class="item-good-attr-arrow" src="/static/image/icon/bottom.png"></image>
+                            <image class="item-good-attr-arrow" src="https://yewi.vvv6g.cn/web/mini_images/icon/bottom.png"></image>
                         </view>
                         <view v-if="item.type == 2 && goods.choose_attr"  :style="{'color': theme.color}" class="choose_price">￥{{goods.total_price}}</view>
                     </view>

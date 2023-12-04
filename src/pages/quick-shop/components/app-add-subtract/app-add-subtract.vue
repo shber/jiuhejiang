@@ -1,8 +1,8 @@
 <template>
 	<view class="app-add-subtract dir-left-nowrap main-right cross-center">
-		<image src="/static/image/quick-shop/subtract.png" class="app-icon" v-if="total_num > 0 " @click="subtract"></image>
+		<image src="https://yewi.vvv6g.cn/web/mini_images/quick-shop/subtract.png" class="app-icon" v-if="total_num > 0 " @click="subtract"></image>
 		<input class="app-input" v-if="total_num >= 0 " :value="total_num === 0 ? '' : total_num" @input="changeNum"  type="number">
-		<image class="app-icon" v-show="loading" @load="imgLoad" src="/static/image/quick-shop/add.png" :style="{'background-color': theme.background}" @click="add"></image>
+		<image class="app-icon" v-show="loading" @load="imgLoad" src="https://yewi.vvv6g.cn/web/mini_images/quick-shop/add.png" :style="{'background-color': theme.background}" @click="add"></image>
 	</view>
 </template>
 

@@ -412,7 +412,7 @@
 						height: #{24rpx};
 						background-size: 100% 100%;
 						background-repeat: no-repeat;
-						background-image: url("../../../static/image/icon/time.png");
+						background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/time.png");
 						margin-right: #{12rpx};
 					}
 					.app-text {

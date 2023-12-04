@@ -11,8 +11,8 @@
                             <text class='box-grow-1 t-omit goods_name'>{{item.goods_name}}</text>
                             <view class="box-grow-0" @click='checkedChange(item)'>
                                 <image v-if='item.is_anonymous' class='check-icon'
-                                       src='/static/image/icon/order/icon-checkbox-checked.png'></image>
-                                <image v-else class='check-icon' src='/static/image/icon/form-er.png'></image>
+                                       src='https://yewi.vvv6g.cn/web/mini_images/icon/order/icon-checkbox-checked.png'></image>
+                                <image v-else class='check-icon' src='https://yewi.vvv6g.cn/web/mini_images/icon/form-er.png'></image>
                             </view>
                             <view @click='checkedChange(item)' class='anonymous-text box-grow-0'>匿名评价</view>
                         </view>

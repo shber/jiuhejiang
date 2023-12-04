@@ -452,10 +452,10 @@
 								border-radius: #{20rpx} !important;
 							}
 							.app-product-button-cart {
-								background-image: url("../../../static/image/icon/goods-cart.png");
+								background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/goods-cart.png");
 							}
 							.app-product-button-add {
-								background-image: url("../../../static/image/icon/add-to.png");
+								background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/add-to.png");
 							}
 						}
 					}

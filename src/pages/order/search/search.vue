@@ -3,18 +3,18 @@
         <view class="search-mode">
             <view class="search-input">
                 <input type="text" v-model='keyword' placeholder-style='color:#999999;font-size:13px;' placeholder='请输入订单号/商品名称/收货人姓名/联系电话'>
-                <image v-if="keyword.length > 0" @click="clearSearch" class="search-clear" src="/static/image/icon/clear.png"></image>
+                <image v-if="keyword.length > 0" @click="clearSearch" class="search-clear" src="https://yewi.vvv6g.cn/web/mini_images/icon/clear.png"></image>
             </view>
             <view class="search-time dir-left-nowrap cross-center">
                 <view class="search-time-label">下单时间</view>
                 <view @click="dialog=true;type=1" class="search-time-item main-between cross-center" :class="{'placeholder': !start}">
                     <view>{{start != '' ? start : '请选择开始时间'}}</view>
-                    <image v-if="start" @click.stop="clearTime(1)" class="time-clear" src="/static/image/icon/clear.png"></image>
+                    <image v-if="start" @click.stop="clearTime(1)" class="time-clear" src="https://yewi.vvv6g.cn/web/mini_images/icon/clear.png"></image>
                 </view>
                 <view class="search-time-line"></view>
                 <view @click="dialog=true;type=2" class="search-time-item main-between cross-center" :class="{'placeholder': !end}">
                     <view>{{end != '' ? end : '请选择结束时间'}}</view>
-                    <image v-if="end" @click.stop="clearTime(2)" class="time-clear" src="/static/image/icon/clear.png"></image>
+                    <image v-if="end" @click.stop="clearTime(2)" class="time-clear" src="https://yewi.vvv6g.cn/web/mini_images/icon/clear.png"></image>
                 </view>
             </view>
             <view>

@@ -13,7 +13,7 @@
                     <view class="box-grow-0" v-if="share_setting.is_show_share_level == 1"
                           @click="$jump({url: '/pages/share/level/level', open_type: 'navigate'})">升级条件</view>
                     <image class="box-grow-0 arrow-right" v-if="share_setting.is_show_share_level == 1"
-                           src="/static/image/icon/arrow-right-white.png"></image>
+                           src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right-white.png"></image>
                 </view>
                 <view class="share-info">
                     <view>{{custom_setting.words.can_be_presented.name}}</view>
@@ -94,14 +94,14 @@
                 <!-- 股东分红 -->
                 <view v-if="stock && stock.is_stock == 1" class="list-item">
                     <view @click="jump('/plugins/stock/index/index?name=' + share.name + '&mobile=' + share.mobile)">
-                        <image src="/static/image/share/img-stock-price.png"></image>
+                        <image src="https://yewi.vvv6g.cn/web/mini_images/share/img-stock-price.png"></image>
                         <view>{{stock.form.entry_bonus?stock.form.entry_bonus:"股东分红"}}</view>
                     </view>
                 </view>
                 <!-- 股东分红 -->
                 <view v-if="region && region.is_region == 1" class="list-item">
                     <view @click="jump('/plugins/region/index/index?name=' + share.name + '&mobile=' + share.mobile)">
-                        <image src="/static/image/share/img-region-price.png"></image>
+                        <image src="https://yewi.vvv6g.cn/web/mini_images/share/img-region-price.png"></image>
                         <view>{{region.form.entry_bonus?region.form.entry_bonus:"区域代理"}}</view>
                     </view>
                 </view>
@@ -212,7 +212,7 @@
                     <view class="box-grow-1" style="background-color: #f7f7f7">
                         <view class="dir-left-nowrap goods-title main-center cross-center">
                             <view class="border"></view>
-                            <image src="/static/image/icon/icon-favorite.png"></image>
+                            <image src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-favorite.png"></image>
                             <view>指定商品</view>
                             <view class="border"></view>
                         </view>
@@ -228,7 +228,7 @@
                     <view class="box-grow-1" style="background-color: #f7f7f7">
                         <view class="dir-left-nowrap goods-title main-center cross-center">
                             <view class="border"></view>
-                            <image src="/static/image/icon/icon-favorite.png"></image>
+                            <image src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-favorite.png"></image>
                             <view>指定分类</view>
                             <view class="border"></view>
                         </view>

@@ -4,7 +4,7 @@
             <view class="bd-top dir-left-nowrap cross-center" @click="goto">
                 <view class="box-grow-1 bd-name">评价</view>
                 <view class="box-grow-0 bd-more">查看更多</view>
-                <image class="box-grow-0 bd-icon" src="/static/image/icon/arrow-right.png"></image>
+                <image class="box-grow-0 bd-icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png"></image>
             </view>
             <view class="bd-bottom bt" v-for="(item, index) in list" :key="index" >
                 <view class="bd-title dir-left-nowrap cross-center">

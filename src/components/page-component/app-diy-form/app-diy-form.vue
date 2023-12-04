@@ -31,7 +31,7 @@
                         <view v-if="labelPosition !== 'inset'" class="box-grow-0 cross-top label">
                             <image v-if="showRequiredIcon && (item.is_required == 1 || item.is_required == '1')"
                                    class="required-icon"
-                                   src="/static/image/icon/required.png"></image>
+                                   src="https://yewi.vvv6g.cn/web/mini_images/icon/required.png"></image>
                             <view class="name-key"
                                   :class="[`text-align-${labelTextAlign}`]"
                                   :style="{
@@ -65,7 +65,7 @@
                         <view v-if="labelPosition !== 'inset'" class="box-grow-0 cross-top label">
                             <image v-if="showRequiredIcon && (item.is_required == 1 || item.is_required == '1')"
                                    class="required-icon"
-                                   src="/static/image/icon/required.png"></image>
+                                   src="https://yewi.vvv6g.cn/web/mini_images/icon/required.png"></image>
                             <view class="name-key"
                                   :class="[`text-align-${labelTextAlign}`]"
                                   :style="{
@@ -98,7 +98,7 @@
                         <view class="box-grow-0 cross-top label">
                             <image v-if="showRequiredIcon && (item.is_required == 1 || item.is_required == '1')"
                                    class="required-icon"
-                                   src="/static/image/icon/required.png"></image>
+                                   src="https://yewi.vvv6g.cn/web/mini_images/icon/required.png"></image>
                             <view class="name-key"
                                   :class="[`text-align-${labelTextAlign}`]"
                                   :style="{
@@ -139,7 +139,7 @@
                         <view class="box-grow-0 cross-top label">
                             <image v-if="showRequiredIcon && (item.is_required == 1 || item.is_required == '1')"
                                    class="required-icon"
-                                   src="/static/image/icon/required.png"></image>
+                                   src="https://yewi.vvv6g.cn/web/mini_images/icon/required.png"></image>
                             <view class="name-key"
                                   :class="[`text-align-${labelTextAlign}`]"
                                   :style="{
@@ -180,7 +180,7 @@
                         <view class="box-grow-0 cross-top label">
                             <image v-if="showRequiredIcon && (item.is_required == 1 || item.is_required == '1')"
                                    class="required-icon"
-                                   src="/static/image/icon/required.png"></image>
+                                   src="https://yewi.vvv6g.cn/web/mini_images/icon/required.png"></image>
                             <view class="name-key"
                                   :class="[`text-align-${labelTextAlign}`]"
                                   :style="{
@@ -209,7 +209,7 @@
                         <view class="box-grow-0 cross-top label">
                             <image v-if="showRequiredIcon && (item.is_required == 1 || item.is_required == '1')"
                                    class="required-icon"
-                                   src="/static/image/icon/required.png"></image>
+                                   src="https://yewi.vvv6g.cn/web/mini_images/icon/required.png"></image>
                             <view class="name-key"
                                   :class="[`text-align-${labelTextAlign}`]"
                                   :style="{
@@ -237,7 +237,7 @@
                         <view class="box-grow-0 cross-top label">
                             <image v-if="showRequiredIcon && (item.is_required == 1 || item.is_required == '1')"
                                    class="required-icon"
-                                   src="/static/image/icon/required.png"></image>
+                                   src="https://yewi.vvv6g.cn/web/mini_images/icon/required.png"></image>
                             <view class="name-key"
                                   :class="[`text-align-${labelTextAlign}`]"
                                   :style="{
@@ -269,7 +269,7 @@
                                         :sign="`${index}`"
                                         text="身份证正面"
                                         :show-number="false"
-                                        default-img="/static/image/user-id-card-front.png"></app-upload-image>
+                                        default-img="https://yewi.vvv6g.cn/web/mini_images/user-id-card-front.png"></app-upload-image>
                                 <app-upload-image
                                         :value="(item.value && item.value[1])?[item.value[1]]:null"
                                         :max-num="1"
@@ -277,7 +277,7 @@
                                         :sign="`${index}`"
                                         text="身份证反面"
                                         :show-number="false"
-                                        default-img="/static/image/user-id-card-back.png"></app-upload-image>
+                                        default-img="https://yewi.vvv6g.cn/web/mini_images/user-id-card-back.png"></app-upload-image>
                             </template>
 
                             <!-- 营业执照 -->
@@ -289,7 +289,7 @@
                                         :sign="`${index}`"
                                         text="营业执照"
                                         :show-number="false"
-                                        default-img="/static/image/company-license.png"></app-upload-image>
+                                        default-img="https://yewi.vvv6g.cn/web/mini_images/company-license.png"></app-upload-image>
                             </template>
                         </view>
                     </view>
@@ -301,9 +301,9 @@
                   @click="showAllItems = !showAllItems">
                 <view class="cross-center">点击{{showAllItems?'收起':'展开'}}</view>
                 <view class="cross-center">
-                    <image v-if="showAllItems" src="/static/image/icon/icon-up.png"
+                    <image v-if="showAllItems" src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-up.png"
                            style="width: 18rpx;height: 10rpx;"></image>
-                    <image v-else src="/static/image/icon/icon-down.png"
+                    <image v-else src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-down.png"
                            style="width: 18rpx;height: 10rpx;"></image>
                 </view>
             </view>

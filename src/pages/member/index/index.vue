@@ -62,7 +62,7 @@
 		            <view @click="toMore">
 		                <view class="more">
 		                    <text>更多</text>
-		                    <image load-lazy="true" src="/static/image/icon/arrow-right.png"></image>
+		                    <image load-lazy="true" src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png"></image>
 		                </view>
 		            </view>
 		        </view>
@@ -124,7 +124,7 @@
 		            <view @click="toGoods">
 		                <view class="more">
 		                    <text>更多</text>
-		                    <image load-lazy="true" src="/static/image/icon/arrow-right.png"></image>
+		                    <image load-lazy="true" src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png"></image>
 		                </view>
 		            </view>
 		        </view>

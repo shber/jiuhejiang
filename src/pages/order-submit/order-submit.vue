@@ -19,11 +19,11 @@
                   <view class="dir-left-nowrap cross-center" style="padding: 10rpx 0;line-height: 1.2;">
                     <!-- 商户名start -->
                     <view class="box-grow-0">
-                      <image src="/static/image/icon/store-black.png" class="title-icon mr-12"></image>
+                      <image src="https://yewi.vvv6g.cn/web/mini_images/icon/store-black.png" class="title-icon mr-12"></image>
                     </view>
                     <view class="box-grow-1 font-bold ellipsis-1">{{mch.mch.name}}</view>
                     <view v-if="mch.mch.id > 0 &&  mch.delivery && mch.delivery.send_type === 'offline' && mch.store && mch.store.distance != '-m'" class="box-grow-0 dir-left-nowrap cross-center">
-                      <image src="/static/image/icon/location.png" class="mr-12" style="display: block; width: 22rpx;height: 26rpx;"></image>
+                      <image src="https://yewi.vvv6g.cn/web/mini_images/icon/location.png" class="mr-12" style="display: block; width: 22rpx;height: 26rpx;"></image>
                       <view>距您{{mch.store.distance}}</view>
                     </view>
                   </view><!-- 商户名end -->
@@ -36,18 +36,18 @@
                         <view v-if="mch.mch.id == 0" class="dir-left-nowrap" style="padding: 10rpx 0;line-height: 1.2;">
                           <view @click="navigateStore(mchIndex)" class="box-grow-1 dir-left-nowrap cross-center">
                             <view>
-                              <image src="/static/image/icon/navigation-black.png" class="title-icon mr-12"></image>
+                              <image src="https://yewi.vvv6g.cn/web/mini_images/icon/navigation-black.png" class="title-icon mr-12"></image>
                             </view>
                             <view class="font-bold ellipsis-1 mr-12">
                               {{mch.store.name}}
                             </view>
                             <view class="mr-12">
-                              <image src="/static/image/icon/right.png" class="mr-12" style="width: 12rpx; height: 22rpx;"></image>
+                              <image src="https://yewi.vvv6g.cn/web/mini_images/icon/right.png" class="mr-12" style="width: 12rpx; height: 22rpx;"></image>
                             </view>
                           </view>
                           <view v-if="mch.store.distance != '-m' || getLocationFail" class="box-grow-0 dir-left-nowrap cross-center">
                             <view>
-                              <image src="/static/image/icon/location.png" class="mr-12" style="display: block; width: 22rpx;height: 26rpx;"></image>
+                              <image src="https://yewi.vvv6g.cn/web/mini_images/icon/location.png" class="mr-12" style="display: block; width: 22rpx;height: 26rpx;"></image>
                             </view>
                             <view v-if="getLocationFail" @click.stop="openLocationSetting" :class="[`${theme}-color`, `${theme}-border`]"  :style="{'color': !is_gift ? theme.color : '', 'border-color': !is_gift ? theme.border : ''}">获取位置
                             </view>
@@ -62,12 +62,12 @@
                       </template>
                       <view v-else class="dir-left-nowrap cross-center" @click="navigateStore(mchIndex)" style="padding: 10rpx 0;">
                         <view class="box-grow-1 dir-left-nowrap">
-                          <image src="/static/image/icon/navigation-black.png" class="title-icon mr-12"></image>
+                          <image src="https://yewi.vvv6g.cn/web/mini_images/icon/navigation-black.png" class="title-icon mr-12"></image>
                           <view class="mr-12 font-bold">选择门店</view>
                         </view>
                         <view class="box-grow-0 dir-left-nowrap cross-center">
                           <view class="mr-12 font-gray">请选择门店</view>
-                          <image src="/static/image/icon/arrow-right.png" class="mr-12" style="width: 12rpx; height: 22rpx;"></image>
+                          <image src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png" class="mr-12" style="width: 12rpx; height: 22rpx;"></image>
                         </view>
                       </view>
                     </template>
@@ -78,7 +78,7 @@
                   <!-- 选择配送方式start -->
                   <view class="dir-left-nowrap cross-center" style="padding: 18rpx 0;">
                     <view class="box-grow-0">
-                      <image src="/static/image/icon/delivery.png" class="title-icon mr-12"></image>
+                      <image src="https://yewi.vvv6g.cn/web/mini_images/icon/delivery.png" class="title-icon mr-12"></image>
                     </view>
                     <view class="box-grow-1 font-bold">配送方式</view>
                   </view>
@@ -135,7 +135,7 @@
                                         </view>
                                         <view class="box-grow-0 mr-12 font-gray" v-else>选择优惠券</view>
                                         <view class="box-grow-0">
-                                            <image src="/static/image/icon/arrow-right.png" style="width: 12rpx; height: 22rpx; margin-bottom: -2rpx;"></image>
+                                            <image src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png" style="width: 12rpx; height: 22rpx; margin-bottom: -2rpx;"></image>
                                         </view>
                                     </view>
                                 </view>
@@ -161,7 +161,7 @@
                             <view v-if="mch.integral && mch.integral.can_use" class="dir-left-nowrap" style="padding: 16rpx 0;">
                                 <view class="box-grow-1 dir-left-nowrap cross-center">
                                     积分抵扣（使用 {{mch.integral.use_num}}积分）
-                                    <image @click="showIntegralTip" style="width: 36rpx;height: 36rpx; margin: -12rpx 0;" src="/static/image/icon/warning.png"></image>
+                                    <image @click="showIntegralTip" style="width: 36rpx;height: 36rpx; margin: -12rpx 0;" src="https://yewi.vvv6g.cn/web/mini_images/icon/warning.png"></image>
                                 </view>
                                 <view class="box-grow-0 dir-left-nowrap cross-center">
                                     <view class="mr-12"  :class="[themeTextClass]" :style="{'color': !is_gift ? theme.color : ''}">
@@ -189,7 +189,7 @@
                             </view>
                             <view @click="navigateVipCardPrivilege" class="dir-left-nowrap cross-center">
                               <view style="margin-right: 10rpx; font-size: 22rpx;">查看权益</view>
-                              <image src="/static/image/icon/order-submit/arrow-right-b.png" style="width: 12rpx;height: 22rpx; display: block;"></image>
+                              <image src="https://yewi.vvv6g.cn/web/mini_images/icon/order-submit/arrow-right-b.png" style="width: 12rpx;height: 22rpx; display: block;"></image>
                             </view>
                           </template>
                         </view>
@@ -198,7 +198,7 @@
                             <template v-if="mch.vip_card_detail">{{mch.vip_card_detail.name}}</template>
                             <template v-else>请选择</template>
                           </view>
-                          <image src="/static/image/icon/order-submit/arrow-right-a.png" style="width: 12rpx;height: 22rpx; display: block;"></image>
+                          <image src="https://yewi.vvv6g.cn/web/mini_images/icon/order-submit/arrow-right-a.png" style="width: 12rpx;height: 22rpx; display: block;"></image>
                         </view>
                       </view>
                     </view>
@@ -206,7 +206,7 @@
                       <view class="dir-left-nowrap cross-center" @click="reversalShowInsertRows(mchIndex)" style="padding: 16rpx 0;">
                         <view class="box-grow-1 dir-left-nowrap cross-center">
                           <view class="mr-12">活动优惠</view>
-                          <image style="width: 22rpx; height: 12rpx;" class="bottom-icon" src="/static/image/icon/bottom.png"></image>
+                          <image style="width: 22rpx; height: 12rpx;" class="bottom-icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/bottom.png"></image>
                         </view>
                         <view class="box-grow-0"  :class="[themeTextClass]" :style="{'color': !is_gift ? theme.color : ''}">
                           {{mch.insert_total_discount}}

@@ -163,7 +163,7 @@
                 <view v-if="list.is_agreement" class="bottom-read main-center cross-bottom">
                     <view @click="toRead" class="read-icon main-center cross-bottom">
                         <image v-if="read" :style="[{'background-color': `${list.form.bottom_btn_style_1}`}]" src="./../image/vip-check.png" alt=""></image>
-                        <image v-else src="/static/image/icon/form-er.png" alt=""></image>
+                        <image v-else src="https://yewi.vvv6g.cn/web/mini_images/icon/form-er.png" alt=""></image>
                     </view>
                     <view :style="[{'color': `${list.form.bottom_btn_style_2}`}]">我已仔细阅读并同意<text @click="toRule" :style="[{'color': `${list.form.bottom_btn_style_1}`}]">《{{list.agreement_title}}》</text></view>
                 </view>
@@ -172,7 +172,7 @@
         <!-- 子卡使用说明 -->
         <view v-if="title && content" class="bg main-center cross-center">
             <view class="dialog">
-                <image @click="lookAbout" class="dialog-close" src="/static/image/icon/icon-close.png"></image>
+                <image @click="lookAbout" class="dialog-close" src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-close.png"></image>
                 <view class="dialog-title">{{title}}</view>
                 <view class="dialog-content">
                     <text>{{content}}</text>
@@ -187,7 +187,7 @@
         <view v-if="showLog" class="bg main-center cross-center">
             <view class="dialog buy-log">
                 <view class="dialog-top medium">购买记录</view>
-                <image @click="toggleLog" class="dialog-close" src="/static/image/icon/icon-close.png"></image>
+                <image @click="toggleLog" class="dialog-close" src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-close.png"></image>
                 <view class="log-item main-center medium">
                     <view>子卡名称</view>
                     <view>有效期</view>

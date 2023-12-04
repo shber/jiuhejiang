@@ -10,7 +10,7 @@
                         <view class="right"></view>
                     </view>
                 </view>
-                <image class="box-grow-0" src="/static/image/icon/arrow-right.png"></image>
+                <image class="box-grow-0" src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png"></image>
             </view>
         </view>
         <u-popup v-model="show" mode="bottom" border-radius="14" @close="show = false">
@@ -18,7 +18,7 @@
                 <view class="f-top dir-left-nowrap main-between cross-center">
                     <view class="f-title">可领取优惠券</view>
                     <view class="f-image" @click="show = false">
-                        <image class="f-img" src="/static/image/icon/icon-close.png" ></image>
+                        <image class="f-img" src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-close.png" ></image>
                     </view>
                 </view>
                 <scroll-view :scroll-y="true" class="f-scroll">

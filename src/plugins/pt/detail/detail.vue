@@ -37,7 +37,7 @@
 					<text>· 好友参团</text>
 					<text>· 人满发货</text>
 					<text>· 人不满退款</text>
-					<image class="app-icon" src="/static/image/icon/arrow-right.png"></image>
+					<image class="app-icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png"></image>
 				</view>
 			</view>
 			<view class="rule more">
@@ -45,7 +45,7 @@
 					<text class="app-left">更多拼团</text>
 					<view class="app-right dir-left-nowrap cross-center">
 						<text>更多</text>
-						<image class="app-icon" src="/static/image/icon/arrow-right.png"></image>
+						<image class="app-icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png"></image>
 					</view>
 				</app-jump-button>
 			</view>

@@ -309,7 +309,7 @@ $app-bg-color: #FFFFFF;
             padding-left: #{26rpx};
 
             .icon-back {
-                background-image: url("../../../static/image/icon/h5-back-2.png");
+                background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/h5-back-2.png");
                 background-repeat: no-repeat;
                 background-size: 100% 100%;
                 height: #{27rpx};
@@ -362,7 +362,7 @@ $app-bg-color: #FFFFFF;
                     }
 
                     .search-icon {
-                        background-image: url("../../../static/image/icon/icon-search.png");
+                        background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/icon-search.png");
                         background-repeat: no-repeat;
                         background-size: 100% 100%;
                         height: #{26rpx};

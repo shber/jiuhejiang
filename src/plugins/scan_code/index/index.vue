@@ -413,7 +413,7 @@
         .icon-right {
             background-size: 100% auto;
             background-repeat: no-repeat;
-            background-image: url("../../../static/image/icon/arrow-right.png");
+            background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png");
             width: #{12rpx};
             height: #{22rpx};
         }
@@ -422,7 +422,7 @@
     .scan-integral-icon {
         height: #{36rpx};
         width: #{36rpx};
-        background-image: url("../../../static/image/icon/warning.png");
+        background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/warning.png");
         background-repeat: no-repeat;
         background-size: 100% auto;
         margin-left: #{20rpx};
@@ -439,12 +439,12 @@
 
     .scan-integral-switch.check {
         margin-left: #{5rpx};
-        background-image: url("../../../static/image/icon/icon-checkbox-checked-a.png");
+        background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/icon-checkbox-checked-a.png");
     }
 
     .scan-integral-switch.uncheck {
         margin-left: #{5rpx};
-        background-image: url("../../../static/image/icon/icon-uncheck.png");
+        background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/icon-uncheck.png");
     }
 
     .scan-input {

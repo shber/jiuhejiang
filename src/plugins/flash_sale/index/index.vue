@@ -19,7 +19,7 @@
                     </view>
                     <view class="f-rule" @click="goRule">
                         活动规则
-                        <image src="/static/image/icon/arrow-right.png"></image>
+                        <image src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png"></image>
                     </view>
                 </view>
                 <view class="f-timing">

@@ -9,7 +9,7 @@
             </view>
             <view :class="[`search`, `${is_mall?'':'no-mall'}`]">
                 <view @click='beSearch' class="main-center search-content cross-center">
-                    <image src="/static/image/icon/icon-search.png"></image>
+                    <image src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-search.png"></image>
                     <text>搜索</text>
                 </view>
             </view>
@@ -18,7 +18,7 @@
         </view>
         <view v-if="toSearch" class="search-item main-between cross-center">
             <view class="search-input">
-                <image src='/static/image/icon/icon-search.png'></image>
+                <image src='https://yewi.vvv6g.cn/web/mini_images/icon/icon-search.png'></image>
                 <input v-if="status == 1 && toSearch" focus @confirm='search' confirm-type='search' v-model='keyword'
                        placeholder-style='color:#999999;font-size:13px;' placeholder='输入订单号/商品名称/店铺名称搜索'/>
                 <input v-if="status == 2 && toSearch" focus @confirm='search' confirm-type='search' v-model='keyword'
@@ -30,7 +30,7 @@
             <view v-if="candidate.length != 0" class='main-between search-title'>
                 <view>历史搜索</view>
                 <view @click="clear">
-                    <image class="history-img" src="/static/image/icon/delete.png"></image>
+                    <image class="history-img" src="https://yewi.vvv6g.cn/web/mini_images/icon/delete.png"></image>
                 </view>
             </view>
             <view class='flex-wrap history-list'>

@@ -11,11 +11,11 @@
                 <view class="balance main-between cross-center" @click="toBalance">
                     <view class="dir-left-nowrap cross-center">
                         <view class="icon main-center cross-center">
-                            <image src="/static/image/icon/cash/icon-balance.png"></image>
+                            <image src="https://yewi.vvv6g.cn/web/mini_images/icon/cash/icon-balance.png"></image>
                         </view>
                         <view>账户余额</view>
                     </view>
-                    <image class="right" src="/static/image/icon/arrow-right.png"></image>
+                    <image class="right" src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png"></image>
                 </view>
             </view>
         </app-layout>

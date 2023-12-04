@@ -51,7 +51,7 @@
                 </view>
             </view>
             <view class="box-grow-0" style="padding-left: 24rpx;">
-                <image src="/static/image/icon/right.png"
+                <image src="https://yewi.vvv6g.cn/web/mini_images/icon/right.png"
                        style="width: 12rpx; height: 22rpx;"></image>
             </view>
         </view>

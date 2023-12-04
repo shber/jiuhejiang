@@ -9,7 +9,7 @@
                 <view class="list-item dir-top-nowrap" v-for="(item,index) in list" :key="index">
                     <image v-if="item.type =='line'" class="line" :src="adminImg.line"></image>
                     <view v-if="item.type =='img' && item.pic_url == ''" class="loading main-center dir-top-nowrap cross-center">
-                        <image class="loading-img" src="/static/image/loading.gif"></image>
+                        <image class="loading-img" src="https://yewi.vvv6g.cn/web/mini_images/loading.gif"></image>
                         <view class="loading-text">图片上传中，请稍后...</view>
                     </view>
                     <image v-if="item.type =='img' && item.pic_url != ''" :style="[{'height':`${item.height}`}]" @load="imageLoad(index,$event)" :src="item.pic_url"></image>
@@ -49,7 +49,7 @@
                             <view>相机</view>
                         </view>
                     </view>
-                    <image @click="showMenu" class="close" src="/static/image/icon/close.png"></image>
+                    <image @click="showMenu" class="close" src="https://yewi.vvv6g.cn/web/mini_images/icon/close.png"></image>
                 </view>
                 <view @click.stop="" v-if="textDialog" class="textarea">
                     <textarea focus maxlength="-1" @confirm="toList" show-confirm-bar confirm-type="done" v-model="txt"></textarea>

@@ -2,7 +2,7 @@
     <view class="bd-nickname">
         <view class="bd-item dir-left-nowrap cross-center">
             <input  class="bd-input box-grow-1" v-model="nickname" placeholder="请输入昵称" type="text">
-            <image @click="clear" class="bd-clear" src="/static/image/icon/delete-yuan.png"/>
+            <image @click="clear" class="bd-clear" src="https://yewi.vvv6g.cn/web/mini_images/icon/delete-yuan.png"/>
         </view>
         <view class="bd-comment">
             注：最多可设置16个汉字，可设置含有中文、英文、数字、符号组合的昵称，但不建议设置特殊字符。

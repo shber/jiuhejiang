@@ -6,7 +6,7 @@
        <view class="modal" v-if="display === 'block'"  @click="close" >
            <view class="safe-area-inset-bottom u-attr-fixed" >
                <view class="content" @click.native.stop="preventD">
-                   <image src="/static/image/icon/close.png" class="close" @click="close"></image>
+                   <image src="https://yewi.vvv6g.cn/web/mini_images/icon/close.png" class="close" @click="close"></image>
                    <view class="first dir-left-nowrap" :class="sign =='wholesale' ? 'no-border' : ''">
                        <view class="box-grow-0 img" @click.stop="clickImg(attrPic)">
                            <app-image :img-src="attrPic" width="100%" height="100%"></app-image>
@@ -50,7 +50,7 @@
                                 </scroll-view>
                                 <view @click.stop="toBottom(index)" class="right-icon">
                                     <view></view>
-                                    <image src="/static/image/icon/right.png"></image>
+                                    <image src="https://yewi.vvv6g.cn/web/mini_images/icon/right.png"></image>
                                 </view>
                             </view>
                             <view class="wholesale-attr-group-list">
@@ -62,12 +62,12 @@
                                                 <view class="attr-price">￥{{goods.level_show === 1 ? item.price_member : item.price}}</view>
                                             </view>
                                             <view class="dir-left-nowrap wholesale-number-box cross-center">
-                                               <image :src="item.number <= 0 ? '/static/image/plugins/un-low.png' : '/static/image/plugins/low.png'" class="block box-grow-0 cross-center main-center" @click.stop="wholesaleNumberSub(index)">
+                                               <image :src="item.number <= 0 ? 'https://yewi.vvv6g.cn/web/mini_images/plugins/un-low.png' : 'https://yewi.vvv6g.cn/web/mini_images/plugins/low.png'" class="block box-grow-0 cross-center main-center" @click.stop="wholesaleNumberSub(index)">
                                                </image>
                                                <view class="wholesale-number-input box-grow-0 cross-center main-center">
                                                    <app-input height="60" type="number" v-model="item.number" defaultValue="0" paddingLeft="0" :center="true" @blur="wholesaleNumberBlur(index)" :focus="false" width="88"></app-input>
                                                </view>
-                                               <image :src="item.number >= item.stock? '/static/image/plugins/un-add.png' : '/static/image/plugins/add.png'" class="block box-grow-0 cross-center main-center" @click.stop="wholesaleNumberAdd(index)"></image>
+                                               <image :src="item.number >= item.stock? 'https://yewi.vvv6g.cn/web/mini_images/plugins/un-add.png' : 'https://yewi.vvv6g.cn/web/mini_images/plugins/add.png'" class="block box-grow-0 cross-center main-center" @click.stop="wholesaleNumberAdd(index)"></image>
                                             </view>
                                         </view>
                                    </view>
@@ -76,13 +76,13 @@
                         </view>
                        <view v-if="chooseNumber" class="dir-left-nowrap number-box cross-center">
                            <view class="box-grow-1">数量</view>
-                           <image :src="number <= 1 ? '/static/image/icon/can-be-reduced.png' : '/static/image/cart/can-be-reduced.png'" class="block box-grow-0 cross-center main-center" @click.stop="numberSub">
+                           <image :src="number <= 1 ? 'https://yewi.vvv6g.cn/web/mini_images/icon/can-be-reduced.png' : 'https://yewi.vvv6g.cn/web/mini_images/cart/can-be-reduced.png'" class="block box-grow-0 cross-center main-center" @click.stop="numberSub">
                            </image>
                            <view class="number-input box-grow-0 cross-center main-center">
                                <app-input type="number" v-model="number" paddingLeft="0" :center="true" @blur="numberBlur"
                                           :focus="false" width="88"></app-input>
                            </view>
-                           <image src="/static/image/cart/can-be-added.png" class="block box-grow-0 cross-center main-center" @click.stop="numberAdd"></image>
+                           <image src="https://yewi.vvv6g.cn/web/mini_images/cart/can-be-added.png" class="block box-grow-0 cross-center main-center" @click.stop="numberAdd"></image>
                        </view>
                    </view>
                     <view v-if="sign ==='wholesale'" class="total">已选<text>{{totalNumber}}</text>件 总计<text>￥{{totalPrice > 0? totalPrice : '0.00'}}</text></view>
@@ -517,7 +517,7 @@
                 if(this.totalNumber < this.goods.wholesaleGoods.rise_num) {
                     uni.showToast({
                         title: '至少采购' + this.goods.wholesaleGoods.rise_num + this.goods.unit,
-                        image: '/static/image/plugins/tip.png',
+                        image: 'https://yewi.vvv6g.cn/web/mini_images/plugins/tip.png',
                         duration: 1000
                     });
                     return false

@@ -6,7 +6,7 @@
                 <view class="box-grow-1 attr u-content u-line-1">
                     {{attrStr}}
                 </view>
-                <image class="bd-icon" src="/static/image/icon/arrow-right.png"></image>
+                <image class="bd-icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png"></image>
             </view>
             <view v-if="newAttrGroups.length > 0 && attrCount > 1" class="bd-x dir-left-nowrap cross-center">
                 <div class="dir-left-wrap cross-center">
@@ -30,14 +30,14 @@
             <view class="box-grow-1 u-content u-line-1">
                 {{serviceStr}}
             </view>
-            <image class="bd-icon" src="/static/image/icon/arrow-right.png"></image>
+            <image class="bd-icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png"></image>
         </view>
         <view v-if="param_content.length > 0" class="dir-left-nowrap cross-center bd-server" @click.stop="open('param')">
             <text class="box-grow-0 bd-name">参数</text>
             <view class="box-grow-1 u-content u-line-1">
                 {{paramStr}}
             </view>
-            <image class="bd-icon" src="/static/image/icon/arrow-right.png"></image>
+            <image class="bd-icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png"></image>
         </view>
         <u-popup v-model="show" mode="bottom" border-radius="14" @close="show = false">
             <view class="model">
@@ -54,7 +54,7 @@
                         </template>
                     </view>
                     <view class="f-image" @click="show = false">
-                        <image class="f-img" src="/static/image/icon/icon-close.png"></image>
+                        <image class="f-img" src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-close.png"></image>
                     </view>
                 </view>
                 <scroll-view scroll-y class="f-scroll">

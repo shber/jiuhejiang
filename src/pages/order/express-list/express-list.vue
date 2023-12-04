@@ -11,7 +11,7 @@
                             <!-- 同城配送 -->
                             <template v-if="order.send_type == 2">
                                 <view class="dir-left-nowrap cross-center city-service">
-                                    <image class="head" src="/static/image/icon/deliveryman.png"></image>
+                                    <image class="head" src="https://yewi.vvv6g.cn/web/mini_images/icon/deliveryman.png"></image>
                                     <template v-if="deItem.city_name && deItem.city_mobile">
                                         <view class="info-box dir-top-nowrap box-grow-1">
                                             <view class="info-label">配送员</view>
@@ -19,13 +19,13 @@
                                         </view>
                                         <view class="icon-box">
                                             <app-jump-button open_type="tel" :number="deItem.city_mobile">
-                                                <image class="icon" src="/static/image/icon/store-tel.png"></image>
+                                                <image class="icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/store-tel.png"></image>
                                             </app-jump-button>
                                         </view>
                                         <!-- 第三方配送才有地图信息 -->
                                         <view v-if="deItem.send_type == 1" class="icon-box">
                                             <app-jump-button open_type="navigate" :url="'/pages/order/city-map/city-map?express_id=' + deItem.id">
-                                                <image class="icon" src="/static/image/icon/see-location.png"></image>
+                                                <image class="icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/see-location.png"></image>
                                             </app-jump-button>
                                         </view>
                                     </template>
@@ -52,7 +52,7 @@
                                 </view>
                                 <view class="box-grow-1 express-info" v-else>物流信息：{{deItem.express_content}}</view>
                                 <view v-if="deItem.send_type == 1" class="cross-center box-grow-0">
-                                    <app-image width="12rpx" height="22rpx" imgSrc="/static/image/icon/arrow-right.png"></app-image>
+                                    <app-image width="12rpx" height="22rpx" imgSrc="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png"></app-image>
                                 </view>
                             </template>
                         </view>

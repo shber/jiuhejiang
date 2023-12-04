@@ -823,10 +823,10 @@ export default {
                     @extend %background-image;
                 }
                 .app-button-icon-cart {
-                    background-image: url('../../../static/image/icon/cats.png');
+                    background-image: url('https://yewi.vvv6g.cn/web/mini_images/icon/cats.png');
                 }
                 .app-button-icon-add {
-                    background-image: url('../../../static/image/icon/add-to.png');
+                    background-image: url('https://yewi.vvv6g.cn/web/mini_images/icon/add-to.png');
                 }
                 .buy-btn {
                     height: #{48rpx};

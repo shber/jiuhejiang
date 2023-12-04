@@ -612,13 +612,13 @@ export default {
         .end-icon.home {
             height: #{30rpx};
             width: #{30rpx};
-            background-image: url('../../../static/image/icon/icon-home-white.png');
+            background-image: url('https://yewi.vvv6g.cn/web/mini_images/icon/icon-home-white.png');
         }
 
         .end-icon.price {
             height: #{22rpx};
             width: #{12rpx};
-            background-image: url('../../../static/image/icon/arrow-right-white.png');
+            background-image: url('https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right-white.png');
         }
     }
 
@@ -689,7 +689,7 @@ export default {
             width: #{30rpx};
             background-repeat: no-repeat;
             background-size: 100% 100%;
-            background-image: url('../../../static/image/icon/close.png');
+            background-image: url('https://yewi.vvv6g.cn/web/mini_images/icon/close.png');
         }
 
         .text, .box {
@@ -725,7 +725,7 @@ export default {
             width: #{30rpx};
             background-repeat: no-repeat;
             background-size: 100% 100%;
-            background-image: url('../../../static/image/icon/close.png');
+            background-image: url('https://yewi.vvv6g.cn/web/mini_images/icon/close.png');
         }
 
         .text, .box {

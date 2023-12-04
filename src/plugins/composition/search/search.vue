@@ -3,14 +3,14 @@
         <view class="search dir-left-nowrap cross-centers">
             <view class="search-view">
                 <input id="search" @confirm='toSearch' placeholder="请输入商品名称搜索" v-model="keyword" type="text" focus @focus="getFocus=true">
-                <image v-if="getFocus && keyword.length > 0" @click="clearSearch" class="search-clear" src="/static/image/icon/delete-yuan.png"></image>
+                <image v-if="getFocus && keyword.length > 0" @click="clearSearch" class="search-clear" src="https://yewi.vvv6g.cn/web/mini_images/icon/delete-yuan.png"></image>
             </view>
             <view @click="toSearch" class="search-btn">搜索</view>
         </view>
 
         <view class="main-center no-result" v-if="list.length == 0 && searchResult">
             <view class="dir-left-nowrap cross-center">
-                <image class="box-grow-0 empty" src="/static/image/icon/empty.png"></image>
+                <image class="box-grow-0 empty" src="https://yewi.vvv6g.cn/web/mini_images/icon/empty.png"></image>
                 <view class="box-grow-1">
                     <view>抱歉，没有相关商品</view>
                 </view>
@@ -22,7 +22,7 @@
                     <template>
                         <view class="look-goods main-center cross-center">
                             <view>套餐商品</view>
-                            <image src="/static/image/icon/icon-down.png"></image>
+                            <image src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-down.png"></image>
                         </view>
                     </template>
                 </app-composition>
@@ -32,11 +32,11 @@
             <view @click.stop="" class="dialog" :style="{'bottom':height +'px'}" :animation="animationData">
                 <view class="dialog-title main-between cross-center">
                     <view @click="toDetail(detail)" class="toBuy dir-left-nowrap cross-center">
-                        <image  :style="{'background-color': getTheme.background}" src="/static/image/icon/goods-cart.png"></image>
+                        <image  :style="{'background-color': getTheme.background}" src="https://yewi.vvv6g.cn/web/mini_images/icon/goods-cart.png"></image>
                         <view :style="{'color': getTheme.color}">去购买套餐</view>
                     </view>
                     <view class="close">
-                        <image @click="close" src="/static/image/icon/close.png"></image>
+                        <image @click="close" src="https://yewi.vvv6g.cn/web/mini_images/icon/close.png"></image>
                     </view>
                 </view>
                 <view class="dialog-goods-list">

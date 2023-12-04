@@ -8,7 +8,7 @@
 				</view>
 				<view class="cross-center">
 					<text class="app-title">了解更多</text>
-					<image class="app-icon" src="../../../static/image/icon/arrow-right.png"></image>
+					<image class="app-icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png"></image>
 				</view>
 			</view>
 		</app-jump-button>

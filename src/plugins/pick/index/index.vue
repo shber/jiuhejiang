@@ -4,7 +4,7 @@
 
             <view class="search dir-left-nowrap cross-center">
                 <view class="input dir-left-nowrap main-center cross-center" @click="navigator('/plugins/pick/search/search')">
-                    <image class="search-img" src="/static/image/icon/search.png"></image>
+                    <image class="search-img" src="https://yewi.vvv6g.cn/web/mini_images/icon/search.png"></image>
                     <text class="search-text">搜索</text>
                 </view>
             </view>

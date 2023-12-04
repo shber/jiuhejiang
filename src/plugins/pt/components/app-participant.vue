@@ -31,7 +31,7 @@
 				<view>
 					<app-form-id @click="ptBool = true">
 						<text class="app-text">查看更多</text>
-						<image class="app-icon" src="../../../static/image/icon/arrow-right.png"></image>
+						<image class="app-icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png"></image>
 					</app-form-id>
 				</view>
 			</view>

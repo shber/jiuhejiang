@@ -419,7 +419,7 @@ export default {
             color: #FFFFFF;
 
             .bg {
-                background-image: url("../../../static/image/icon/arrow-right-white.png");
+                background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right-white.png");
                 background-repeat: no-repeat;
                 background-size: 100% 100%;
                 width: #{12rpx};
@@ -443,7 +443,7 @@ export default {
             margin-right: #{20rpx};
 
             .empty-bg {
-                background-image: url("../../../static/image/icon/empty.png");
+                background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/empty.png");
                 background-repeat: no-repeat;
                 background-size: 100% 100%;
                 height: #{100rpx};

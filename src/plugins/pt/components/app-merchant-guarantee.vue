@@ -1,7 +1,7 @@
 <template>
 	<view class="app-merchant-guarantee dir-left-wrap">
 		<view class="app-item dir-left-nowrap cross-center main-center" v-for="(item, index) in services" :key="index">
-			<image class="app-image" src="../../../static/image/icon/yes.png"></image>
+			<image class="app-image" src="https://yewi.vvv6g.cn/web/mini_images/icon/yes.png"></image>
 			<text class="app-title">{{item}}</text>
 		</view>
 	</view>

@@ -18,7 +18,7 @@
             <view class='join-success' v-if='join'>
                 <image class='join-img' src='./../image/participation.png'></image>
                 <view v-if="join" @click="closeTip()" class='join-close'>
-                    <image src='/static/image/icon/icon-close.png'></image>
+                    <image src='https://yewi.vvv6g.cn/web/mini_images/icon/icon-close.png'></image>
                 </view>
                 <view>报名成功，记得{{open_date}}来参加哦</view>
                 <button class='invite' open-type="share">邀请好友</button>

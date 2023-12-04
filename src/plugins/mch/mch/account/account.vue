@@ -150,7 +150,7 @@
         width: #{12rpx};
         height: #{22rpx};
         margin-left: #{12rpx};
-        background-image: url("../../../../static/image/icon/arrow-right.png");
+        background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png");
         background-repeat: no-repeat;
         background-size: 100% auto;
     }

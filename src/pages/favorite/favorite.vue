@@ -51,7 +51,7 @@
                     </view>
                     <view class="f-good-icon" @click="setListStyle()">
                         <image
-                           :src="listStyle ? '/static/image/icon/favorite/square.png' : '/static/image/icon/favorite/row.png'"></image>
+                           :src="listStyle ? 'https://yewi.vvv6g.cn/web/mini_images/icon/favorite/square.png' : 'https://yewi.vvv6g.cn/web/mini_images/icon/favorite/row.png'"></image>
                     </view>
                 </view>
                 <view class="f-select" :style="{'transform':'translateY('+ typeY+'rpx)'}">
@@ -98,18 +98,18 @@
                                     <view>
                                         <view class="f-invalid dir-left-nowrap cross-center main-between"
                                               v-if="item.status_type === 3">
-                                            <image src="/static/image/icon/invalid.png"></image>
+                                            <image src="https://yewi.vvv6g.cn/web/mini_images/icon/invalid.png"></image>
                                             <text>失效</text>
                                         </view>
                                         <view class="f-low-stock dir-left-nowrap cross-center main-between"
                                               v-if="item.status_type === 2">
-                                            <image src="/static/image/icon/low_stock.png"></image>
+                                            <image src="https://yewi.vvv6g.cn/web/mini_images/icon/low_stock.png"></image>
                                             <text>低库存</text>
                                         </view>
                                         <view class="f-low-price dir-left-nowrap"
                                               v-if="item.status_type === 1">
                                             <view class="dir-left-nowrap main-between cross-center">
-                                                <image src="/static/image/icon/low_price.png"></image>
+                                                <image src="https://yewi.vvv6g.cn/web/mini_images/icon/low_price.png"></image>
                                                 比收藏时降价{{item.low_price}}元
                                             </view>
                                         </view>
@@ -141,18 +141,18 @@
                                 <view>
                                     <view class="f-invalid dir-left-nowrap cross-center main-between"
                                           v-if="item.status_type === 3">
-                                        <image src="/static/image/icon/invalid.png"></image>
+                                        <image src="https://yewi.vvv6g.cn/web/mini_images/icon/invalid.png"></image>
                                         <text>失效</text>
                                     </view>
                                     <view class="f-low-stock dir-left-nowrap cross-center main-between"
                                           v-if="item.status_type === 2">
-                                        <image src="/static/image/icon/low_stock.png"></image>
+                                        <image src="https://yewi.vvv6g.cn/web/mini_images/icon/low_stock.png"></image>
                                         <text>低库存</text>
                                     </view>
                                     <view class="f-low-price"
                                           v-if="item.status_type === 1">
                                         <view class="dir-left-nowrap main-between cross-center">
-                                            <image src="/static/image/icon/low_price.png"></image>
+                                            <image src="https://yewi.vvv6g.cn/web/mini_images/icon/low_price.png"></image>
                                             <text>比收藏时降价{{item.low_price}}元</text>
                                         </view>
                                     </view>
@@ -1378,7 +1378,7 @@ export default {
         }
     }
 .bd-image {
-    background-image:url("../../static/image/icon/favorite/bottom.png");
+    background-image:url("https://yewi.vvv6g.cn/web/mini_images/icon/favorite/bottom.png");
     background-size: 102% 102%;
     width: 11upx !important;
     height: 6upx;

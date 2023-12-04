@@ -4,28 +4,28 @@
             <text>手机号</text>
             <view>
                 <text>{{userInfo && userInfo.mobile | setIphone}}</text>
-                <image src="/static/image/icon/arrow-right.png" class="bd-arrow"></image>
+                <image src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png" class="bd-arrow"></image>
             </view>
         </view>
         <view @click="router('/pages/registered/password')" class="bd-item dir-left-nowrap main-between cross-center">
             <text>登入密码</text>
             <view>
                 <text>修改</text>
-                <image src="/static/image/icon/arrow-right.png" class="bd-arrow"></image>
+                <image src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png" class="bd-arrow"></image>
             </view>
         </view>
         <view class="bd-item dir-left-nowrap main-between cross-center" @click="setAvatar">
             <text>头像</text>
             <view class="cross-center">
                 <image class="bd-avatar" :src="userInfo.avatar"></image>
-                <image src="/static/image/icon/arrow-right.png" class="bd-arrow"></image>
+                <image src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png" class="bd-arrow"></image>
             </view>
         </view>
         <view @click="router('/pages/registered/nickname')" class="bd-item dir-left-nowrap main-between cross-center">
             <text>昵称</text>
             <view>
                 <text>{{userInfo.nickname}}</text>
-                <image src="/static/image/icon/arrow-right.png" class="bd-arrow"></image>
+                <image src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png" class="bd-arrow"></image>
             </view>
         </view>
         <view class="bd-btn" @click="logOut">退出登入</view>

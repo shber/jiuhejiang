@@ -18,7 +18,7 @@
                     <cover-view class="general">{{config.address.address}}</cover-view>
                 </cover-view>
                 <cover-view class="box-grow-0 cross-center" @click="mobile">
-                    <cover-image class="mobile" src="/static/image/icon/store-tel.png"></cover-image>
+                    <cover-image class="mobile" src="https://yewi.vvv6g.cn/web/mini_images/icon/store-tel.png"></cover-image>
                 </cover-view>
             </cover-view>
         </view>
@@ -121,7 +121,7 @@
                             "isShow": 1
                         },
                         // #endif
-                        iconPath: '/static/image/location.png',
+                        iconPath: 'https://yewi.vvv6g.cn/web/mini_images/location.png',
                         width: 20,
                         height: 20,
                     })

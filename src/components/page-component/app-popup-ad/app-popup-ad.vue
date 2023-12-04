@@ -22,7 +22,7 @@
                             </block>
                         </template>
                         <view class="close" @click="closePopupModal">
-                            <image src="/static/image/icon/icon-popup-close.png"></image>
+                            <image src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-popup-close.png"></image>
                         </view>
                     </view>
                 </view>

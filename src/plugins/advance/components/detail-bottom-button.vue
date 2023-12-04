@@ -2,12 +2,12 @@
 	<view>
 		<view class="bd-bottom dir-left-nowrap cross-center" v-if="active">
             <view  @click="route_jump" class="bd-back dir-top-nowrap main-center cross-center box-grow-0">
-                <image class="bd-icon" src="/static/image/icon/index.png"></image>
+                <image class="bd-icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/index.png"></image>
                 <text class="bd-text">首页</text>
             </view>
             <bd-service :name="detail.name" :url="webUrl"></bd-service>
             <view @click="set_favorite(favorite)" class="bd-back dir-top-nowrap main-center cross-center box-grow-0" >
-                <image class="bd-icon" :src="favorite ? '/static/image/icon/icon-favorite-active.png' : '/static/image/icon/icon-favorite.png'"></image>
+                <image class="bd-icon" :src="favorite ? 'https://yewi.vvv6g.cn/web/mini_images/icon/icon-favorite-active.png' : 'https://yewi.vvv6g.cn/web/mini_images/icon/icon-favorite.png'"></image>
                 <text class="bd-text">收藏</text>
             </view>
             <view class="box-grow-1 bd-btn bd-oversell-btn bd-btn-color" v-if="detail.goods_num === 0">

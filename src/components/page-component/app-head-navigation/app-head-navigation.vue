@@ -11,7 +11,7 @@
                 </text>
             </scroll-view>
             <view class="bd-btn" @click="isSwitch = true">
-                <image class="bd-bt-img" src="/static/image/icon/icon-down.png"></image>
+                <image class="bd-bt-img" src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-down.png"></image>
             </view>
         </view>
         <view class="bd-content" v-if="isSwitch" @touchmove.stop.prevent>
@@ -20,7 +20,7 @@
                     切换分类
                 </view>
                 <view class="bd-btn" @click="isSwitch = false">
-                    <image class="bd-bt-img" src="/static/image/icon/icon-up.png"></image>
+                    <image class="bd-bt-img" src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-up.png"></image>
                 </view>
             </view>
             <view class="bd-back dir-left-wrap" >

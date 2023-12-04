@@ -1,6 +1,6 @@
 <template>
     <view class="app-image" :style="appBackground" v-if="imgSrc">
-        <image src="/static/image/icon/loading-img.png" class="img" :class="is_error ? '' : 'default'"
+        <image src="https://yewi.vvv6g.cn/web/mini_images/icon/loading-img.png" class="img" :class="is_error ? '' : 'default'"
                mode="aspectFill" lazy-load v-if="is_loading" :style="imgStyle"></image>
         <image :src="imgSrc" class="img" :mode="mode" @error="imgError" @load="imgLoad" lazy-load
                v-if="!is_error" :style="imgStyle"></image>

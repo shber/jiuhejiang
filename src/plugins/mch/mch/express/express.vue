@@ -9,8 +9,8 @@
             <block v-if='express.list'>
                 <view class='item-box'>
                     <view :class="['dir-top-nowrap','item',`${index == 0 ? 'sign-text' : ''}`]" v-for='item in express.list' :key='item.id'>
-                        <image v-if='index == 0' class='sign-big' src='/static/image/icon/order/point-green.png'></image>
-                        <image v-else class='sign' src='/static/image/icon/order/point-gray.png'></image>
+                        <image v-if='index == 0' class='sign-big' src='https://yewi.vvv6g.cn/web/mini_images/icon/order/point-green.png'></image>
+                        <image v-else class='sign' src='https://yewi.vvv6g.cn/web/mini_images/icon/order/point-gray.png'></image>
                         <view>{{item.desc}}</view>
                         <view>{{item.datetime}}</view>
                     </view>

@@ -100,7 +100,7 @@
                 </view>
                 <view class="bd-bottom dir-left-nowrap cross-center">
                     <view class="u-back dir-top-nowrap main-center cross-center box-grow-0" @click="router('/pages/index/index')">
-                        <image class="u-icon" src="../../../static/image/icon/index.png"></image>
+                        <image class="u-icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/index.png"></image>
                         <text class="u-text">首页</text>
                     </view>
                     <bd-service :name="goods.name" :url="webUrl"></bd-service>

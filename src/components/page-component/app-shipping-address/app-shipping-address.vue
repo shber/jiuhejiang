@@ -181,10 +181,10 @@
 					background-repeat: no-repeat;
 				}
 				.app-modify-icon {
-					background-image: url("../../../static/image/icon/modify.png");
+					background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/modify.png");
 				}
 				.app-delete-icon {
-					background-image: url("../../../static/image/icon/delete.png");
+					background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/delete.png");
 				}
 			}
 		}

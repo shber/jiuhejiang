@@ -14,7 +14,7 @@
             </template>
 			<view class="no-cart" v-if="listObj.length === 0">
 				<view class="cart-icon">
-					<image class="cart-image" src="../../static/image/icon/nav-icon-cart.png"></image>
+					<image class="cart-image" src="https://yewi.vvv6g.cn/web/mini_images/icon/nav-icon-cart.png"></image>
 				</view>
 				<view class="cart-text">购物车还是空的哦</view>
 			</view>
@@ -41,12 +41,12 @@
 		</view>
         <view @touchmove.stop.prevent="" class="send-dialog" @click="sendDialog=false" v-if="sendDialog">
             <view class="send-content" @click.stop="">
-                <image class="send-close" @click="sendDialog=false" src="../../static/image/icon/icon-close.png"></image>
+                <image class="send-close" @click="sendDialog=false" src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-close.png"></image>
                 <view class="send-title">选择结算商品</view>
                 <view class="send-tip">提示：选中商品存在不同配送方式，请分开下单</view>
                 <view class="send-type" v-if="countList.express.number > 0">
                     <view class="send-type-name dir-left-nowrap cross-center">
-                        <image src="../../static/image/icon/express.png"></image>
+                        <image src="https://yewi.vvv6g.cn/web/mini_images/icon/express.png"></image>
                         <view>{{countList.express.name}}</view>
                     </view>
                     <view class="send-type-item">
@@ -63,7 +63,7 @@
                 </view>
                 <view class="send-type" v-if="countList.city.number > 0">
                     <view class="send-type-name dir-left-nowrap cross-center">
-                        <image src="../../static/image/icon/city.png"></image>
+                        <image src="https://yewi.vvv6g.cn/web/mini_images/icon/city.png"></image>
                         <view>{{countList.city.name}}</view>
                     </view>
                     <view class="send-type-item">
@@ -80,7 +80,7 @@
                 </view>
                 <view class="send-type" v-if="countList.offline.number > 0">
                     <view class="send-type-name dir-left-nowrap cross-center">
-                        <image src="../../static/image/icon/offline.png"></image>
+                        <image src="https://yewi.vvv6g.cn/web/mini_images/icon/offline.png"></image>
                         <view>{{countList.offline.name}}</view>
                     </view>
                     <view class="send-type-item">

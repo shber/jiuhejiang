@@ -3,14 +3,14 @@
         <view class="page">
             <view class="search">
                 <view class="prompt dir-left-nowrap main-center cross-center" v-if="search" @click="search = false">
-                    <image src="../../static/image/icon/icon-search.png"></image>
+                    <image src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-search.png"></image>
                     <text>请输入收货人或联系电话搜索</text>
                 </view>
                 <view v-else style="position: relative">
                     <input placeholder="请输入收货人或联系电话搜索" type="text" v-model="keyword" @focus="getFocus=true" focus
                            @blur="inputBlur"/>
                     <image v-if="getFocus && keyword.length" @click.stop="keyword = ''" class="search-clear"
-                           src="../../static/image/icon/delete-yuan.png"></image>
+                           src="https://yewi.vvv6g.cn/web/mini_images/icon/delete-yuan.png"></image>
                 </view>
             </view>
 
@@ -40,7 +40,7 @@
                         <app-form-id>
                             <app-button :theme="getTheme" type="important" round @click="editAddress(0)">
                                 <view class="cross-center main-center">
-                                    <image class="icon" src="/static/image/icon/add.png"></image>
+                                    <image class="icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/add.png"></image>
                                     <view>手动添加</view>
                                 </view>
                             </app-button>
@@ -52,7 +52,7 @@
                             <app-button type="important" round background="#08c303"
                                         @click="wechatAddAddress">
                                 <view class="cross-center main-center">
-                                    <image class="icon" src="/static/image/icon/wechat-white.png"></image>
+                                    <image class="icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/wechat-white.png"></image>
                                     <view>自动获取</view>
                                 </view>
                             </app-button>

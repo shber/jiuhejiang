@@ -19,7 +19,7 @@
 									<radio color="#4887FF" style="transform:scale(0.7)" :value="item.value" :checked="identity === item.value"/>
 									<view class="use_name">{{item.name}}</view>
 								</view>
-								<image :src="item.value === '1' ? '/static/image/recharge/boy.png' : '/static/image/recharge/girl.png'" class='user'></image>
+								<image :src="item.value === '1' ? 'https://yewi.vvv6g.cn/web/mini_images/recharge/boy.png' : 'https://yewi.vvv6g.cn/web/mini_images/recharge/girl.png'" class='user'></image>
 							</label>
 						</radio-group>
 					</view>

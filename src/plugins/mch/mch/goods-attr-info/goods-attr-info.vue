@@ -3,8 +3,8 @@
         <view class="group main-center cross-center">
             <view @click="choose(item,index)" v-for="(item,index) in attr_groups" :key="index" class="box-grow-1 group-item main-center cross-center">
                 <view :class="['group-name', 't-omit', `${item.choose? 'active':''}`]">{{item.choose ? item.choose_attr : item.attr_group_name}}</view>
-                <image v-if="showGroup && groupIndex == index" class="more" :src="item.choose ? './../image/close.png' :'/static/image/icon/icon-up.png'"></image>
-                <image class="more" v-else :src="item.choose ? './../image/open.png' :'/static/image/icon/icon-down.png'"></image>
+                <image v-if="showGroup && groupIndex == index" class="more" :src="item.choose ? './../image/close.png' :'https://yewi.vvv6g.cn/web/mini_images/icon/icon-up.png'"></image>
+                <image class="more" v-else :src="item.choose ? './../image/open.png' :'https://yewi.vvv6g.cn/web/mini_images/icon/icon-down.png'"></image>
             </view>
         </view>
         <view class="attr-group-holder"></view>
@@ -13,8 +13,8 @@
                <template v-if="startIndex < item.showIndex && item.showIndex < endIndex">
                    <view class="attr-name">
                        <view class="check" @click="unSelect(item,index)">
-                           <image src="/static/image/icon/icon-uncheck.png" v-if="!item.select"></image>
-                           <image src="/static/image/icon/icon-checkbox-checked-a.png" v-else></image>
+                           <image src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-uncheck.png" v-if="!item.select"></image>
+                           <image src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-checkbox-checked-a.png" v-else></image>
                        </view>
                        <view class="dir-left-wrap cross-center">
                            <view class="attr-group" v-for="(attr,idx) in item.attr_list" :key="idx">
@@ -97,8 +97,8 @@
         <view :class="['placeholder', `${iphone_x? 'iphone_x':''}`]"></view>
         <view :class="['bottom', 'cross-center', 'dir-left-nowrap', `${iphone_x? 'iphone_x':''}`]">
             <view @click="allSelect" class="check">
-                <image src="/static/image/icon/icon-uncheck.png" v-if="!selectStatus"></image>
-                <image src="/static/image/icon/icon-checkbox-checked-a.png" v-else></image>
+                <image src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-uncheck.png" v-if="!selectStatus"></image>
+                <image src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-checkbox-checked-a.png" v-else></image>
             </view>
             <view>全选</view>
             <view @click="allSetting" class="all-setting">批量设置</view>

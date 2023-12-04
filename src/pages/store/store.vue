@@ -299,7 +299,7 @@ export default {
             }
 
             .icon-search {
-                background-image: url("../../static/image/icon/icon-search.png");
+                background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/icon-search.png");
                 height: #{24rpx};
                 width: #{24rpx};
                 background-size: 100% auto;
@@ -316,7 +316,7 @@ export default {
                 z-index: 20;
 
                 .icon-close {
-                    background-image: url("../../static/image/icon/icon-close.png");
+                    background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/icon-close.png");
                     background-repeat: no-repeat;
                     background-size: 100% auto;
                     height: #{25rpx};

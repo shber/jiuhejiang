@@ -105,7 +105,7 @@
     .icon-pic {
         width: #{13rpx};
         height: #{22rpx};
-        background-image: url("../../static/image/icon/arrow-right.png");
+        background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png");
         background-size: 100% 100%;
         background-repeat: no-repeat;
         margin-left: #{24rpx};

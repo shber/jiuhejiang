@@ -1,7 +1,7 @@
 <template>
     <view v-if="modelStatus" class="lottery-integral-model">
         <view class="box dir-top-nowrap main-center cross-center">
-            <image class="close" @click="closeModel" src="/static/image/icon/close.png"></image>
+            <image class="close" @click="closeModel" src="https://yewi.vvv6g.cn/web/mini_images/icon/close.png"></image>
             <view class="header">
                 <view>参与此抽奖需要消耗</view>
                 <view>

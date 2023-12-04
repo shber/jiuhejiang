@@ -9,7 +9,7 @@
                     <view class="box-grow-1">{{title}}</view>
                     <view @click="close"
                           class="box-grow-0">
-                        <image src="/static/image/icon/icon-close.png"
+                        <image src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-close.png"
                                style="width: 30rpx;height: 30rpx;"></image>
                     </view>
                 </view>

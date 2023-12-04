@@ -13,13 +13,13 @@
                     <view class="attr-label">规格值</view>
                     <view @click="changeValue(index)">
                         <view class="attr_name" v-if="item.attr_list.length > 0">
-                            <image class="to-more" src='/static/image/icon/arrow-right.png'></image>
+                            <image class="to-more" src='https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png'></image>
                             <view class="attr-name-list t-omit">
                                 <text v-for="(attr,idx) in item.attr_list" :key="idx"><text v-if="idx !== 0">；</text>{{attr.attr_name}}</text>
                             </view>
                         </view>
                         <view v-else class='cat-info dir-right-nowrap cross-center'>
-                            <image class="to-more" src='/static/image/icon/arrow-right.png'></image>
+                            <image class="to-more" src='https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png'></image>
                             <text style="color: #cdcdcd">未选择</text>
                         </view>
                     </view>
@@ -33,7 +33,7 @@
             <view class="form-label">规格明细</view>
             <view @click="chooseDetail">
                 <view class='cat-info dir-right-nowrap cross-center'>
-                    <image class="to-more" src='/static/image/icon/arrow-right.png'></image>
+                    <image class="to-more" src='https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png'></image>
                     <text v-if="attr.length > 0">已设置</text>
                     <text style="color: #cdcdcd" v-else>未设置，点击设置</text>
                 </view>

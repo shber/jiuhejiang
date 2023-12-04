@@ -5,7 +5,7 @@
                 <view class="item" v-for="(item, index) in list" :key="index" @click="liveClick(item)">
                     <view class="anchor-img-box">
                         <image mode="aspectFill" class="anchor-img" :src="item.anchor_img"></image>
-                        <image v-if="item.live_status === 103" class="play-icon" src="/static/image/video-play.png"></image>
+                        <image v-if="item.live_status === 103" class="play-icon" src="https://yewi.vvv6g.cn/web/mini_images/video-play.png"></image>
                     </view>
                     <view class="room-info-box">
                         <view class="name">{{item.name}}</view>
@@ -16,7 +16,7 @@
                     </view>
                     <view v-if="item.live_status === 101" class="tag-box tag-box-3">
                         <view class="text">
-                            <image class="live-icon" src="/static/image/icon/liveing.png"></image>
+                            <image class="live-icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/liveing.png"></image>
                             <span>{{item.status_text}}</span>
                         </view>
                     </view>
@@ -43,7 +43,7 @@
                 </view>
             </view>
             <view v-else class="empty-box">
-                <image src="/static/image/order-empty.png"></image>
+                <image src="https://yewi.vvv6g.cn/web/mini_images/order-empty.png"></image>
                 <span>暂无任何内容</span>
             </view>
             <app-load-text v-if="is_show_load"></app-load-text>

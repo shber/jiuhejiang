@@ -11,7 +11,7 @@
                     <view class="price">{{list.discount | reservedNum}}折</view>
                 </template>
                 <view v-if="isShowShare" class="share-img">
-                    <image src="/static/image/coupon/btn_share.png" @click="shareShow = true"></image>
+                    <image src="https://yewi.vvv6g.cn/web/mini_images/coupon/btn_share.png" @click="shareShow = true"></image>
                     <view>
                         <app-share-qr-code v-model="shareShow" title="生成优惠券海报"
                                            @share="hShareAppMessage"

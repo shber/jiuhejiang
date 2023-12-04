@@ -11,14 +11,14 @@
                     <view>选择代理级别</view>
                     <view @click="choose(1)" class="main-between cross-center choose-level-item">
                         <view :style="{'color':`${choose_level.id > 0 ? '#353535': '#999'}`}">{{choose_level.name}}</view>
-                        <image v-if="!up" class="more" src="/static/image/icon/icon-down.png"></image>
+                        <image v-if="!up" class="more" src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-down.png"></image>
                     </view>
                 </view>
                 <view>
                     <view>选择省</view>
                     <view @click="choose(2)" class="main-between cross-center choose-level-item">
                         <view :style="{'color':`${choose_province.id > 0 ? '#353535': '#999'}`}">{{choose_province.name}}</view>
-                        <image v-if="!up" class="more" src="/static/image/icon/icon-down.png"></image>
+                        <image v-if="!up" class="more" src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-down.png"></image>
                     </view>
                 </view>
                 <view v-if="choose_level.id > 1">
@@ -32,7 +32,7 @@
                         </view>
                         <view v-else-if="choose_district.length == 0 && choose_level.id == 2">请选择市</view>
                         <view v-else :style="{'color':`${choose_city.id > 0 ? '#353535': '#999'}`}">{{choose_city.name}}</view>
-                        <image class="more" src="/static/image/icon/icon-down.png"></image>
+                        <image class="more" src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-down.png"></image>
                     </view>
                 </view>
                 <view v-if="choose_level.id > 2">
@@ -45,7 +45,7 @@
                             </view>
                         </view>
                         <view v-else>请选择区/县</view>
-                        <image class="more" src="/static/image/icon/icon-down.png"></image>
+                        <image class="more" src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-down.png"></image>
                     </view>
                 </view>
             </view>
@@ -93,8 +93,8 @@
                     </view>
                     <view class="apply-input cross-center" v-if="setting.is_agreement == 1">
                         <view class="read" @click="beRead">
-                            <image src="/static/image/icon/icon-uncheck.png" v-if="read == false"></image>
-                            <image src="/static/image/icon/icon-checkbox-checked-a.png" v-else></image>
+                            <image src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-uncheck.png" v-if="read == false"></image>
+                            <image src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-checkbox-checked-a.png" v-else></image>
                         </view>
                         <text>已阅读并同意《</text>
                         <text class="agreement_title" @click="toRead">{{setting.agreement_title ? setting.agreement_title : '区域代理申请协议'}}</text>

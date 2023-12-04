@@ -1,11 +1,11 @@
 <template>
     <view class="app-index-wholesale">
         <view class="top dir-left-nowrap cross-center" @click="jump(`/plugins/wholesale/index/index`)">
-            <image class="box-grow-0" src="../../../static/image/icon/wholesale.png"></image>
+            <image class="box-grow-0" src="https://yewi.vvv6g.cn/web/mini_images/icon/wholesale.png"></image>
             <view class="box-grow-1">商品批发</view>
             <view class="dir-left-nowrap cross-center">
                 <view class="box-grow-0 more">更多</view>
-                <image class="box-grow-0 icon" src="../../../static/image/icon/arrow-right.png"></image>
+                <image class="box-grow-0 icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png"></image>
             </view>
         </view>
         <view v-if="style == '1'" class="dir-left-nowrap list">

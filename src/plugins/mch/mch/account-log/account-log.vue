@@ -3,12 +3,12 @@
         <view class="list">
             <view class="account-date main-center cross-center">
                 <image @click="dateLess" class="account-icon"
-                       src="../../../../static/image/icon/arrow-left.png"></image>
+                       src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-left.png"></image>
                 <picker mode="date" :value="date" fields="month" @change="dateChange">
                     <view>{{date_a}}</view>
                 </picker>
                 <image @click="datePlus" class="account-icon"
-                       src="../../../../static/image/icon/arrow-right.png"></image>
+                       src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png"></image>
             </view>
             <view class="no-content" v-if="!list.length">暂无记录</view>
             <view v-else class="account-list">

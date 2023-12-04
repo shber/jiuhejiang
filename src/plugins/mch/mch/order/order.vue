@@ -11,7 +11,7 @@
         </view>
         <view v-if="search" class="search-item main-between cross-center">
             <view class="search-input">
-                <image src='/static/image/icon/icon-search.png'></image>
+                <image src='https://yewi.vvv6g.cn/web/mini_images/icon/icon-search.png'></image>
                 <input :focus="!msg" @confirm='searchMethod' confirm-type='search' v-model='keyword' placeholder-style='color:#999999;font-size:13px;' placeholder='请输入订单号搜索'></input>
             </view>
             <view @click="cancelSeacrch">取消</view>
@@ -20,7 +20,7 @@
             <view v-if="candidate.length != 0" class='main-between search-title'>
                 <view>历史搜索</view>
                 <view @click="clear">
-                    <image class="delete-icon" src="/static/image/icon/delete.png"></image>
+                    <image class="delete-icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/delete.png"></image>
                 </view>
             </view>
             <view class='flex-wrap candidate-list'>
@@ -31,7 +31,7 @@
         </view>
         <view v-if="!search" class="search-area main-between cross-center">
             <view class="search main-center" @click="toSearch">
-                <image class="icon-search" src="/static/image/icon/icon-search.png"></image>
+                <image class="icon-search" src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-search.png"></image>
                 <text>搜索</text>
             </view>
             <view class="choose" @click='toTime'>

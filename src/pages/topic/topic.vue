@@ -37,15 +37,15 @@
                <app-iphone-x>
                    <view class="bar dir-left-nowrap cross-center" slot="empty-area">
                        <view class="box-grow-1 dir-top-wrap cross-center" v-if="topic.is_favorite === 'love'" @click="favorite">
-                           <image src="/static/image/icon/icon-favorite-active.png"></image>
+                           <image src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-favorite-active.png"></image>
                            <view>已收藏</view>
                        </view>
                        <view class="box-grow-1 dir-top-wrap cross-center" v-else @click="favorite">
-                           <image src="/static/image/icon/icon-favorite.png"></image>
+                           <image src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-favorite.png"></image>
                            <view>收藏</view>
                        </view>
                        <view class="box-grow-1 dir-top-wrap cross-center" @click="shareClick">
-                           <image src="/static/image/icon/icon-share-gray.png"></image>
+                           <image src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-share-gray.png"></image>
                            <view>分享</view>
                        </view>
                    </view>

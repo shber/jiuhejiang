@@ -27,8 +27,8 @@
             <view class="info-item">
                 <text>{{custom_setting.words.user_instructions.name}}</text>
                 <view style="float:right">
-                    <image class="down" src="/static/image/share/img-share-down.png" v-if="open"></image>
-                    <image class="open" src="/static/image/share/img-share-right.png" v-else></image>
+                    <image class="down" src="https://yewi.vvv6g.cn/web/mini_images/share/img-share-down.png" v-if="open"></image>
+                    <image class="open" src="https://yewi.vvv6g.cn/web/mini_images/share/img-share-right.png" v-else></image>
                 </view>
                 <text class="must" space="nbsp" v-if="open" v-text="config.content"></text>
             </view>

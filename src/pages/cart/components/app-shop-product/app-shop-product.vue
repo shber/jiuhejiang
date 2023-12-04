@@ -35,8 +35,8 @@
                         <view v-if="good.new_status === 3 || good.new_status === 5" class="t-omit">{{good.goods.name}}</view>
                         <view v-else  class="t-omit-two">{{good.goods.name}}</view>
                         <view class="rise-num dir-left-nowrap cross-center" :style="{'color': `${good.new_status !== 0 && good.new_status !== 6 ? '#999999' : good.new_status === 0 ? '#63be72': '#ff4544'}`}">
-                            <image v-if="good.new_status !== 0 && good.new_status !== 6" class="num-icon" src="/static/image/icon/grey.png"></image>
-                            <image v-else-if="good.new_status === 0" class="num-icon" src="/static/image/icon/friend-v.png"></image>
+                            <image v-if="good.new_status !== 0 && good.new_status !== 6" class="num-icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/grey.png"></image>
+                            <image v-else-if="good.new_status === 0" class="num-icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/friend-v.png"></image>
                             <view>起批量 {{good.plugin_data.up_num}}{{good.goods.goodsWarehouse.unit}}</view>
                         </view>
                     </view>
@@ -280,7 +280,7 @@
                 margin-left: #{24rpx};
                 background-repeat: repeat;
                 background-size: 100% 100%;
-                background-image: url("../../../../static/image/icon/yes-radio.png");
+                background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/yes-radio.png");
             }
         }
         .app-mch-name {
@@ -338,7 +338,7 @@
                     border-radius: 50%;
                     background-repeat: repeat;
                     background-size: 100% 100%;
-                    background-image: url("../../../../static/image/icon/yes-radio.png");
+                    background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/yes-radio.png");
                 }
             }
             .app-invalid {
@@ -433,7 +433,7 @@
                     height: #{29rpx};
                     background-repeat: no-repeat;
                     background-size: 100% 100%;
-                    background-image: url("../../../../static/image/cart/miaosha.png");
+                    background-image: url("https://yewi.vvv6g.cn/web/mini_images/cart/miaosha.png");
                     margin-right: #{12rpx};
                 }
                 .app-flash-sale-icon {
@@ -441,7 +441,7 @@
                     height: #{29rpx};
                     background-repeat: no-repeat;
                     background-size: 100% 100%;
-                    background-image: url("../../../../static/image/plugins/flash-sale-icon.png");
+                    background-image: url("https://yewi.vvv6g.cn/web/mini_images/plugins/flash-sale-icon.png");
                     margin-right: #{12rpx};
                 }
                 .app-flash-sale-spike-icon {
@@ -449,7 +449,7 @@
                     height: #{29rpx};
                     background-repeat: no-repeat;
                     background-size: 100% 100%;
-                    background-image: url("../../../../static/image/plugins/flash-sale-icon.png");
+                    background-image: url("https://yewi.vvv6g.cn/web/mini_images/plugins/flash-sale-icon.png");
                     margin-right: #{12rpx};
                     background-color: #cdcdcd;
                 }
@@ -458,7 +458,7 @@
                     height: #{29rpx};
                     background-repeat: no-repeat;
                     background-size: 100% 100%;
-                    background-image: url("../../../../static/image/cart/spike-invalid.png");
+                    background-image: url("https://yewi.vvv6g.cn/web/mini_images/cart/spike-invalid.png");
                     margin-right: #{12rpx};
                 }
                 .app-beginning {
@@ -484,7 +484,7 @@
                     height: #{29rpx};
                     background-repeat: no-repeat;
                     background-size: 100% 100%;
-                    background-image: url("../../../../static/image/cart/spike-invalid.png");
+                    background-image: url("https://yewi.vvv6g.cn/web/mini_images/cart/spike-invalid.png");
                     margin-right: #{12rpx};
                 }
                 .app-spike-text {
@@ -499,7 +499,7 @@
                         height: #{29rpx};
                         background-repeat: no-repeat;
                         background-size: 100% 100%;
-                        background-image: url("../../../../static/image/plugins/flash-sale-icon.png");
+                        background-image: url("https://yewi.vvv6g.cn/web/mini_images/plugins/flash-sale-icon.png");
                         margin-right: #{12rpx};
                         background-color: #cdcdcd;
                     }
@@ -576,7 +576,7 @@
                         border-radius: 50%;
                         background-repeat: repeat;
                         background-size: 100% 100%;
-                        background-image: url("../../../../static/image/icon/yes-radio.png");
+                        background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/yes-radio.png");
                     }
                 }
             }

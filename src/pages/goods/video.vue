@@ -75,7 +75,7 @@
 								</view>
 								<view class="triangle"></view>
 							</view>
-							<image class="image" src="/static/image/video-goods.png" @click="goodBool = !goodBool"></image>
+							<image class="image" src="https://yewi.vvv6g.cn/web/mini_images/video-goods.png" @click="goodBool = !goodBool"></image>
 						</view>
 					</view>
 					<view class="right dir-left-nowrap">
@@ -1029,7 +1029,7 @@ import {mapGetters, mapState} from 'vuex';
 			>.button {
 				width: #{50upx};
 				height: #{50upx};
-				background-image: url("../../static/image/icon/add-to.png");
+				background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/add-to.png");
 				background-size: 100% 100%;
 				background-repeat: no-repeat;
 				margin: #{0 4upx 0 0};

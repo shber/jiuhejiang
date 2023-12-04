@@ -36,7 +36,7 @@
                         </view>
                     </view>
                     <view @click="shareClick" :style="{'background-color': getTheme.background}" class="share dir-left-nowrap main-center cross-center box-grow-0">
-                        <image class="bd-icon box-grow-0" src="/static/image/icon/icon-share-white.png"></image>
+                        <image class="bd-icon box-grow-0" src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-share-white.png"></image>
                         <view class="box-grow-0">分享</view>
                     </view>
                     <view>

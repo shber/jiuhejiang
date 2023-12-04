@@ -7,7 +7,7 @@
                            v-model="keyword">
                     <view class="close-tip" @click="clear">
                         <image class="search-close" v-if="keyword"
-                               src="/static/image/icon/delete-yuan.png"></image>
+                               src="https://yewi.vvv6g.cn/web/mini_images/icon/delete-yuan.png"></image>
                     </view>
                     <view class="box-grow-0 cross-center" @click="search">搜索</view>
                 </view>
@@ -16,7 +16,7 @@
                 <template v-if="!list.length">
                     <view class="main-center no-result" style="margin-top: 100rpx">
                         <view class="dir-left-nowrap cross-center">
-                            <image class="box-grow-0 empty" src="../../static/image/icon/empty.png"></image>
+                            <image class="box-grow-0 empty" src="https://yewi.vvv6g.cn/web/mini_images/icon/empty.png"></image>
                             <view class="box-grow-1">
                                 <view>抱歉，没有相关门店</view>
                             </view>

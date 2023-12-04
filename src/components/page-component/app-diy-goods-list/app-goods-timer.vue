@@ -2,7 +2,7 @@
     <view class="dir-left-nowrap app-goods-timer cross-center" :class="listClass" :style="{'background-color': listStyle == 1 || listStyle == 2 ?theme.background :''}">
         <template v-if="listStyle === -1">
             <!-- 列表模式 -->
-            <image class="box-grow-0 img" src="../../../static/image/icon/time.png"></image>
+            <image class="box-grow-0 img" src="https://yewi.vvv6g.cn/web/mini_images/icon/time.png"></image>
             <view class="box-grow-0 timer-1">{{timer}}</view>
             <view class="box-grow-1" :style="{'color': theme.color}" v-if="timerStr">&nbsp;&nbsp;&nbsp;{{timerStr}}</view>
         </template>

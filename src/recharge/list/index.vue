@@ -10,7 +10,7 @@
         <view class="rechargeList">
             <view class="list" v-for="item in payList" :key="item.id">
                 <view class="list_left">
-                    <image src="/static/image/recharge/fast.png" class='icon_fast'></image>
+                    <image src="https://yewi.vvv6g.cn/web/mini_images/recharge/fast.png" class='icon_fast'></image>
                     <view>
                         <view class="house_group">
                             楼宇:<text class="mr_5">{{item.build_name}}</text> 
@@ -19,7 +19,7 @@
                             房号:<text>{{item.number}}</text>
                         </view>
                         <view class="time_text">
-                            <image src="/static/image/recharge/time.png" class='icon_time'></image>
+                            <image src="https://yewi.vvv6g.cn/web/mini_images/recharge/time.png" class='icon_time'></image>
                             {{item.created_at}}
                         </view>
                     </view>

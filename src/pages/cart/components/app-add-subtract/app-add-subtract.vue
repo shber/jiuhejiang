@@ -1,13 +1,13 @@
 <template>
 	<view class="app-add-subtract dir-left-nowrap cross-center">
 		<image class="app-icon" @click.stop="_calcValue('minus')"
-			   :src="inputValue <= min ? background == '#ffffff' ? '/static/image/cart/unreducible.png' : '/static/image/cart/unreducible-gray.png' : '/static/image/icon/subtract.png'"
+			   :src="inputValue <= min ? background == '#ffffff' ? 'https://yewi.vvv6g.cn/web/mini_images/cart/unreducible.png' : 'https://yewi.vvv6g.cn/web/mini_images/cart/unreducible-gray.png' : 'https://yewi.vvv6g.cn/web/mini_images/icon/subtract.png'"
 			  ></image>
 <!--		<view class="app-value">-->
 			<input width="88rpx" height="60rpx" v-model="inputValue" class="text" @blur.stop="_onBlur" type="number" :style="{'background-color':background}">
 <!--		</view>-->
 		<image class="app-icon" v-show="is_loading" @load="imgLoad"  @click.stop="_calcValue('plus')"
-			   :src="inputValue >= stock ? background == '#ffffff' ? '/static/image/cart/can-add.png' : '/static/image/cart/can-add-gray.png' : background == '#ffffff' ? '/static/image/icon/add-but.png':'/static/image/icon/add-but-gray.png'"
+			   :src="inputValue >= stock ? background == '#ffffff' ? 'https://yewi.vvv6g.cn/web/mini_images/cart/can-add.png' : 'https://yewi.vvv6g.cn/web/mini_images/cart/can-add-gray.png' : background == '#ffffff' ? 'https://yewi.vvv6g.cn/web/mini_images/icon/add-but.png':'https://yewi.vvv6g.cn/web/mini_images/icon/add-but-gray.png'"
 			   :style="{'background-color': theme.background}"></image>
 	</view>
 </template>
@@ -133,16 +133,16 @@
             margin-top: #{4rpx};
         }
 		.app-unreducible {
-			background-image: url("../../../../static/image/cart/unreducible.png");
+			background-image: url("https://yewi.vvv6g.cn/web/mini_images/cart/unreducible.png");
 		}
 		.app-not-add {
-			background-image: url("../../../../static/image/cart/can-add.png");
+			background-image: url("https://yewi.vvv6g.cn/web/mini_images/cart/can-add.png");
 		}
 		.app-can-add {
-			background-image: url("../../../../static/image/icon/add-but.png");
+			background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/add-but.png");
 		}
 		.app-can-be-reduced {
-			background-image: url("../../../../static/image/icon/subtract.png");
+			background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/subtract.png");
 		}
             input {
                 font-size: #{30rpx};

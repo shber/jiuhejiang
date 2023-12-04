@@ -24,7 +24,7 @@
                     <!-- #endif -->
                 </view>
                 <view class="box-grow-0" v-if="showArrow" :style="{'padding': padding}">
-                    <image class="arrow" src="/static/image/icon/arrow-right.png"
+                    <image class="arrow" src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png"
                            style="width: 12rpx;height: 22rpx;"></image>
                 </view>
             </view>
@@ -47,7 +47,7 @@
                 <!-- #endif -->
             </view>
             <view class="box-grow-0" v-if="showArrow" :style="{'padding': padding}">
-                <image class="arrow" src="/static/image/icon/arrow-right.png"
+                <image class="arrow" src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png"
                        style="width: 12rpx;height: 22rpx;"></image>
             </view>
         </view>

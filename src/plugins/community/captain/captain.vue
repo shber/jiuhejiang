@@ -17,7 +17,7 @@
                         </view>
                     </view>
                 </view>
-                <image class="arrow-image" src="/static/image/icon/right.png"></image>
+                <image class="arrow-image" src="https://yewi.vvv6g.cn/web/mini_images/icon/right.png"></image>
             </view>
         </view>
         <view v-if="list.length == 0 && !loading" class="empty-box">

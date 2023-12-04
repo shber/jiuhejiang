@@ -52,22 +52,22 @@
                 <image class="logo" src='./../image/express.png'></image>
                 <view class="express-company">{{detail.detailExpress[0].express}}</view>
                 <view class="express-number">运单编号：{{detail.detailExpress[0].express_no}}</view>
-                <image v-if="detail.detailExpress[0].express" class="to-more" src='/static/image/icon/arrow-right.png'></image>
+                <image v-if="detail.detailExpress[0].express" class="to-more" src='https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png'></image>
             </view>
             <view @click="toExpressInfo(order)" class="express" v-else-if="order.detailExpress[0].express_no">
                 <image class="logo" src='./../image/express.png'></image>
                 <view class="express-company">{{order.detailExpress[0].express}}</view>
                 <view v-if="order.detailExpress[0].express" class="express-number">运单编号：{{order.detailExpress[0].express_no}}</view>
-                <image v-if="order.detailExpress[0].express" class="to-more" src='/static/image/icon/arrow-right.png'></image>
+                <image v-if="order.detailExpress[0].express" class="to-more" src='https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png'></image>
             </view>
         </view>
         <view class="express" v-if="(order.detailExpress && order.detailExpress.length > 1) || (order.is_send == 0 && order.detailExpress &&  order.detailExpress.length >= 1)" @click="toExpressMore(order)">
             <view class="showMore">该订单已拆成多个包裹发货，点击查看详情</view>
-            <image class="to-more" src='/static/image/icon/arrow-right.png'></image>
+            <image class="to-more" src='https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png'></image>
         </view>
         <view class="express" v-else-if="(detail.detailExpress && detail.detailExpress.length > 1) || (detail.is_send == 0 && detail.detailExpress && detail.detailExpress.length >= 1)" @click="toExpressMore(detail)">
             <view class="showMore">该订单已拆成多个包裹发货，点击查看详情</view>
-            <image class="to-more" src='/static/image/icon/arrow-right.png'></image>
+            <image class="to-more" src='https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png'></image>
         </view>
         <view class="composition" v-if="order.sign === 'composition'">
             <view v-for="(list,idx) in order.composition_list" class="composition-item" :key="idx">
@@ -88,8 +88,8 @@
                 <view class="composition-open main-center">
                     <view @click="toggle(idx)" class="composition-btn">
                         <text>{{list.show ? '点击收起套餐详情' : '点击展开套餐详情'}}</text>
-                        <image v-if="!list.show" src="/static/image/icon/icon-down.png"></image>
-                        <image v-else src="/static/image/icon/icon-up.png"></image>
+                        <image v-if="!list.show" src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-down.png"></image>
+                        <image v-else src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-up.png"></image>
                     </view>
                 </view>
             </view>
@@ -216,7 +216,7 @@
                 </view>
                 <view class="sc" v-if="((order.detailExpress && order.detailExpress.length == 1) || order.city_name) && order.is_send == 1">
                     <view class="dir-left-nowrap cross-center city-service">
-                        <image class="head" src="/static/image/icon/deliveryman.png"></image>
+                        <image class="head" src="https://yewi.vvv6g.cn/web/mini_images/icon/deliveryman.png"></image>
                         <template v-if="order.detailExpress[0].status == 101">
                             <view class="await-man">等待分配骑手</view>
                         </template>
@@ -227,13 +227,13 @@
                             </view>
                             <view class="icon-box">
                                 <app-jump-button open_type="tel" :number="order.city_mobile ? order.city_mobile : order.detailExpress[0].city_mobile">
-                                    <image class="icon" src="/static/image/icon/store-tel.png"></image>
+                                    <image class="icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/store-tel.png"></image>
                                 </app-jump-button>
                             </view>
                             <!-- 第三方配送才有地图信息 -->
                             <view v-if="order.detailExpress[0].send_type == 1" class="icon-box">
                                 <app-jump-button open_type="navigate" :url="'/pages/order/city-map/city-map?express_id=' + order.detailExpress[0].id">
-                                    <image class="icon" src="/static/image/icon/see-location.png"></image>
+                                    <image class="icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/see-location.png"></image>
                                 </app-jump-button>
                             </view>
                         </template>

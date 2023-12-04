@@ -20,7 +20,7 @@
                 </view>
                 <view style="flex-grow: 1" @click="getList('one')">
                     <view class='cat-info dir-right-nowrap cross-center'>
-                        <image class="to-more" src='/static/image/icon/arrow-right.png'></image>
+                        <image class="to-more" src='https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png'></image>
                         <text style="color: #353535;width: 90%;text-align: right;" class="t-omit" v-if="parents">{{parents.label}}</text>
                         <text style="color: #cdcdcd" v-else>请选择归属的一级分类</text>
                     </view>
@@ -32,7 +32,7 @@
                 </view>
                 <view style="flex-grow: 1" @click="getList('two')">
                     <view class='cat-info dir-right-nowrap cross-center'>
-                        <image class="to-more" src='/static/image/icon/arrow-right.png'></image>
+                        <image class="to-more" src='https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png'></image>
                         <text style="color: #353535;width: 90%;text-align: right;" class="t-omit" v-if="parents_two">{{parents_two.label}}</text>
                         <text style="color: #cdcdcd" v-else>请选择归属的二级分类</text>
                     </view>
@@ -57,7 +57,7 @@
                 </view>
                 <view>
                     <view @click="add('pic_url')" class='cat-info dir-right-nowrap cross-center'>
-                        <image class="to-more" src='/static/image/icon/arrow-right.png'></image>
+                        <image class="to-more" src='https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png'></image>
                         <image v-if="catItem.pic_url" class="cat-pic" :src="catItem.pic_url"></image>
                         <text style="color: #cdcdcd" v-else>请上传分类图标</text>
                     </view>
@@ -70,7 +70,7 @@
                 </view>
                 <view>
                     <view @click="add('big_pic_url')" class='cat-info dir-right-nowrap cross-center'>
-                        <image class="to-more" src='/static/image/icon/arrow-right.png'></image>
+                        <image class="to-more" src='https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png'></image>
                         <image v-if="catItem.big_pic_url" class="cat-pic big" :src="catItem.big_pic_url"></image>
                         <text style="color: #cdcdcd" v-else>请上传分类大图</text>
                     </view>
@@ -83,7 +83,7 @@
                 </view>
                 <view>
                     <view @click="add('advert_pic')" class='cat-info dir-right-nowrap cross-center'>
-                        <image class="to-more" src='/static/image/icon/arrow-right.png'></image>
+                        <image class="to-more" src='https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png'></image>
                         <image v-if="catItem.advert_pic" class="cat-pic advert" :src="catItem.advert_pic"></image>
                         <text style="color: #cdcdcd" v-else>请上传分类广告图</text>
                     </view>
@@ -95,7 +95,7 @@
                 </view>
                 <view style="flex-grow: 1" @click="getList('ad')">
                     <view class='cat-info dir-right-nowrap cross-center'>
-                        <image class="to-more" src='/static/image/icon/arrow-right.png'></image>
+                        <image class="to-more" src='https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png'></image>
                         <text v-if="catItem.advert_url">{{catItem.advert_url}}</text>
                         <text style="color: #cdcdcd" v-else>请选择链接</text>
                     </view>

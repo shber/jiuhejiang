@@ -51,7 +51,7 @@
                             <picker @change="expressListChange" :value="expressIndex" range-key="name" :range="expressList">
                                 <view>
                                     <span :class="{'select-label-active': express}" class="select-label">{{express ? expressList[expressIndex].name : '请选择'}}</span>
-                                    <image class="arrow-right" src="/static/image/icon/arrow-right.png"></image>
+                                    <image class="arrow-right" src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png"></image>
                                 </view>
                             </picker>
                         </view>

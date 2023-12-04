@@ -26,7 +26,7 @@
             },
             src: {
                 type: String,
-                default: '/static/image/icon/goods-cart.png'
+                default: 'https://yewi.vvv6g.cn/web/mini_images/icon/goods-cart.png'
             },
             sign: String,
             theme: String,
@@ -68,6 +68,6 @@
 .bd-image {
     background-repeat: no-repeat;
     background-size: 101% 101%;
-    background-image:url("../../../static/image/icon/goods-cart.png");
+    background-image:url("https://yewi.vvv6g.cn/web/mini_images/icon/goods-cart.png");
 }
 </style>

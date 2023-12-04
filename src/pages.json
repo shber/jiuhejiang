@@ -2,10 +2,11 @@
  * @Author: Shber
  * @Date: 2022-11-17 11:09:30
  * @LastEditors: Shber
- * @LastEditTime: 2023-12-04 11:55:13
+ * @LastEditTime: 2023-12-04 14:21:41
  * @Description: 
  */
 {
+    "lazyCodeLoading": "requiredComponents",
     "pages": [
         {
             "path": "pages/index/index",

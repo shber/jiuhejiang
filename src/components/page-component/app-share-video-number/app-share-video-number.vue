@@ -2,7 +2,7 @@
     <view v-if="isShow" class="app-share-video-number" @click.prevent.stop="">
        <!-- 视频号弹框 -->
         <view class="item" v-if="isLoading">
-            <image @click.prevent.stop="close" class="close" src="/static/image/icon/icon-close.png"></image>
+            <image @click.prevent.stop="close" class="close" src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-close.png"></image>
             <view class="title">视频号链接</view>
             <view v-if="article_url">
                 <view class="content">{{article_url}}</view>

@@ -31,7 +31,7 @@
                         <view class="u-stock">库存：{{stock}}</view>
                     </view>
                     <view class="u-close-image" @click="close">
-                        <image class="bd-close-image u-border-box" src="/static/image/icon/icon-close.png" ></image>
+                        <image class="bd-close-image u-border-box" src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-close.png" ></image>
                     </view>
                 </view>
                 <view class="u-center">
@@ -661,13 +661,13 @@
         margin-left: 5upx;
     }
     .u-reduced-1 {
-        background-image: url("../../../static/image/icon/can-be-reduced.png");
+        background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/can-be-reduced.png");
     }
     .u-reduced-0 {
-        background-image: url("../../../static/image/cart/can-be-reduced.png");
+        background-image: url("https://yewi.vvv6g.cn/web/mini_images/cart/can-be-reduced.png");
     }
     .u-added-1 {
-        background-image: url("../../../static/image/cart/can-be-added.png");
+        background-image: url("https://yewi.vvv6g.cn/web/mini_images/cart/can-be-added.png");
     }
     .u-text {
         font-size: 26upx;

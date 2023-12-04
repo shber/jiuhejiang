@@ -8,7 +8,7 @@
 <template>
   <app-layout>
   <view class="recharge_index recharge_shadow">
-    <image src="/static/image/recharge/index_bg.png" class='bg'></image>
+    <image src="https://yewi.vvv6g.cn/web/mini_images/recharge/index_bg.png" class='bg'></image>
       
     <view class="card_info">
       <view class="house_info">
@@ -22,14 +22,14 @@
         <view>房号：xx</view>
       </view>
       <view class="together"><text>同住人列表</text> 
-        <image src="/static/image/recharge/right.png" class='turn_right'></image>
+        <image src="https://yewi.vvv6g.cn/web/mini_images/recharge/right.png" class='turn_right'></image>
       </view>
     </view>
     <view class="card_info">
       <view class="house_info">
         <text class="label">物业预存金</text>
         <view class="left_laber">        
-          <image src="/static/image/recharge/question.png" class='icon_question'></image>
+          <image src="https://yewi.vvv6g.cn/web/mini_images/recharge/question.png" class='icon_question'></image>
           预存金说明</view>
       </view>
       <view>
@@ -45,10 +45,10 @@
 
     <view class="bottom_group">
       <view>
-        <image src="/static/image/recharge/bottom1.png" class='bottom_img'></image>
+        <image src="https://yewi.vvv6g.cn/web/mini_images/recharge/bottom1.png" class='bottom_img'></image>
       </view>
       <view>
-        <image src="/static/image/recharge/bottom2.png" class='bottom_img'></image>
+        <image src="https://yewi.vvv6g.cn/web/mini_images/recharge/bottom2.png" class='bottom_img'></image>
       </view>
     </view>
 

@@ -337,11 +337,11 @@
     }
 
     .app-quick-navigation {
-        background-image: url("../../../static/image/icon/quick-navigation.png");
+        background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/quick-navigation.png");
     }
 
     .app-collapse {
-        background-image: url("../../../static/image/icon/collapse.png");
+        background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/collapse.png");
     }
 
     .app-icon {

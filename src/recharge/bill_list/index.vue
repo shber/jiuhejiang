@@ -20,7 +20,7 @@
                         <view class="flex_right">
                             <view class="flex_center">
                                 <view style="display: flex; align-items: center;">
-                                    <image src="/static/image/recharge/time.png" class='icon_time'></image>
+                                    <image src="https://yewi.vvv6g.cn/web/mini_images/recharge/time.png" class='icon_time'></image>
                                     <text class="time_text">{{item.created_at}}</text>
                                 </view>
                                 <text class="status_text status1" v-if="item.status === '1'">待缴费</text>
@@ -28,7 +28,7 @@
                                 <text class="status_text" v-else>免缴费</text>
                             </view>
                             <view style="display: flex; align-items: center;">
-                                <image src="/static/image/recharge/fast.png" class='icon_fast'></image>
+                                <image src="https://yewi.vvv6g.cn/web/mini_images/recharge/fast.png" class='icon_fast'></image>
                                 <view>
                                     楼宇: <text class="mr_5">{{item.build_name}}</text> 
                                     单元: <text class="mr_5">{{item.unit}}</text> 
@@ -47,7 +47,7 @@
                 </view>
             </view>
             <view v-else class="empty_group"> 
-                <image src="/static/image/recharge/empty.png" class='empty'></image>
+                <image src="https://yewi.vvv6g.cn/web/mini_images/recharge/empty.png" class='empty'></image>
                 暂无数据
             </view>
             <view class="fixed_group" v-if="list.length > 0">
@@ -65,7 +65,7 @@
                 <radio-group @change="radioChange">
                     <label class="uni-list-cell uni-list-cell-pd ordio_item" v-for="(item, index) in itemsInfo" :key="item.val">
                         <view class="img_group">
-                            <image :src="item.val == '1' ? '/static/image/recharge/money.png' : '/static/image/recharge/wechat.png' " class='rodio_icon'></image>
+                            <image :src="item.val == '1' ? 'https://yewi.vvv6g.cn/web/mini_images/recharge/money.png' : 'https://yewi.vvv6g.cn/web/mini_images/recharge/wechat.png' " class='rodio_icon'></image>
                             <view>
                                 <text class="radio_name">{{item.name}}</text>
                                 <text v-if="item.val == '1'" class="radio_text">账户余额：{{dataInfo.price}}</text>

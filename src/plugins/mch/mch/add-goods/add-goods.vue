@@ -35,7 +35,7 @@
                     <view class="form-label">商品分类</view>
                     <view @click="chooseCat('mall')">
                         <view class='cat-info dir-right-nowrap cross-center'>
-                            <image class="to-more" src='/static/image/icon/arrow-right.png'></image>
+                            <image class="to-more" src='https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png'></image>
                             <text v-if="beCat.length > 0">编辑</text>
                             <text v-else>未选择</text>
                         </view>
@@ -45,7 +45,7 @@
                     <view class="form-label">多商户分类</view>
                     <view @click="chooseCat('mch')">
                         <view class='cat-info dir-right-nowrap cross-center'>
-                            <image class="to-more" src='/static/image/icon/arrow-right.png'></image>
+                            <image class="to-more" src='https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png'></image>
                             <text v-if="beMchCat.length > 0">编辑</text>
                             <text v-else>未选择</text>
                         </view>
@@ -68,7 +68,7 @@
                     <view class="form-label">商品规格</view>
                     <view @click="chooseAttr">
                         <view class='cat-info dir-right-nowrap cross-center'>
-                            <image class="to-more" src='/static/image/icon/arrow-right.png'></image>
+                            <image class="to-more" src='https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png'></image>
                             <text v-if="attr">已设置</text>
                             <text style="color: #cdcdcd" v-else>未设置，点击设置</text>
                         </view>
@@ -128,7 +128,7 @@
                     <view class="form-label">运费设置</view>
                     <view @click="chooseExpress">
                         <view class='cat-info dir-right-nowrap cross-center'>
-                            <image class="to-more" src='/static/image/icon/arrow-right.png'></image>
+                            <image class="to-more" src='https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png'></image>
                             <text v-if="bePostage.id > -1">{{bePostage.name}}</text>
                             <text v-else>未选择</text>
                         </view>
@@ -138,7 +138,7 @@
                     <view class="form-label">包邮规则</view>
                     <view @click="chooseDelivery">
                         <view class='cat-info dir-right-nowrap cross-center'>
-                            <image class="to-more" src='/static/image/icon/arrow-right.png'></image>
+                            <image class="to-more" src='https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png'></image>
                             <text v-if="beDelivery.id > -1">{{beDelivery.name}}</text>
                             <text style="color: #cdcdcd" v-else>未选择</text>
                         </view>
@@ -192,7 +192,7 @@
                     <view class="form-label">商品图文描述</view>
                     <view @click="toGoodsDetail">
                         <view class='cat-info dir-right-nowrap cross-center'>
-                            <image class="to-more" src='/static/image/icon/arrow-right.png'></image>
+                            <image class="to-more" src='https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png'></image>
                             <text v-if="goods_detail.length > 0">已添加</text>
                             <text v-else>未添加</text>
                         </view>
@@ -209,7 +209,7 @@
                     <view class="form-label">服务内容</view>
                     <view @click="chooseService">
                         <view class='cat-info dir-right-nowrap cross-center'>
-                            <image class="to-more" src='/static/image/icon/arrow-right.png'></image>
+                            <image class="to-more" src='https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png'></image>
                             <text class="service-text" v-if="beService.length > 0">
                                 <text v-for="(item,index) in beService" :key="index">
                                     <text v-if="index > 0">，</text>
@@ -231,7 +231,7 @@
                 <view class='dialog-title'>服务内容</view>
                 <view v-if="is_service" v-for="(item,index) in service" :key="index" @click='choose(item)' class="dir-left-nowrap type-choose" >
                     <image v-if="item.isChoose" class="active-status" src='./../../image/apply-ok.png'></image>
-                    <image v-else class="active-status" src='/static/image/icon/form-er.png'></image>
+                    <image v-else class="active-status" src='https://yewi.vvv6g.cn/web/mini_images/icon/form-er.png'></image>
                     <view :class="[`${item.isChoose ? 'active':''}`]">{{item.name}}</view>
                 </view>
                 <view class="main-center btn-area">

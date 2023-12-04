@@ -149,23 +149,23 @@ export default {
             typesettingList: [{
                 label: '1张图',
                     value: 1,
-                    pic_url: '../../static/image/poster/pic-one.png'
+                    pic_url: 'https://yewi.vvv6g.cn/web/mini_images/poster/pic-one.png'
                 }, {
                     label: '2张图',
                     value: 2,
-                    pic_url: '../../static/image/poster/pic-two.png'
+                    pic_url: 'https://yewi.vvv6g.cn/web/mini_images/poster/pic-two.png'
                 }, {
                     label: '3张图',
                     value: 3,
-                    pic_url: '../../static/image/poster/pic-three.png'
+                    pic_url: 'https://yewi.vvv6g.cn/web/mini_images/poster/pic-three.png'
                 }, {
                     label: '4张图',
                     value: 4,
-                    pic_url: '../../static/image/poster/pic-four.png'
+                    pic_url: 'https://yewi.vvv6g.cn/web/mini_images/poster/pic-four.png'
                 }, {
                     label: '5张图',
                     value: 5,
-                    pic_url: '../../static/image/poster/pic-five.png'
+                    pic_url: 'https://yewi.vvv6g.cn/web/mini_images/poster/pic-five.png'
                 }],
                 typeList: [],
                 colorList: [],
@@ -342,7 +342,7 @@ export default {
                     height: #{56rpx};
 
                     icon {
-                        background-image: url("../../static/image/poster/mark.png");
+                        background-image: url("https://yewi.vvv6g.cn/web/mini_images/poster/mark.png");
                         background-size: 100% 100%;
                         height: #{21rpx};
                         width: #{21rpx};
@@ -390,7 +390,7 @@ export default {
             }
 
             .icon-active {
-                background-image: url("../../static/image/poster/input-active.png");
+                background-image: url("https://yewi.vvv6g.cn/web/mini_images/poster/input-active.png");
                 height: #{38rpx};
                 width: #{38rpx};
                 background-repeat: no-repeat;

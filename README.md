@@ -210,7 +210,7 @@ Node.js + 小程序开发者工具
 
 ### 静态图片
 
-- 通用图片 ./static/image/
+- 通用图片 https://yewi.vvv6g.cn/web/mini_images/
 
 - 单独图片 组件下或页面下 ./image/
 

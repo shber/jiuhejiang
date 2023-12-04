@@ -1,6 +1,6 @@
 <template>
     <view @click="back" :class="iconStyle == 1 ? 'bd-back-style-1' : 'bd-back-style-2 cross-center main-center'" :style="{'height': iconStyle == 2 ? height + 'upx' : '46upx','width': iconStyle == 2 ? width + 'upx' : '46upx'}">
-        <image class="back-icon" v-if="iconStyle == 2" :src="moreRank ? '../../../../static/image/icon/h5-back-2.png' : '../../../static/image/icon/h5-back-2.png'" alt=""></image>
+        <image class="back-icon" v-if="iconStyle == 2" :src="moreRank ? 'https://yewi.vvv6g.cn/web/mini_images/icon/h5-back-2.png' : 'https://yewi.vvv6g.cn/web/mini_images/icon/h5-back-2.png'" alt=""></image>
     </view>
 </template>
 
@@ -54,7 +54,7 @@ export default {
         left:24upx;
         z-index: 1500;
         background-repeat: no-repeat;
-        background-image: url("../../../static/image/icon/h5-back.png");
+        background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/h5-back.png");
         background-size: 100% 100%;
     }
     .bd-back-style-2 {

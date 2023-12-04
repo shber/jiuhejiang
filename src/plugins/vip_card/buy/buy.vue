@@ -40,7 +40,7 @@
                     </view>
                     <view @click="toDetail" class="to-detail main-center cross-center">
                         <view>详情</view>
-                        <image src="/static/image/icon/arrow-right.png"></image>
+                        <image src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png"></image>
                     </view>
                 </view>
             </view>
@@ -68,22 +68,22 @@
                     <view @click="toIntegral" class="gift-item" v-if="card.send_integral_num > 0">
                         <image class="gift-icon" :src="list.form.integral_icon != 'statics/img/app/vip_card/integral.png'?list.form.integral_icon:svipImg.integral"></image>
                         <view>积分{{card.send_integral_num}}</view>
-                        <image src="/static/image/icon/arrow-right.png"></image>
+                        <image src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png"></image>
                     </view>
                     <view @click="toBalance" class="gift-item" v-if="card.send_balance > 0">
                         <image class="gift-icon" :src="list.form.balance_icon != 'statics/img/app/vip_card/balance.png'?list.form.balance_icon:svipImg.balance"></image>
                         <view>余额{{card.send_balance}}</view>
-                        <image src="/static/image/icon/arrow-right.png"></image>
+                        <image src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png"></image>
                     </view>
                     <view @click="toCoupon" class="gift-item" v-if="card.coupons.length > 0">
                         <image class="gift-icon" :src="list.form.coupon_icon != 'statics/img/app/vip_card/coupon.png'?list.form.coupon_icon:svipImg.coupon"></image>
                         <view>优惠券{{total_coupon}}张</view>
-                        <image src="/static/image/icon/arrow-right.png"></image>
+                        <image src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png"></image>
                     </view>
                     <view @click="toCard" class="gift-item" v-if="card.cards.length > 0">
                         <image class="gift-icon" :src="list.form.card_icon != 'statics/img/app/vip_card/card.png'?list.form.card_icon:svipImg.card"></image>
                         <view>卡券{{total_card}}张</view>
-                        <image src="/static/image/icon/arrow-right.png"></image>
+                        <image src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png"></image>
                     </view>
                     <view @click="toBack" class="dialog-btn">我知道了</view>    
                 </view>

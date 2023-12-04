@@ -74,7 +74,7 @@
         <view class='dialog-bg' v-if="lose || success">
             <view class='dialog'>
                 <view @click="close">
-                    <image class='close' src='/static/image/icon/icon-close.png'></image>
+                    <image class='close' src='https://yewi.vvv6g.cn/web/mini_images/icon/icon-close.png'></image>
                 </view>
                 <view class='lose' v-if="lose">
                     <image class='lose-img' src='./../image/lose.png'></image>

@@ -28,7 +28,7 @@
             <view class="dir-left-nowrap cross-center cash-type" @click="cashTypeModel = true">
                 <view class="box-grow-1">提现方式</view>
                 <view class="box-grow-0">{{cashName}}</view>
-                <image class="box-grow-0 arrow-image" src="/static/image/icon/arrow-right.png"></image>
+                <image class="box-grow-0 arrow-image" src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png"></image>
             </view>
 
             <view v-if="mark_num==1 || mark_num ==2 || mark_num == 3" class="cash-info">

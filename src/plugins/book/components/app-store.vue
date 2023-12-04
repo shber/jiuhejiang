@@ -113,7 +113,7 @@
 			height: #{22rpx};
 			background-size: 100% 100%;
 			background-repeat: no-repeat;
-			background-image: url("../../../static/image/icon/arrow-right.png");
+			background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png");
 		}
 		.app-list-border {
 			border-bottom: #{1rpx} solid #e2e2e2;

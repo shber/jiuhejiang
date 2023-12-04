@@ -84,7 +84,7 @@
 				right: #{32rpx};
 				background-repeat: no-repeat;
 				background-size: 100% 100%;
-				background-image: url("../../../static/image/icon/close.png");
+				background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/close.png");
 			}
 			.app-text {
 				font-size: #{33rpx};

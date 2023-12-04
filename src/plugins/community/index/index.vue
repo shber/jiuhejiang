@@ -17,7 +17,7 @@
                                 <image mode='aspectFill' :src="goods.cover_pic"></image>
                             </view>
                         </view>
-                        <image class="right-arrow" src="/static/image/icon/arrow-right.png"></image>
+                        <image class="right-arrow" src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png"></image>
                     </view>
                     <view class="main-between cross-center other">
                         <view>共{{item.goods_count}}件商品</view>
@@ -31,7 +31,7 @@
                 </view>
             </view>
             <view v-else class="empty-box">
-                <image src="/static/image/order-empty.png"></image>
+                <image src="https://yewi.vvv6g.cn/web/mini_images/order-empty.png"></image>
                 <span>暂无{{activeTab == 0?'未开始': activeTab == 1?'进行中':activeTab == 2?'已结束':''}}活动</span>
             </view>
             <view>

@@ -29,8 +29,8 @@
 	        <view class='other' :style="{'background':`linear-gradient(to bottom,${customize.end_bg},${customize.end_style == 1 ? customize.end_gradient_bg : customize.end_bg})`,'min-height':`${other_height}`}">
 	            <view class='reward' v-if="config.continue.length > 0">
 	                <view :class="[`reward-item`, `${item.day == config.continue[0].day ? 'no-top':''}`]" v-for="(item, index) in config.continue" :key="index" :style="{'border-color':`${customize.line_font}`}">
-	                    <image load-lazy='true' class='reward-icon' v-if="item.type =='integral'" :src="customize.integral_icon ? customize.integral_icon : '/static/image/integral.png'"></image>
-	                    <image load-lazy='true' class='reward-icon' v-if="item.type =='balance'" :src="customize.balance_icon ? customize.balance_icon : '/static/image/hongbao.png'"></image>
+	                    <image load-lazy='true' class='reward-icon' v-if="item.type =='integral'" :src="customize.integral_icon ? customize.integral_icon : 'https://yewi.vvv6g.cn/web/mini_images/integral.png'"></image>
+	                    <image load-lazy='true' class='reward-icon' v-if="item.type =='balance'" :src="customize.balance_icon ? customize.balance_icon : 'https://yewi.vvv6g.cn/web/mini_images/hongbao.png'"></image>
 	                    <view class='reward-title'>连续签到{{item.day}}天</view>
 	                    <view class='reward-content' v-if="item.type =='integral'">赠送{{item.number}}积分</view>
 	                    <view class='reward-content' v-if="item.type =='balance'">赠送{{item.number}}元余额红包</view>
@@ -44,8 +44,8 @@
 	            </view>
 	            <view class='reward balance-reward' v-if="config.total.length > 0">
 	                <view class='reward-item' v-for="(item, index) in config.total" :key="index">
-	                    <image load-lazy='true' class='reward-icon' v-if="item.type =='integral'" :src="customize.integral_icon ? customize.integral_icon : '/static/image/integral.png'"></image>
-	                    <image load-lazy='true' class='reward-icon' v-if="item.type =='balance'" :src="customize.balance_icon ? customize.balance_icon : '/static/image/hongbao.png'"></image>
+	                    <image load-lazy='true' class='reward-icon' v-if="item.type =='integral'" :src="customize.integral_icon ? customize.integral_icon : 'https://yewi.vvv6g.cn/web/mini_images/integral.png'"></image>
+	                    <image load-lazy='true' class='reward-icon' v-if="item.type =='balance'" :src="customize.balance_icon ? customize.balance_icon : 'https://yewi.vvv6g.cn/web/mini_images/hongbao.png'"></image>
 	                    <view class='reward-title'>累积签到{{item.day}}天</view>
 	                    <view class='reward-content' v-if="item.type =='integral'">赠送{{item.number}}积分</view>
 	                    <view class='reward-content' v-if="item.type =='balance'">赠送{{item.number}}元余额红包</view>
@@ -67,7 +67,7 @@
 	                <view class='day-title main-center cross-center'>
 	                    <view @click="lose">
 	                    	<view class="toggle-btn main-center cross-center">
-	                        	<image load-lazy='true' src='/static/image/icon/arrow-left.png'></image>
+	                        	<image load-lazy='true' src='https://yewi.vvv6g.cn/web/mini_images/icon/arrow-left.png'></image>
 	                    	</view>
 	                    </view>
 	                    <view class='date'>
@@ -78,7 +78,7 @@
 	                    </view>
 	                    <view @click="add">
 	                    	<view class="toggle-btn main-center cross-center">
-	                        	<image load-lazy='true' src='/static/image/icon/arrow-right.png'></image>
+	                        	<image load-lazy='true' src='https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png'></image>
 	                    	</view>
 	                    </view>
 	                </view>
@@ -112,7 +112,7 @@
 	            <image load-lazy='true' class='success-img' v-if="success" :src='checkImg.app_image.success'></image>
 	            <image load-lazy='true' class='success-img' v-else :src='checkImg.app_image.get'></image>
 	            <view class='getPrice main-center'>
-	                <image load-lazy='true' v-if="result.type == 'integral'" :src="customize.integral_icon ? customize.integral_icon : '/static/image/integral.png'"></image>
+	                <image load-lazy='true' v-if="result.type == 'integral'" :src="customize.integral_icon ? customize.integral_icon : 'https://yewi.vvv6g.cn/web/mini_images/integral.png'"></image>
 	                <text>+{{result.number}}</text>
 	            </view>
 	            <view v-if="success" class='info'>

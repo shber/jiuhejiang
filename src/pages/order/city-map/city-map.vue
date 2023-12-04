@@ -26,7 +26,7 @@
                     <view class="corporation-name">{{expressData.corporation_name}}</view>
                 </view>
                 <view class="dir-left-nowrap cross-center city-service">
-                    <image class="head" src="/static/image/icon/deliveryman.png"></image>
+                    <image class="head" src="https://yewi.vvv6g.cn/web/mini_images/icon/deliveryman.png"></image>
                     <view class="info-box dir-top-nowrap box-grow-1">
                         <template v-if="expressData.city_name && expressData.city_mobile">
                             <view class="info-label">配送员</view>
@@ -38,7 +38,7 @@
                     </view>
                     <view class="icon-box">
                         <app-jump-button open_type="tel" :number="expressData.city_mobile">
-                            <image class="icon" src="/static/image/icon/store-tel.png"></image>
+                            <image class="icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/store-tel.png"></image>
                         </app-jump-button>
                     </view>
                 </view>
@@ -64,14 +64,14 @@ export default {
             }, {
                 latitude: 0,
                 longitude: 0,
-                iconPath: '/static/image/icon/city-service/my.png',
+                iconPath: 'https://yewi.vvv6g.cn/web/mini_images/icon/city-service/my.png',
                 width: 50,
                 height: 50
             },
             {
                 latitude: 0,
                 longitude: 0,
-                iconPath: '/static/image/icon/city-service/shop.png',
+                iconPath: 'https://yewi.vvv6g.cn/web/mini_images/icon/city-service/shop.png',
                 width: 50,
                 height: 50
             }],

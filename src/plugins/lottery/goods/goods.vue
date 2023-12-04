@@ -43,7 +43,7 @@
                     <view @click="shareClick"
                           :style="{'background-color': getTheme.background}"
                           class="share dir-left-nowrap main-center cross-center">
-                        <image class="share-icon box-grow-0" src="/static/image/icon/icon-share-white.png"></image>
+                        <image class="share-icon box-grow-0" src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-share-white.png"></image>
                         <text class="share-text box-grow-0">分享</text>
                     </view>
 
@@ -592,7 +592,7 @@ export default {
             height: #{22rpx};
             width: #{12rpx};
             margin-left: #{16rpx};
-            background-image: url("../../../static/image/icon/arrow-right.png");
+            background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png");
         }
     }
     .step-info {

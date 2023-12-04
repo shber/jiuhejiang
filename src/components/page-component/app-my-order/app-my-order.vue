@@ -6,7 +6,7 @@
                 <view class="box-grow-1">我的订单</view>
                 <view class="box-grow-0 more">查看更多</view>
                 <view class="box-grow-0">
-                    <image class="arrow" src="/static/image/icon/arrow-right.png"></image>
+                    <image class="arrow" src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png"></image>
                 </view>
             </view>
         </app-form-id>

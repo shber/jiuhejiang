@@ -10,7 +10,7 @@
                     <view class="cross-center rate">
                         <text>{{setting.form && setting.form.rate?setting.form.rate:'分红比例'}}{{captain.level ? captain.level.rate: setting.bonus_rate}}%</text>
                         <view class="rate-icon" @click="toAbout">
-                            <image src="/static/image/icon/question.png"></image>
+                            <image src="https://yewi.vvv6g.cn/web/mini_images/icon/question.png"></image>
                         </view>
                     </view>
                 </view>
@@ -20,7 +20,7 @@
                             <text>{{captain.all_bonus}}</text>元
                         </view>
                         <view>{{setting.form && setting.form.total_bonus?setting.form.total_bonus:'累计分红金额'}}
-                            <image class="right-arrow" src="/static/image/icon/arrow-right-white.png"></image>
+                            <image class="right-arrow" src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right-white.png"></image>
                         </view>
                     </view>
                     <view class="user-bonus-item">
@@ -36,7 +36,7 @@
                     <view>{{setting.form && setting.form.cashd_bonus?setting.form.cashd_bonus:'已提现分红'}}</view>
                     <view class="bonus-price">
                         <text>{{captain.cash_bonus}}</text>元
-                        <image src="/static/image/icon/arrow-right.png"></image>
+                        <image src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png"></image>
                     </view>
                 </view>
             </view>
@@ -58,7 +58,7 @@
                     <image class="order-icon" :src="bonusImg.order"></image>
                     <view class="main-between">
                         <view>{{setting.form && setting.form.orders?setting.form.orders:'分红订单'}}</view>
-                        <image src="/static/image/icon/arrow-right.png"></image>
+                        <image src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png"></image>
                     </view>
                 </view>
             </view>
@@ -67,7 +67,7 @@
                     <image :src="bonusImg.member"></image>
                     <view class="main-between">
                         <view>{{setting.form && setting.form.members?setting.form.members:'队员'}}</view>
-                        <image src="/static/image/icon/arrow-right.png"></image>
+                        <image src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png"></image>
                     </view>
                 </view>
             </view>
@@ -87,8 +87,8 @@
                     </view>
                     <view class="apply-input" v-if="setting.is_agreement == 1">
                         <view class="read" @click="read=!read">
-                            <image src="/static/image/icon/icon-uncheck.png" v-if="read == false"></image>
-                            <image class="check-red" src="/static/image/icon/icon-checkbox-checked.png" v-else></image>
+                            <image src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-uncheck.png" v-if="read == false"></image>
+                            <image class="check-red" src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-checkbox-checked.png" v-else></image>
                         </view>
                         我已经阅读并了解
                         <text style="color:#014c8c" @click="protocol=setting.agreement_content">《{{setting.agreement_title}}》</text>

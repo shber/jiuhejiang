@@ -20,7 +20,7 @@
                             <span class="select-label" :class="{'active': form.cause, 'no-active': !form.cause}">
                                 {{form.cause ? cause.list[cause.index] : '请选择'}}
                             </span>
-                            <image class="arrow-right" src="/static/image/icon/arrow-right.png">
+                            <image class="arrow-right" src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png">
                             </image>
                         </view>
                     </view>

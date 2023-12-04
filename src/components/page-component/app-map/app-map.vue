@@ -48,7 +48,7 @@
         mounted() {
             const self = this;
             let marker = {
-                iconPath: "../../../static/image/summary-map.png",
+                iconPath: "https://yewi.vvv6g.cn/web/mini_images/summary-map.png",
                 id: 0,
                 width: 43,
                 height: 43,

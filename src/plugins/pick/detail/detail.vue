@@ -64,7 +64,7 @@
                     </view>
                     <view class="dir-left-nowrap go cross-center">
                         <view>去凑单</view>
-                        <image src="/static/image/icon/arrow-right.png"></image>
+                        <image src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png"></image>
                     </view>
                 </view>
             </view>
@@ -95,12 +95,12 @@
             <view v-if="is_open == 1" class="safe-area-inset-bottom u-bottom-fixed">
                 <view class="bd-bottom dir-left-nowrap cross-center">
                     <view class="bd-back dir-top-nowrap main-center cross-center box-grow-0" @click="back">
-                        <image class="bd-icon" src="/static/image/icon/index.png"></image>
+                        <image class="bd-icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/index.png"></image>
                         <text class="bd-text">首页</text>
                     </view>
                     <bd-service :name="goods.name" :url="webUrl"></bd-service>
                     <view class="bd-back dir-top-nowrap main-center cross-center box-grow-0" @click="favorite">
-                        <image class="bd-icon" :src="goods.favorite ? '/static/image/icon/icon-favorite-active.png' : '/static/image/icon/icon-favorite.png'"></image>
+                        <image class="bd-icon" :src="goods.favorite ? 'https://yewi.vvv6g.cn/web/mini_images/icon/icon-favorite-active.png' : 'https://yewi.vvv6g.cn/web/mini_images/icon/icon-favorite.png'"></image>
                         <text class="bd-text">收藏</text>
                     </view>
                     <view v-if="goods.goods_num === 0" class="box-grow-1 bd-btn bd-oversell-btn bd-btn-color" >

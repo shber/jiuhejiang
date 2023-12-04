@@ -5,7 +5,7 @@
             <view class="title">
                 <view>支付方式</view>
                 <view class="cancel" @click="cancel">
-                    <image src="/static/image/icon/close.png"></image>
+                    <image src="https://yewi.vvv6g.cn/web/mini_images/icon/close.png"></image>
                 </view>
             </view>
             <view class="pay-amount">支付金额 {{payData.amount}} 元</view>
@@ -26,7 +26,7 @@
                               style="height: 26rpx;width:113rpx"
                               @click.prevent.stop="navPay">
                             <image style="height: 100%;width:100%" load-lazy="true"
-                                   src="/static/image/pay-td.png"></image>
+                                   src="https://yewi.vvv6g.cn/web/mini_images/pay-td.png"></image>
                         </view>
                         <app-radio v-else-if="item.checked" :theme="getTheme" v-model="item.checked"
                                    type="round"></app-radio>
@@ -44,7 +44,7 @@
                             </view>
                         </view>
                         <view class="password-view" v-else-if="printPassword">
-                            <image class="password-close" @click="printPassword = false;setPassword = false;verifyPassword = false;" src="/static/image/icon/icon-close.png"></image>
+                            <image class="password-close" @click="printPassword = false;setPassword = false;verifyPassword = false;" src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-close.png"></image>
                             <view class="password-title">请{{verifyPassword ? '确认':'输入'}}余额支付密码</view>
                             <!-- #ifdef MP-ALIPAY -->
                             <input type="number" :class="!haveFocus ? 'input' :''" @focus="haveFocus=true" @input="passwordInput" @blur="haveFocus=false;getFocus=false" v-model="password">

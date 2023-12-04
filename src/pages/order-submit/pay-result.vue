@@ -26,7 +26,7 @@
                         <template v-if="result.send_data && result.send_data.send_integral_num>0">
                             <view class="item dir-left-nowrap cross-center">
                                 <view class="box-grow-0">
-                                    <image class="integral-img" src="/static/image/integral.png"></image>
+                                    <image class="integral-img" src="https://yewi.vvv6g.cn/web/mini_images/integral.png"></image>
                                 </view>
                                 <view class="box-grow-1">
                                     <view class="send-data-name mb-12">{{result.send_data.send_integral_num}}积分</view>
@@ -46,7 +46,7 @@
                         <template v-if="result.send_data && result.send_data.send_balance>0">
                             <view class="item dir-left-nowrap cross-center">
                                 <view class="box-grow-0">
-                                    <image class="hongbao-img" src="/static/image/hongbao.png"></image>
+                                    <image class="hongbao-img" src="https://yewi.vvv6g.cn/web/mini_images/hongbao.png"></image>
                                 </view>
                                 <view class="box-grow-1">
                                     <view class="send-data-name mb-12">{{result.send_data.send_balance}}元余额红包</view>

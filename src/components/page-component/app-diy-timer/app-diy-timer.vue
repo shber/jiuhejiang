@@ -4,7 +4,7 @@
             <view v-if="picUrl">
                 <app-image :img-src="picUrl" mode="widthFix" width="750rpx" height="auto"></app-image>
             </view>
-            <view :style="{'background-image':  `url(${bgPicUrl ? bgPicUrl : '../../../static/image/icon/icon-timer-bg.png'})`}" class="timer dir-top-nowrap main-center"
+            <view :style="{'background-image':  `url(${bgPicUrl ? bgPicUrl : 'https://yewi.vvv6g.cn/web/mini_images/icon/icon-timer-bg.png'})`}" class="timer dir-top-nowrap main-center"
                   v-if="timerStr">
                 <view v-if="startTime">距离活动开始还有</view>
                 <view v-if="startTime === null && endTime">距离活动结束还有</view>

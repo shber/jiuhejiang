@@ -34,7 +34,7 @@
 						点击这里开始挑选心仪礼物
 					</view>
 				</view>
-				<image class="guide" src="/static/image/icon/arrow-right.png"></image>
+				<image class="guide" src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png"></image>
 			</view>
 			<view v-else class="page-width cart">
 				<view class="page-width item dir-left-nowrap" v-for="(item, key) in gift_list" :key="key">

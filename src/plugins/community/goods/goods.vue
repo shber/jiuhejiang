@@ -41,7 +41,7 @@
                         <view @click="shareShow = true"
                               :style="{'background-color': getTheme.background}"
                               class="app-share-box dir-left-nowrap main-center cross-center">
-                            <image class="app-icon  box-grow-0" src="/static/image/icon/icon-share-white.png"></image>
+                            <image class="app-icon  box-grow-0" src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-share-white.png"></image>
                             <text class="app-text box-grow-0">分享</text>
                         </view>
                     </view>

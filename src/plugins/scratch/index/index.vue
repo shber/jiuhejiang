@@ -489,13 +489,13 @@ export default {
             .end-icon.home {
                 height: #{30rpx};
                 width: #{30rpx};
-                background-image: url('../../../static/image/icon/icon-home-white.png');
+                background-image: url('https://yewi.vvv6g.cn/web/mini_images/icon/icon-home-white.png');
             }
 
             .end-icon.price {
                 height: #{22rpx};
                 width: #{12rpx};
-                background-image: url('../../../static/image/icon/arrow-right-white.png');
+                background-image: url('https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right-white.png');
             }
         }
 

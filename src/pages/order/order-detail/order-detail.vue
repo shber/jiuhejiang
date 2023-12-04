@@ -23,7 +23,7 @@
                             <view class='dir-top-nowrap box-grow-1 text'>
                                 该订单已拆成多个包裹发货，点击查看详情
                             </view>
-                            <image class='box-grow-0 img' src='/static/image/icon/arrow-right.png'></image>
+                            <image class='box-grow-0 img' src='https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png'></image>
                         </view>
                     </app-jump-button>
                 </template>
@@ -96,7 +96,7 @@
                             </view>
                             <view @click="go_eCard">
                                 <text>使用说明</text>
-                                <image src="/static/image/icon/arrow-right.png" class="instructions"></image>
+                                <image src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png" class="instructions"></image>
                             </view>
                         </view>
                         <view class="ecard  dir-top-wrap" :style="{paddingBottom: ecard.length >= 1 ? '20rpx' : '0'}">
@@ -115,7 +115,7 @@
                                   class="expand dir-left-nowrap main-center cross-center"
                                   v-if="ecard.length === 1 && orderDetail.type_data && orderDetail.type_data.ecard && orderDetail.type_data.ecard.length > 1">
                                 <text>点击展开</text>
-                                <image src="/static/image/icon/icon-down.png"></image>
+                                <image src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-down.png"></image>
                             </view>
                         </view>
                     </view>
@@ -129,7 +129,7 @@
                           style="margin-top: -20rpx;border-top: 1rpx solid #e2e2e2"
                           v-if="orderDetail.send_type == 2">
                         <view class="dir-left-nowrap cross-center city-service">
-                            <image class="head" src="/static/image/icon/deliveryman.png"></image>
+                            <image class="head" src="https://yewi.vvv6g.cn/web/mini_images/icon/deliveryman.png"></image>
                             <template v-if="orderDetail.detailExpress[0].city_name && orderDetail.detailExpress[0].city_mobile">
                                 <view class="info-box dir-top-nowrap box-grow-1">
                                     <view class="info-label">配送员</view>
@@ -145,14 +145,14 @@
                                 <view class="icon-box">
                                     <app-jump-button open_type="tel"
                                                      :number="orderDetail.city_mobile ? orderDetail.city_mobile : orderDetail.detailExpress[0].city_mobile">
-                                        <image class="icon" src="/static/image/icon/store-tel.png"></image>
+                                        <image class="icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/store-tel.png"></image>
                                     </app-jump-button>
                                 </view>
                                 <!-- 第三方配送才有地图信息 -->
                                 <view v-if="orderDetail.detailExpress[0].send_type == 1" class="icon-box">
                                     <app-jump-button open_type="navigate"
                                                      :url="'/pages/order/city-map/city-map?express_id=' + orderDetail.detailExpress[0].id">
-                                        <image class="icon" src="/static/image/icon/shipping-address.png"></image>
+                                        <image class="icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/shipping-address.png"></image>
                                     </app-jump-button>
                                 </view>
                             </template>
@@ -395,8 +395,8 @@
                         <view class="composition-open main-center">
                             <view @click="toggle(idx)" class="composition-btn">
                                 <text>{{ list.show ? '点击收起套餐详情' : '点击展开套餐详情' }}</text>
-                                <image v-if="!list.show" src="/static/image/icon/icon-down.png"></image>
-                                <image v-else src="/static/image/icon/icon-up.png"></image>
+                                <image v-if="!list.show" src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-down.png"></image>
+                                <image v-else src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-up.png"></image>
                             </view>
                         </view>
                     </view>

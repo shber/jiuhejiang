@@ -53,22 +53,22 @@
                 <image class="logo" src='./../../image/express.png'></image>
                 <view class="express-company">{{detail.detailExpress[0].express}}</view>
                 <view class="express-number">运单编号：{{detail.detailExpress[0].express_no}}</view>
-                <image v-if="detail.detailExpress[0].express" class="to-more" src='/static/image/icon/arrow-right.png'></image>
+                <image v-if="detail.detailExpress[0].express" class="to-more" src='https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png'></image>
             </view>
             <view @click="toExpressInfo(order)" class="express" v-else-if="order.detailExpress[0].express_no">
                 <image class="logo" src='./../../image/express.png'></image>
                 <view class="express-company">{{order.detailExpress[0].express}}</view>
                 <view v-if="order.detailExpress[0].express" class="express-number">运单编号：{{order.detailExpress[0].express_no}}</view>
-                <image v-if="order.detailExpress[0].express" class="to-more" src='/static/image/icon/arrow-right.png'></image>
+                <image v-if="order.detailExpress[0].express" class="to-more" src='https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png'></image>
             </view>
         </view>
         <view class="express" v-if="(order.detailExpress && order.detailExpress.length > 1) || (order.is_send == 0 && order.detailExpress &&  order.detailExpress.length >= 1)" @click="toExpressMore(order)">
             <view class="showMore">该订单已拆成多个包裹发货，点击查看详情</view>
-            <image class="to-more" src='/static/image/icon/arrow-right.png'></image>
+            <image class="to-more" src='https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png'></image>
         </view>
         <view class="express" v-else-if="(detail.detailExpress && detail.detailExpress.length > 1) || (detail.is_send == 0 && detail.detailExpress && detail.detailExpress.length >= 1)" @click="toExpressMore(detail)">
             <view class="showMore">该订单已拆成多个包裹发货，点击查看详情</view>
-            <image class="to-more" src='/static/image/icon/arrow-right.png'></image>
+            <image class="to-more" src='https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png'></image>
         </view>
         <view class="goods-info" v-if="order">
             <view class="goods-title">自营商品</view>

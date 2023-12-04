@@ -125,7 +125,7 @@
     @import "./static/css/border-box.scss";
     @import './static/css/iconfont.css';
     .u-goods-detail {
-        background-image: url("./static/image/goods.png");
+        background-image: url("https://yewi.vvv6g.cn/web/mini_images/goods.png");
         background-repeat: no-repeat;
         background-size: 100% 100%;
         min-height: 100vh;

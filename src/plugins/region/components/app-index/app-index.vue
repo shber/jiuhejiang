@@ -10,7 +10,7 @@
                             <text v-if="detail.level == 1">省代理</text>
                             <text v-if="detail.level == 2">市代理</text>
                             <text v-if="detail.level == 3">区/县代理</text>
-                            <image class="right-arrow" src="/static/image/icon/arrow-right-white.png"></image>
+                            <image class="right-arrow" src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right-white.png"></image>
                             <image v-if="detail.is_up == 1 && detail.level_up_log && detail.level_up_log.status != 2" class="is-up" src="../image/up.png"></image>
                             <image v-if="detail.is_up == 1 && detail.level_up_log && detail.level_up_log.status == 2" class="is-up" src="../image/up-lose.png"></image>
                             <image v-if="detail.is_up == 0 && detail.level_up_log && detail.level_up_log.status == 1" class="is-up" src="../image/up-success.png"></image>
@@ -18,7 +18,7 @@
                         <view class="rate main-between cross-center">
                             <view>{{setting.form.rate ? setting.form.rate : '分红比例'}}{{detail.bonus_rate}}%</view>
                             <view @click="toAbout" class="about dir-right-nowrap cross-center">
-                                <image src="/static/image/icon/question.png"></image>
+                                <image src="https://yewi.vvv6g.cn/web/mini_images/icon/question.png"></image>
                                 <text>说明</text>
                             </view>
                         </view>

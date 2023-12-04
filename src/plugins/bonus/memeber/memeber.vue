@@ -2,12 +2,12 @@
     <app-layout>
         <view class="search">
             <view @click='beSearch' v-if="!toSearch" class="main-center search-content cross-center">
-                <image src="/static/image/icon/icon-search.png"></image>
+                <image src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-search.png"></image>
                 <text>搜索</text>
             </view>
             <view v-else class="dir-left-nowrap cross-center search-area">
                 <view class="search-input">
-                    <image src='/static/image/icon/icon-search.png'></image>
+                    <image src='https://yewi.vvv6g.cn/web/mini_images/icon/icon-search.png'></image>
                     <input focus class="box-grow-1 t-small search-content" @confirm='goSearch' confirm-type='search' v-model='keyword' :placeholder="'请输入'+setting.form.members?setting.form.members:'队员'+'昵称搜索'"></input>
                 </view>
                 <view class="cancel" @click="cancelSeacrch">
@@ -36,13 +36,13 @@
                     </view>
                     <view>
                         <text>订单</text>
-                        <image class="arrow-right" src='/static/image/icon/arrow-right.png'></image>
+                        <image class="arrow-right" src='https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png'></image>
                     </view>
                 </view>
             </view>
         </view>
         <view class='no-tip' v-if="list && list.length == 0">
-            <image src="/static/image/user-default-avatar.png"></image>
+            <image src="https://yewi.vvv6g.cn/web/mini_images/user-default-avatar.png"></image>
             <span>暂无队员</span>
         </view>
     </app-layout>

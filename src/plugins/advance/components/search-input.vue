@@ -4,7 +4,7 @@
 			<view class="input" @click="route_jump('/plugins/advance/search/search')">
 				<app-form-id>
 					<view class="input-in dir-left-nowrap main-center cross-center">
-						<image class="icon" src="/static/image/icon/search.png"></image>
+						<image class="icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/search.png"></image>
 						<text class="font">搜索</text>
 					</view>
 				</app-form-id>

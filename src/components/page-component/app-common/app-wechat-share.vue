@@ -12,7 +12,7 @@
                 <image @click='close'
                        v-if='setting.add_app_icon_color_type == 2'
                        class='icon-fork'
-                       src='/static/image/icon/fork_black.png'
+                       src='https://yewi.vvv6g.cn/web/mini_images/icon/fork_black.png'
                 ></image>
                 <view class='cross-center point-text'
                       :style="{'color':setting.add_app_text_color}">

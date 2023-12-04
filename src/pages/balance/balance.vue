@@ -3,7 +3,7 @@
         <view class="balance-head dir-top-nowrap cross-center"
               :style="{'background-image': `url(${setting.bj_pic_url.url})`}">
             <image @click="getRules" class="balance-legend"
-                   :src="setting.re_pic_url.url ? setting.re_pic_url.url : `/static/image/icon/question.png`"></image>
+                   :src="setting.re_pic_url.url ? setting.re_pic_url.url : `https://yewi.vvv6g.cn/web/mini_images/icon/question.png`"></image>
             <view class="account">账户余额(元)</view>
             <view class="balance">{{balance}}</view>
             <view class="app-button main-center">
@@ -23,13 +23,13 @@
 
         <view class="balance-date main-center cross-center">
             <view class="icon-view cross-center main-center" @click="dateLess">
-                <image class="balance-icon" src="/static/image/icon/arrow-left.png"></image>
+                <image class="balance-icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-left.png"></image>
             </view>
             <picker mode="date" :value="date" fields="month" @change="dateChange">
                 <view>{{date_a}}</view>
             </picker>
             <view class="icon-view cross-center main-center" @click="datePlus">
-                <image class="balance-icon" src="/static/image/icon/arrow-right.png"></image>
+                <image class="balance-icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png"></image>
             </view>
         </view>
         <block v-for="(item,index) in logs" :key="index">

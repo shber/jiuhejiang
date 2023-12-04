@@ -337,7 +337,7 @@
                 width: 25upx;
                 height: 25upx;
                 background-size: 100% 100%;
-                background-image: url("../../../static/image/icon/search.png");
+                background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/search.png");
                 background-repeat: no-repeat;
                 margin-right: 5upx;
             }
@@ -458,7 +458,7 @@
                 margin-top: 8upx;
             }
             .app-button-icon-cart {
-                background-image: url('../../../static/image/icon/cats.png');
+                background-image: url('https://yewi.vvv6g.cn/web/mini_images/icon/cats.png');
             }
             .app-button-icon {
                 width: #{56rpx};

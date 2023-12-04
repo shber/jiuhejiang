@@ -16,7 +16,7 @@
             </view>
         </view>
         <view class='no-tip' v-if="list.length == 0">
-            <image src="/static/image/user-default-avatar.png"></image>
+            <image src="https://yewi.vvv6g.cn/web/mini_images/user-default-avatar.png"></image>
             <span>暂无相关成员</span>
         </view>
     </app-layout>

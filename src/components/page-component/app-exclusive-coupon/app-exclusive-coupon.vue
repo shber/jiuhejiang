@@ -255,7 +255,7 @@
                 .app-icon {
                     width: #{46rpx};
                     height: #{46rpx};
-                    background-image: url("../../../static/image/icon/coupon-icon.png");
+                    background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/coupon-icon.png");
                 }
                 .app-title {
                     font-size: #{28rpx};
@@ -269,7 +269,7 @@
                 .app-icon {
                     width: #{12rpx};
                     height: #{22rpx};
-                    background-image: url("../../../static/image/icon/arrow-right.png");
+                    background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png");
                 }
                 .app-text {
                     font-size: #{26rpx};

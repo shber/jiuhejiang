@@ -4,7 +4,7 @@
             <view class='nav'>
                 <image load-lazy='true' class='yuan' src='./../image/yuan.png'></image>
                 <text>我的{{setting.currency_name ? setting.currency_name : '活力币'}}<text style='color:#ff9d1e;'>{{user_data.step_currency ? user_data.step_currency : 0}}</text></text>
-                <image load-lazy='true' class='to-log' src='/static/image/icon/arrow-right.png'></image>
+                <image load-lazy='true' class='to-log' src='https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png'></image>
             </view>
         </view>
         <view class='today-step'>
@@ -45,7 +45,7 @@
                     <view @click="toFriend" style="line-height: 1.2">
                         <view>查看</view>
                         <view>更多</view>
-                        <image load-lazy='true' src='/static/image/icon/arrow-right.png'></image>
+                        <image load-lazy='true' src='https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png'></image>
                     </view>
                 </view>
             </view>
@@ -90,7 +90,7 @@
                 <view @click="toDare">
                     <view class='dare-right'>
                         <text>更多</text>
-                        <image load-lazy='true' src='/static/image/icon/arrow-right.png'></image>
+                        <image load-lazy='true' src='https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png'></image>
                     </view>
                 </view>
             </view>
@@ -928,10 +928,10 @@
                     margin-bottom: #{24rpx};
                 }
                 .app-share {
-                    background-image: url('../../../static/image/icon/share.png');
+                    background-image: url('https://yewi.vvv6g.cn/web/mini_images/icon/share.png');
                 }
                 .app-code {
-                    background-image: url('../../../static/image/icon/code.png');
+                    background-image: url('https://yewi.vvv6g.cn/web/mini_images/icon/code.png');
                 }
                 .text {
                     font-size: #{26rpx};
@@ -973,7 +973,7 @@
                 height: #{30rpx};
                 background-size: cover;
                 background-repeat: no-repeat;
-                background-image: url("../../../static/image/icon/close.png");
+                background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/close.png");
                 position: absolute;
                 top: #{28rpx};
                 right: #{24rpx};

@@ -73,7 +73,7 @@
 		</view>
 		<template v-if="order_list.length === 0">
 			<view class="order-empty page-width dir-top-nowrap cross-center">
-				<image class="image" src="/static/image/order-empty.png"></image>
+				<image class="image" src="https://yewi.vvv6g.cn/web/mini_images/order-empty.png"></image>
 				<text>没有任何记录~</text>
 			</view>
 		</template>

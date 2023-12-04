@@ -29,8 +29,8 @@
                         <view v-for='item in expressDetail.list' :key='item.id'
                               :class="{'sign-text': index == 0 ? true : false}" class='dir-top item'>
                             <image v-if='index == 0' class='sign-big'
-                                   src='/static/image/icon/order/point-green.png'></image>
-                            <image v-else class='sign' src='/static/image/icon/order/point-gray.png'></image>
+                                   src='https://yewi.vvv6g.cn/web/mini_images/icon/order/point-green.png'></image>
+                            <image v-else class='sign' src='https://yewi.vvv6g.cn/web/mini_images/icon/order/point-gray.png'></image>
                             <view>{{item.desc}}</view>
                             <view>{{item.datetime}}</view>
                         </view>

@@ -243,6 +243,6 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        background-image: url('../../static/image/icon/goods-cart.png');
+        background-image: url('https://yewi.vvv6g.cn/web/mini_images/icon/goods-cart.png');
     }
 </style>

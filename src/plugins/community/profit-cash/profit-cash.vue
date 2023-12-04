@@ -8,7 +8,7 @@
         <view class="menu">
             <view @click="toDetail" class="menu-item main-between cross-center">
                 <view>提现明细</view>
-                <image src="/static/image/icon/arrow-right.png"></image>
+                <image src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png"></image>
             </view>
         </view>
     </app-layout>

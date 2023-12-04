@@ -13,7 +13,7 @@
             <view class="dir-left-nowrap cross-center cash-type" @click="cashTypeModel = true">
                 <view class="box-grow-1">提现方式</view>
                 <view class="box-grow-0">{{cashName}}</view>
-                <image class="box-grow-0 arrow-image" src="/static/image/icon/arrow-right.png"></image>
+                <image class="box-grow-0 arrow-image" src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png"></image>
             </view>
             <view v-if="pay_type === 'wx'" class="cash-form">
                 <view class="dir-left-nowrap cross-center line">
@@ -312,7 +312,7 @@
                 border-radius: 50%;
                 background-repeat: repeat;
                 background-size: 100% 100%;
-                background-image: url("../../../../static/image/icon/icon-checkbox-checked-a.png");
+                background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/icon-checkbox-checked-a.png");
             }
         }
 
@@ -395,23 +395,23 @@
         }
 
         .icon.wechat {
-            background-image: url("../../../../static/image/icon/cash/icon-wechat.png");
+            background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/cash/icon-wechat.png");
         }
 
         .icon.alipay {
-            background-image: url("../../../../static/image/icon/cash/icon-alipay.png");
+            background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/cash/icon-alipay.png");
         }
 
         .icon.bank {
-            background-image: url("../../../../static/image/icon/cash/icon-bank.png");
+            background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/cash/icon-bank.png");
         }
 
         .icon.balance {
-            background-image: url("../../../../static/image/icon/cash/icon-balance.png");
+            background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/cash/icon-balance.png");
         }
 
         .icon.auto {
-            background-image: url("../../../../static/image/icon/cash/icon-auto.png");
+            background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/cash/icon-auto.png");
         }
     }
 

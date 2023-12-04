@@ -183,8 +183,8 @@
                         <view class="reason-content" :class="{'two-line':!showRemark}">{{status == 1 ? detail.cancel_data.remark : detail.remark}}</view>
                         <view v-if="(status == 2 && detail.remark && detail.remark.length > 40) || (detail.cancel_data && detail.cancel_data.remark && detail.cancel_data.remark.length > 40)" class="main-center cross-center show-remark">
                             <view @click="showRemark=!showRemark">{{showRemark ? '点击收起' : '点击展开'}}</view>
-                            <image v-if="!showRemark" src="/static/image/icon/icon-down.png"></image>
-                            <image v-else src="/static/image/icon/icon-up.png"></image>
+                            <image v-if="!showRemark" src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-down.png"></image>
+                            <image v-else src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-up.png"></image>
                         </view>
                     </template>
                     <template v-if="(status == 2 && detail.mobile) || detail.cancel_data.mobile">
@@ -217,7 +217,7 @@
                 <view class="add-list">
                     <view class="add-item" v-for="item in address" :key="item.id">
                         <image v-if="item.id == addressId" @click='chooseAddress(item.id)' src="./../image/active.png"></image>
-                        <image v-else @click='chooseAddress(item.id)' src="/static/image/icon/form-er.png"></image>
+                        <image v-else @click='chooseAddress(item.id)' src="https://yewi.vvv6g.cn/web/mini_images/icon/form-er.png"></image>
                         <view @click='chooseAddress(item.id)' class="add-info">
                             <view class="main-between">
                                 <view class="add-name">{{item.name}}</view>

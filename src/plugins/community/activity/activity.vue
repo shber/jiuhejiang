@@ -16,7 +16,7 @@
                     </view>
                 </view>
                 <view v-if="middleman.is_allow_change == 1" class="space">距离最近{{space}}</view>
-                <image v-if="middleman.is_allow_change == 1" class="arrow-image" src="/static/image/icon/arrow-right-white.png"></image>
+                <image v-if="middleman.is_allow_change == 1" class="arrow-image" src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right-white.png"></image>
             </view>
             <!-- 团购活动状态 -->
             <view v-if="activity.time > 0" class="time dir-left-nowrap cross-center">
@@ -99,7 +99,7 @@
                         <view>已选商品</view>
                         <view class="dir-right-nowrap cross-center" @click.stop="clearAll">
                             <view style="color: #999999">清空购物车</view>
-                            <image src="/static/image/icon/delete.png"></image>
+                            <image src="https://yewi.vvv6g.cn/web/mini_images/icon/delete.png"></image>
                         </view>
                     </view>
                     <view class="goods-list">
@@ -117,14 +117,14 @@
                                 <view class="price" v-else style="color: #353535">商品已失效</view>
                                 <view class="app-add-subtract dir-left-nowrap cross-center">
                                     <image class="app-icon" @click.stop="_calcValue(index,'minus')"
-                                           :src="item.is_exist == 0 ? '/static/image/cart/unreducible.png' : '/static/image/icon/subtract.png'"
+                                           :src="item.is_exist == 0 ? 'https://yewi.vvv6g.cn/web/mini_images/cart/unreducible.png' : 'https://yewi.vvv6g.cn/web/mini_images/icon/subtract.png'"
                                           ></image>
                                     <view class="app-value">
                                         <input v-model="item.num" v-if="item.is_exist == 1" @blur.stop="_onBlur(index)" type="number">
                                         <view v-else>{{item.num}}</view>
                                     </view>
                                     <image class="app-icon" v-show="is_loading" @load="imgLoad"  @click.stop="_calcValue(index,'plus')"
-                                           :src="item.num >= 99 || item.is_exist == 0 ? '/static/image/cart/can-add.png' : '/static/image/icon/add-but.png'"
+                                           :src="item.num >= 99 || item.is_exist == 0 ? 'https://yewi.vvv6g.cn/web/mini_images/cart/can-add.png' : 'https://yewi.vvv6g.cn/web/mini_images/icon/add-but.png'"
                                            :style="{'background-color': getTheme.background}"></image>
                                 </view>
                             </view>
@@ -212,7 +212,7 @@
             <view v-if="recommendDialog" @click="recommendDialog=!recommendDialog" class="bg">
                 <view class="dialog" @click.stop="" :animation="animationData">
                     <view v-show="showOther" @click="recommendDialog=!recommendDialog" class="end-close main-center cross-center">
-                        <image src="/static/image/icon/icon-close.png"></image>
+                        <image src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-close.png"></image>
                     </view>
                     <view class="end-title">当前团购已结束</view>
                     <view class="end-recommend main-center cross-center">
@@ -1638,7 +1638,7 @@
                 .cart {
                     background-repeat: no-repeat;
                     background-size: 100% 100%;
-                    background-image:url("../../../static/image/icon/cats.png");
+                    background-image:url("https://yewi.vvv6g.cn/web/mini_images/icon/cats.png");
                     border: 0;
                     border-radius: 50%;
                     position: absolute;

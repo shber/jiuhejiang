@@ -105,7 +105,7 @@
                 <view class="recommend-title dir-left-nowrap main-center">
                     <view class="dir-left-nowrap cross-center">
                         <view class="border"></view>
-                        <image src="../../../static/image/icon/icon-favorite.png"></image>
+                        <image src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-favorite.png"></image>
                         <view style="color: #353535;">您或许喜欢</view>
                         <view class="border"></view>
                     </view>
@@ -132,15 +132,15 @@
 				</view>
                 <view class="bd-bottom dir-left-nowrap" >
                     <view class="bd-back dir-top-nowrap main-center cross-center box-grow-0" @click="navShop">
-                        <image class="bd-icon" src="../../../static/image/icon/icon-mch.png"></image>
+                        <image class="bd-icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-mch.png"></image>
                         <text>店铺</text>
                     </view>
                     <view class="bd-back dir-top-nowrap main-center cross-center box-grow-0" @click="back">
-                        <image class="bd-icon" src="../../../static/image/icon/index.png"></image>
+                        <image class="bd-icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/index.png"></image>
                         <text>首页</text>
                     </view>
                     <view class="bd-back dir-top-nowrap main-center cross-center box-grow-0" @click="favorite">
-                        <image class="bd-icon" :src="goods.favorite ? '../../../static/image/icon/icon-favorite-active.png' : '../../../static/image/icon/icon-favorite.png'"></image>
+                        <image class="bd-icon" :src="goods.favorite ? 'https://yewi.vvv6g.cn/web/mini_images/icon/icon-favorite-active.png' : 'https://yewi.vvv6g.cn/web/mini_images/icon/icon-favorite.png'"></image>
                         <text>收藏</text>
                     </view>
                     <view class="box-grow-1 dir-left-nowrap">

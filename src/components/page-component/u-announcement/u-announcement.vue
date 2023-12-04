@@ -3,7 +3,7 @@
         <view class="u-notice-bar" :style="{backgroundColor: bgColor}" @click="take(true)">
             <view class="u-direction-row">
                 <view class="u-icon-wrap">
-                    <image class="u-icon-left" :src="icon ? icon : '/static/image/icon/icon-notice.png'"></image>
+                    <image class="u-icon-left" :src="icon ? icon : 'https://yewi.vvv6g.cn/web/mini_images/icon/icon-notice.png'"></image>
                     <text class="u-text" :style="{color: textColor}">{{name}}</text>
                 </view>
                 <view class="u-notice-box" id="u-notice-box">
@@ -19,7 +19,7 @@
                     </view>
                 </view>
                 <view class="u-icon-wrap">
-                    <image class="u-icon-right" src="/static/image/icon/arrow-right-white.png" ></image>
+                    <image class="u-icon-right" src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right-white.png" ></image>
                 </view>
             </view>
         </view>
@@ -211,7 +211,7 @@ export default {
         background-repeat: no-repeat;
         background-size: cover;
         &.icon {
-            background-image: url("../../../static/image/icon/announcement.png");
+            background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/announcement.png");
         }
     }
    	.u-bottom-content {

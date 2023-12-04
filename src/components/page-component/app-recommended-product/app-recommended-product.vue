@@ -728,10 +728,10 @@ import {mapGetters, mapState} from 'vuex';
 			height: #{50rpx};
 		}
 		.app-shopping-cart {
-			background-image: url("../../../static/image/icon/shopping-cart.png");
+			background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/shopping-cart.png");
 		}
 		.app-add-to {
-			background-image: url("../../../static/image/icon/add-to.png");
+			background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/add-to.png");
 		}
 		.app-border {
 			border-color: #e2e2e2 !important;

@@ -94,7 +94,7 @@
             .end-bg {
                 height: #{616rpx};
                 width: #{702rpx};
-                background-image: url("../../../static/image/poster/style-two-end-shadow.png");
+                background-image: url("https://yewi.vvv6g.cn/web/mini_images/poster/style-two-end-shadow.png");
                 background-size: 100% 100%;
                 background-repeat: no-repeat;
                 padding: 0 #{26rpx};
@@ -164,7 +164,7 @@
                     .icon-three-arrow {
                         height: #{17rpx};
                         width: #{15rpx};
-                        background-image: url("../../../static/image/poster/three-arrow.png");
+                        background-image: url("https://yewi.vvv6g.cn/web/mini_images/poster/three-arrow.png");
                         background-size: 100% 100%;
                         background-repeat: no-repeat;
                         margin-left: #{10rpx};

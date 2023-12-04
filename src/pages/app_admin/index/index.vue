@@ -44,7 +44,7 @@
                 <view v-if="false" @click="toggle(true,1)" class="order">
                     <view class='cross-center'>
                         <text>{{plugins_active.name}}</text>
-                        <image class="more" src="/static/image/icon/icon-down.png"></image>
+                        <image class="more" src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-down.png"></image>
                     </view>
                 </view>
             </view>
@@ -119,13 +119,13 @@
                 <view @click="toggle(true,3)" class="order">
                     <view class='cross-center'>
                         <text>{{pay_active.name}}</text>
-                        <image class="more" src="/static/image/icon/icon-down.png"></image>
+                        <image class="more" src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-down.png"></image>
                     </view>
                 </view>
                 <view @click="toggle(true,2)" class="order">
                     <view class='cross-center'>
                         <text>{{canvas_plugins.name}}</text>
-                        <image class="more" src="/static/image/icon/icon-down.png"></image>
+                        <image class="more" src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-down.png"></image>
                     </view>
                 </view>
             </view>

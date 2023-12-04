@@ -9,7 +9,7 @@
                 <view class="content" :class="active !== index ? 'active' : ''">{{item.content}}</view>
                 <view class="other dir-left-nowrap cross-center">
                     <view class="box-grow-1">{{item.time}}</view>
-                    <image src="../../static/image/icon/arrow-right.png" class="img" @click="click(index)"
+                    <image src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png" class="img" @click="click(index)"
                            :class="active === index ? 'active' : ''"></image>
                     <view class="box-grow-0" @click="click(index)">{{active === index ? '收起' : '展开'}}</view>
                 </view>

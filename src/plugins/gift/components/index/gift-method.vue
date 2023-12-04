@@ -27,7 +27,7 @@
 	            <text>
 					{{method_type === 'direct_open' ? "直接送礼" : method_type === 'time_open' ? "定时开奖" : method_type === 'num_open' ? "满人开奖" : ""}}
 				</text>
-	            <image src="/static/image/icon/icon-down.png" class="swipe-icon" v-if="type.length > 1"></image>
+	            <image src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-down.png" class="swipe-icon" v-if="type.length > 1"></image>
             </view>
             <view class="line"></view>
             <view class="swipe-content dir-left-nowrap main-between cross-center">
@@ -38,7 +38,7 @@
 						v-on:click="method_status = true;select_type = 2"
 		                v-bind:class="{'black' : select_str}"
 		            >{{select_str ? select_str : "请选择开奖时间"}}</text>
-		            <image class="right-icon" src="/static/image/icon/arrow-right.png"></image>
+		            <image class="right-icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png"></image>
 	            </template >
 	            <template v-if="method_type === 'num_open'">
 		            <input 

@@ -18,7 +18,7 @@
                         </text>
                         <text class="stock">库存{{attr_stock}}</text>
                     </view>
-                    <image class="close" src="/static/image/icon/icon-close.png" @click="close_attr"></image>
+                    <image class="close" src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-close.png" @click="close_attr"></image>
                 </view>
                 <scroll-view class="center" :scroll-y="true">
                     <view class="row" v-for="(item, index) in attr_groups" :key="index">
@@ -37,9 +37,9 @@
                 <view class="bottom dir-left-nowrap main-between cross-center">
                     <text>数量</text>
                     <view class="num dir-right-nowrap main-between cross-center">
-                        <image class="image" src="/static/image/cart/can-be-added.png" @click.stop="add_num"></image>
+                        <image class="image" src="https://yewi.vvv6g.cn/web/mini_images/cart/can-be-added.png" @click.stop="add_num"></image>
                         <input type="number" class="input" :value="num" @change="change_num">
-                        <image class="image" :src="num === 1 ? '../image/can-be-reduced.png' : '/static/image/cart/can-be-reduced.png'" @click.stop="edd_num"></image>
+                        <image class="image" :src="num === 1 ? '../image/can-be-reduced.png' : 'https://yewi.vvv6g.cn/web/mini_images/cart/can-be-reduced.png'" @click.stop="edd_num"></image>
                     </view>
                 </view>
                 <view :style="{height:`${height}rpx`}" >

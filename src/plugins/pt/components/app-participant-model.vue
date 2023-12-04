@@ -4,7 +4,7 @@
 			<view class="app-top dir-top-nowrap">
 				<text class="app-title">正在拼团</text>
 				<text class="app-description">仅显示10条正在拼团信息</text>
-				<image class="app-icon" src="../../../static/image/icon/close.png" @click="close()"></image>
+				<image class="app-icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/close.png" @click="close()"></image>
 			</view>
 			<!-- #ifdef MP-ALIPAY -->
 			<scroll-view class="app-scroll" scroll-y>

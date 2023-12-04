@@ -15,7 +15,7 @@
             <view class="dir-left-nowrap block cross-center" v-if="showType === 'detail'">
                 <view class="box-grow-1">评价</view>
                 <view class="box-grow-0 more" @click="goto">查看更多</view>
-                <image class="box-grow-0" src="../../../static/image/icon/arrow-right.png"></image>
+                <image class="box-grow-0" src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png"></image>
             </view>
             <view class="comments" v-for="(item, index) in list" :key="index" :class="showType === 'detail' ? 'bt' : 'bb'">
                 <view class="title dir-left-nowrap cross-center">

@@ -9,7 +9,7 @@
             <view class="list">
                 <view class="empty" v-if="pond.length === 0">
                     <view class="cart">
-                        <image src="/static/image/icon/nav-icon-cart.png"></image>
+                        <image src="https://yewi.vvv6g.cn/web/mini_images/icon/nav-icon-cart.png"></image>
                     </view>
                     <text>凑单池还是空的哦</text>
                 </view>
@@ -366,7 +366,7 @@
         border-radius: 50%;
         background-repeat: repeat;
         background-size: 100% 100%;
-        background-image: url("../../../static/image/icon/icon-checkbox-checked.png");
+        background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/icon-checkbox-checked.png");
     }
 
     .content {
@@ -410,16 +410,16 @@
         }
     }
     .app-unreducible {
-        background-image: url("../../../static/image/cart/unreducible.png");
+        background-image: url("https://yewi.vvv6g.cn/web/mini_images/cart/unreducible.png");
     }
     .app-not-add {
-        background-image: url("./../../../static/image/cart/can-add.png");
+        background-image: url("https://yewi.vvv6g.cn/web/mini_images/cart/can-add.png");
     }
     .app-can-add {
-        background-image: url("../../../static/image/icon/add-but.png");
+        background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/add-but.png");
     }
     .app-can-be-reduced {
-        background-image: url("../../../static/image/icon/subtract.png");
+        background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/subtract.png");
     }
     .all-select {
         width: #{150upx};

@@ -18,8 +18,8 @@
                     <view class="dir-left-nowrap cross-center coupon-item" v-for="(item, index) in coupon.list"
                           :key="index">
                         <view class="price box-grow-0" >
-                            <image v-if="item.share_type === 1" src='/static/image/hongbao.png'/>
-                            <image v-if="item.share_type === 2" src='/static/image/integral.png'/>
+                            <image v-if="item.share_type === 1" src='https://yewi.vvv6g.cn/web/mini_images/hongbao.png'/>
+                            <image v-if="item.share_type === 2" src='https://yewi.vvv6g.cn/web/mini_images/integral.png'/>
                             <image v-if="item.share_type === 3" :src="item.pic_url" class="card"/>
                             <block v-if="item.share_type === 4">
                                 <template v-if="item.type == 2">
@@ -46,7 +46,7 @@
                 </scroll-view>
             </view>
             <view class='main-center' @click='closeCouponBox'>
-                <image src='/static/image/icon/icon-popup-close.png' class="bottom-close"></image>
+                <image src='https://yewi.vvv6g.cn/web/mini_images/icon/icon-popup-close.png' class="bottom-close"></image>
             </view>
         </view>
     </view>

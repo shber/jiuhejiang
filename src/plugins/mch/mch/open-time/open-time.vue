@@ -6,7 +6,7 @@
                 <view class="attr-item main-between cross-center">
                     <view v-if="item.value[0] && item.value[1]">{{item.value[0]}}-{{item.value[1]}}</view>
                     <view v-else class="placeholder-text">请选择时间段</view>
-                    <image class="app-icon" src="../../../../static/image/icon/arrow-right.png"></image>
+                    <image class="app-icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png"></image>
                 </view>
             </view>
         </view>

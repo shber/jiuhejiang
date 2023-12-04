@@ -13,7 +13,7 @@
             <view class="f-text" :style="{'color': theme.color}">
                 去{{flashSale.time_status == 1 ? '加' : '抢'}}购
             </view>
-            <image class="f-icon" src="/static/image/icon/flash-sale.gif"></image>
+            <image class="f-icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/flash-sale.gif"></image>
         </view>
     </view>
 </template>

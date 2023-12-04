@@ -1,7 +1,7 @@
 <template>
     <app-layout>
         <view class="no-list" v-if="list.length == 0">
-            <image src="/static/image/order-empty.png"></image>
+            <image src="https://yewi.vvv6g.cn/web/mini_images/order-empty.png"></image>
             <view>暂无任何明细</view>
         </view>
         <view v-else>

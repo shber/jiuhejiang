@@ -5,13 +5,13 @@
         <!-- #endif -->
         <view class="search-area">
             <view v-if="search.keyword || search.dateArr[0] || search.dateArr[1]" class="search be-search dir-left-nowrap" @click="toSearch">
-                <image class="icon-search" src="/static/image/icon/icon-search.png"></image>
+                <image class="icon-search" src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-search.png"></image>
                 <view v-if="search.dateArr[0]">{{search.dateArr[0]}}</view>
                 <view v-if="search.dateArr[1]"><text v-if="search.dateArr[0]">至</text>{{search.dateArr[1]}}</view>
                 <view v-if="search.keyword"><text v-if="search.dateArr[0] || search.dateArr[1]">,</text>{{search.keyword}}</view>
             </view>
             <view v-else class="search main-center" @click="toSearch">
-                <image class="icon-search" src="/static/image/icon/icon-search.png"></image>
+                <image class="icon-search" src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-search.png"></image>
                 <text>搜索</text>
             </view>
         </view>
@@ -128,7 +128,7 @@
                     <view class='dir-top-wrap main-center cross-center item'>
                         <view>核销码</view>
                         <image class='img' :src='qr_code_url'></image>
-                        <image @click='closeQrcode' src='/static/image/icon/icon-close.png' class='remove'></image>
+                        <image @click='closeQrcode' src='https://yewi.vvv6g.cn/web/mini_images/icon/icon-close.png' class='remove'></image>
                     </view>
                 </view>
             </view>

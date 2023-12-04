@@ -152,7 +152,7 @@
 			white-space: nowrap;
 		}
 		.app-icon {
-			background-image: url("../../../static/image/icon/arrow-right.png");
+			background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png");
 			width: #{12rpx};
 			height: #{22rpx};
 			background-repeat: no-repeat;

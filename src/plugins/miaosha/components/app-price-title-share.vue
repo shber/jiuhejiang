@@ -23,7 +23,7 @@
 			</view>
 			<view class="app-share">
 				<app-form-id @click="shareShow = true">
-					<image class="app-icon" src="../../../static/image/icon/icon-share.png"></image>
+					<image class="app-icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-share.png"></image>
 					<text class="app-text">分享</text>
 				</app-form-id>
 			</view>

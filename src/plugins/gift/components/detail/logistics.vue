@@ -24,7 +24,7 @@
 				<text class="black">{{store.address}}</text>
 			</view>
 		</view>
-		<image class="icon" src="/static/image/icon/arrow-right.png"></image>
+		<image class="icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png"></image>
 	</view>
 </template>
 

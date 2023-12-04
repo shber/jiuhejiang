@@ -733,7 +733,7 @@ export default {
             width: #{12rpx};
             height: #{22rpx};
             margin-left: #{10rpx};
-            background-image: url("../../../static/image/icon/arrow-right-white.png");
+            background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right-white.png");
             background-repeat: no-repeat;
             background-size: 100% auto;
         }
@@ -814,7 +814,7 @@ export default {
             margin-top: #{32rpx};
             margin-right: #{32rpx};
             .icon-close {
-                background-image: url("../../../static/image/icon/close.png");
+                background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/close.png");
                 background-repeat: no-repeat;
                 background-size: 100% auto;
                 height: #{30rpx};

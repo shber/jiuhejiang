@@ -26,7 +26,7 @@
                 <view class='card-other'>
                     <view v-if="detail.is_show_history" class="history-button" @click="isShow = true">
                         <span>历史核销记录</span>
-                        <image class="icon" src="/static/image/icon/red-arrow.png"></image>
+                        <image class="icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/red-arrow.png"></image>
                     </view>
                     <view class='other-label'>有效时间</view>
                     <view>{{detail.start_time}} - {{detail.end_time}}</view>

@@ -23,7 +23,7 @@
                     <view class="main-between choose-item">
                         <view class='label'>选择卡券</view>
                         <view @click='showDialog' class='cat-info dir-right-nowrap cross-center'>
-                            <image class="to-more" src='/static/image/icon/arrow-right.png'></image>
+                            <image class="to-more" src='https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png'></image>
                             <text class="t-omit" v-if="beCard && beCard.id > 0">{{beCard.name}}</text>
                             <text v-else>未选择</text>
                         </view>

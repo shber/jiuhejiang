@@ -154,7 +154,7 @@
 	.app-play-icon {
 		width:#{130rpx};
 		height: #{130rpx};
-		background-image: url("../../../static/image/icon/play.png");
+		background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/play.png");
 		background-size:100% 100%;
 		position: absolute;
 		top: 50%;

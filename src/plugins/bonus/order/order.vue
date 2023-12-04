@@ -2,12 +2,12 @@
     <app-layout>
         <view class="search">
             <view @click="toSearch=!toSearch" v-if="!toSearch" class="main-center search-content cross-center">
-                <image src="/static/image/icon/icon-search.png"></image>
+                <image src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-search.png"></image>
                 <text>搜索</text>
             </view>
             <view v-else class="dir-left-norwap cross-center search-area" >
                 <view class="search-input">
-                    <image src="/static/image/icon/icon-search.png"></image>
+                    <image src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-search.png"></image>
                     <input :focus="!haveKeyword" @confirm="getList" confirm-type="search" v-model="keyword" placeholder-style="color:#999999;font-size:13px;" placeholder="请输入订单号或昵称搜索"></input>
                 </view>
                 <view class="cancel" @click="cancelSeacrch">取消</view>
@@ -35,7 +35,7 @@
             </view>
         </view>
         <view class='no-tip' v-if="list && list.length == 0">
-            <image src="/static/image/order-empty.png"></image>
+            <image src="https://yewi.vvv6g.cn/web/mini_images/order-empty.png"></image>
             <span>暂无{{activeTab == 1?'未完成':activeTab == 2?'已完成':''}}订单</span>
         </view>
     </app-layout>

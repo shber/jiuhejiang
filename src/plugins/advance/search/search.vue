@@ -9,7 +9,7 @@
 		    <view class="center" v-if="!search">
 			    <view class="strong dir-left-nowrap main-between cross-center" v-if="strong.length > 0">
 				    <text>历史搜索</text>
-				    <image class="delete" src="/static/image/icon/delete.png" @click="empty_strong"></image>
+				    <image class="delete" src="https://yewi.vvv6g.cn/web/mini_images/icon/delete.png" @click="empty_strong"></image>
 			    </view>
 			    <view>
 				    <text @click="search_strong(item)" class="strong-item" v-for="(item, index) in strong" :key="index">

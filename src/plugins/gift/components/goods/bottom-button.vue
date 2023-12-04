@@ -5,7 +5,7 @@
 			@click="routeGo()"
 			class="bd-back box-grow-0 dir-top-nowrap main-center cross-center"
 		>
-			<image class="bd-icon" src="/static/image/icon/index.png"></image>
+			<image class="bd-icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/index.png"></image>
 			<text class="bd-text">首页</text>
 		</view>
         <bd-service :name="name" :url="url"></bd-service>

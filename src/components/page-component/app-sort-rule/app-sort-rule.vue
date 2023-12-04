@@ -2,7 +2,7 @@
 	<view>
 		<view class="search" @click="router">
 			<view class="f-input dir-left-nowrap main-center cross-center">
-				<image src="/static/image/icon/search.png"></image>
+				<image src="https://yewi.vvv6g.cn/web/mini_images/icon/search.png"></image>
 				<text>搜索</text>
 			</view>
 		</view>
@@ -21,11 +21,11 @@
 					<image v-show="loading" class="icon" @load="loading=true" 
 					       :class="[`${sign === 'gift' ? theme + `-background` : ''}`]"
 					       :style="{'background-color': sign !== 'gift' ? theme.background : ''}"
-						   :src="sort_type === -1 ? `/static/image/icon/price-sort-default.png` : sort_type ===  2 ? `/static/image/icon/tall.png` : sort_type === 1 ? `/static/image/icon/low.png` : ``"></image>
+						   :src="sort_type === -1 ? `https://yewi.vvv6g.cn/web/mini_images/icon/price-sort-default.png` : sort_type ===  2 ? `https://yewi.vvv6g.cn/web/mini_images/icon/tall.png` : sort_type === 1 ? `https://yewi.vvv6g.cn/web/mini_images/icon/low.png` : ``"></image>
 				</button>
 				<button class="box-grow-1 item" :style="{'color': sort === 4 && sign !== 'gift' ? theme.color : ''}" :class="[`${sort === 4 && sign === 'gift' ? theme + `-color` : ''}`]" v-on:click="setSort(4)" formType="submit">销量</button>
 				<button @click="setStyle" class="box-grow-1 item dir-top-nowrap main-center cross-center">
-					<image class="img-icon"  :src="listStyle ? '/static/image/icon/square.png' : '/static/image/icon/row.png'"  ></image>
+					<image class="img-icon"  :src="listStyle ? 'https://yewi.vvv6g.cn/web/mini_images/icon/square.png' : 'https://yewi.vvv6g.cn/web/mini_images/icon/row.png'"  ></image>
 				</button>
 			</view>
 		</form>
@@ -144,13 +144,13 @@
 	}
 
 	.default {
-		background-image: url('../../../static/image/icon/price-sort-default.png');
+		background-image: url('https://yewi.vvv6g.cn/web/mini_images/icon/price-sort-default.png');
 	}
 	.tall {
-		background-image: url('../../../static/image/icon/tall.png');
+		background-image: url('https://yewi.vvv6g.cn/web/mini_images/icon/tall.png');
 	}
 	.low {
-		background-image: url('../../../static/image/icon/low.png');
+		background-image: url('https://yewi.vvv6g.cn/web/mini_images/icon/low.png');
 	}
 	.search {
 		height: 93upx;

@@ -20,7 +20,7 @@
 			</view>
 			<view class="search">
 				<view class="prompt dir-left-nowrap main-center cross-center" v-if="search" @click="setSearch">
-					<image src="../../../static/image/icon/icon-search.png"></image>
+					<image src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-search.png"></image>
 					<text>{{active ==2 ? '请输入昵称/门店搜索': active == 0 ? '请输入ID/昵称/手机号/备注/联系方式名搜索' : '请输入ID/昵称/手机号/姓名搜索'}}</text>
 				</view>
 				<view v-else style="position: relative">
@@ -378,7 +378,7 @@
                         </view>
                         <view>
 	                        <image v-if="item.level == memberLevel" src="./../image/active.png"></image>
-	                        <image v-else src="/static/image/icon/form-er.png"></image>
+	                        <image v-else src="https://yewi.vvv6g.cn/web/mini_images/icon/form-er.png"></image>
                         </view>
                     </view>
                 </view>

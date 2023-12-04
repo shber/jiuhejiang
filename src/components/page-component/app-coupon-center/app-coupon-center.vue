@@ -147,10 +147,10 @@
 				}
 			}
 			.app-unexpired {
-				background-image: url("../../../static/image/icon/unexpired-coupon.png");
+				background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/unexpired-coupon.png");
 			}
 			.app-received {
-				background-image: url("../../../static/image/icon/received-coupon.png");
+				background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/received-coupon.png");
 			}
 			.app-bottom {
 				width: #{702rpx};

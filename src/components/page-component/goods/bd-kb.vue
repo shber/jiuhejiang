@@ -7,17 +7,17 @@
         <view class="block dir-left-nowrap cross-center bd-margin" v-if="shipping" @click="openPopup('shipping', '包邮')">
             <view class="box-grow-0">包邮</view>
             <view class="content box-grow-1 u-line-1">{{shipping}}</view>
-            <image class="bd-icon box-grow-0" src="../../../static/image/icon/arrow-right.png"></image>
+            <image class="bd-icon box-grow-0" src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png"></image>
         </view>
         <view class="block dir-left-nowrap cross-center bd-margin" v-if="limit" @click="openPopup('limit', '限购')">
             <view class="box-grow-0">限购</view>
             <view class="content box-grow-1 u-line-1">{{limit}}</view>
-            <image class="bd-icon box-grow-0" src="../../../static/image/icon/arrow-right.png"></image>
+            <image class="bd-icon box-grow-0" src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png"></image>
         </view>
         <view class="block dir-left-nowrap cross-center bd-margin" v-if="pickup" @click="openPopup('pickup', '起送')">
             <view class="box-grow-0">起送</view>
             <view class="content box-grow-1 u-line-1">{{pickup}}</view>
-            <image class="bd-icon box-grow-0" src="../../../static/image/icon/arrow-right.png"></image>
+            <image class="bd-icon box-grow-0" src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png"></image>
         </view>
         <u-popup v-model="show" length="600" mode="center" border-radius="14" @close="show = false">
             <view class="model" @touchmove.stop.prevent>
@@ -26,7 +26,7 @@
                         <view class="p-title">{{showTitle}}</view>
                     </view>
                     <view class="f-image" @click="show = false">
-                        <image class="f-img" src="/static/image/icon/icon-close.png"></image>
+                        <image class="f-img" src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-close.png"></image>
                     </view>
                 </view>
                 <scroll-view scroll-y class="f-scroll">

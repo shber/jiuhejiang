@@ -3,7 +3,7 @@
         <view v-if="stock.index" class="app-stock-user" :style="{'background-image': `url(${stock.index})`}">
             <view @click="toAbout" class="about dir-left-nowrap cross-center">
                 <text>升级说明</text>
-                <image src="/static/image/icon/question.png"></image>
+                <image src="https://yewi.vvv6g.cn/web/mini_images/icon/question.png"></image>
             </view>
             <view @click="toCash" class="cash-btn">提现</view>
             <view @click="toUpdate" class="dir-left-nowrap cross-center user-info">

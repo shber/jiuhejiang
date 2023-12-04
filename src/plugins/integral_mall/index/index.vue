@@ -8,7 +8,7 @@
 	            <image load-lazy="true" src="./../image/about.png"></image>
 	        </view>
 	        <view @click="router('/plugins/integral_mall/exchange/exchange')" class="exchange">
-	            <image load-lazy="true" src="/static/image/icon/exchange.png"></image>
+	            <image load-lazy="true" src="https://yewi.vvv6g.cn/web/mini_images/icon/exchange.png"></image>
 	            <text>我的兑换</text>
 	        </view>
 	        <view @click="router('/pages/user-center/integral-detail/integral-detail')" class="log">
@@ -71,7 +71,7 @@
 	    <view class="dialog-bg" v-if="lose || success">
 	        <view class="dialog">
 	            <view @click="close">
-	                <image load-lazy="true" class="close" src="/static/image/icon/icon-close.png"></image>
+	                <image load-lazy="true" class="close" src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-close.png"></image>
 	            </view>
 	            <view class="lose" v-if="lose">
 	                <image load-lazy="true" class="lose-img" src="./../image/lose.png"></image>

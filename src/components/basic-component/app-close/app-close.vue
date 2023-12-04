@@ -15,7 +15,7 @@
         </u-mask>
         <view v-else>
             <view class="dir-left-nowrap cross-center close-tip" v-if="mallStatus.is_open == 2">
-                <image src="/static/image/icon/be-close.png"></image>
+                <image src="https://yewi.vvv6g.cn/web/mini_images/icon/be-close.png"></image>
                 <view class="dir-top-nowrap main-center">
                     <view>商家已打烊</view>
                     <view class="close-content" v-if="mallStatus.auto_open_text.length > 0">{{mallStatus.auto_open_text}}</view>

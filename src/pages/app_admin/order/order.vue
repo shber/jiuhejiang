@@ -13,7 +13,7 @@
         <!-- 搜索界面 -->
         <view v-if="search" class="search-item main-between cross-center">
             <view class="search-input">
-                <image class="search-icon" src='/static/image/icon/icon-search.png'></image>
+                <image class="search-icon" src='https://yewi.vvv6g.cn/web/mini_images/icon/icon-search.png'></image>
                 <input :focus="!msg" @confirm='searchMethod' confirm-type='search' v-model='keyword' placeholder-style='color:#999999;font-size:13px;' @blur="getFocus=false" @focus="getFocus=true" placeholder='请输入订单号/商品名称/收货人姓名搜索' />
                 <image v-if="getFocus && keyword.length > 0" @click.stop="clearSearch" class="search-clear" src="../image/clear.png"></image>
             </view>
@@ -23,7 +23,7 @@
             <view v-if="candidate.length !== 0" class='main-between search-title'>
                 <view>历史搜索</view>
                 <view @click="clear">
-                    <image class="delete-icon" src="/static/image/icon/delete.png"></image>
+                    <image class="delete-icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/delete.png"></image>
                 </view>
             </view>
             <view class='flex-wrap candidate-list'>
@@ -35,7 +35,7 @@
         <!-- 搜索框 -->
         <view v-if="!search" class="search-area main-between cross-center">
             <view class="search main-center" @click="toSearch">
-                <image class="icon-search" src="/static/image/icon/icon-search.png"></image>
+                <image class="icon-search" src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-search.png"></image>
                 <text>搜索</text>
             </view>
             <view class="choose" @click='toTime'>

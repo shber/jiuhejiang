@@ -16,7 +16,7 @@
                     <view @click="toDetail(item)" class="dir-left-nowrap cross-center item-status" :style="{'color': item.status == 2 ? getTheme.color : '#999999'}">
                         <view>{{item.status == 2 ? item.last_num + '项待领取' : '已全部领取'}}</view>
                         <i v-if="item.status == 2" :style="{'color': getTheme.color}" class="iconfont icon-right">&#xe7eb;</i>
-                        <image v-else src="/static/image/icon/right.png"></image>
+                        <image v-else src="https://yewi.vvv6g.cn/web/mini_images/icon/right.png"></image>
                     </view>
                 </view>
                 <view class="item-time">兑换时间：{{item.r_raffled_at}}</view>
@@ -40,7 +40,7 @@
             <view class="u-rules" :animation="animationData" :style="{bottom: bottom}" :class="[`${tabbarbool? 'tabbarbool':''}`,`${iphone_x? 'iphone_x':''}`]">
                 <view class="u-rules-top dir-right-nowrap">
                     <view v-if="over" @click="showRules=false;bottom='-998rpx';animationData={}" class="end-close main-center cross-center">
-                        <image src="/static/image/icon/icon-close.png"></image>
+                        <image src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-close.png"></image>
                     </view>
                 </view>
 

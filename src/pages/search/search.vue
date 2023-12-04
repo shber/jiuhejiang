@@ -8,7 +8,7 @@
                                v-model="keyword">
                         <view class="close-tip" @click="clear">
                             <image class="search-close" v-if="keyword"
-                                   src="/static/image/icon/delete-yuan.png"></image>
+                                   src="https://yewi.vvv6g.cn/web/mini_images/icon/delete-yuan.png"></image>
                         </view>
                         <view class="box-grow-0 cross-center" @click="search">搜索</view>
                     </view>
@@ -32,7 +32,7 @@
                     <view v-if="historyList.length > 0" class="history">
                         <view class="dir-left-nowrap cross-center title">
                             <view class="box-grow-1">历史搜索</view>
-                            <image src="../../static/image/icon/delete.png" class="box-grow-0"
+                            <image src="https://yewi.vvv6g.cn/web/mini_images/icon/delete.png" class="box-grow-0"
                                    @click="deleteHistory"></image>
                         </view>
                         <view class="dir-left-wrap list">
@@ -78,7 +78,7 @@
                     <template v-if="list.length <= 0">
                         <view class="main-center no-result">
                             <view class="dir-left-nowrap cross-center">
-                                <image class="box-grow-0 empty" src="../../static/image/icon/empty.png"></image>
+                                <image class="box-grow-0 empty" src="https://yewi.vvv6g.cn/web/mini_images/icon/empty.png"></image>
                                 <view class="box-grow-1">
                                     <view>抱歉，没有相关商品</view>
                                     <view v-if="!mch_id" class="text">以下是为您推荐的商品</view>

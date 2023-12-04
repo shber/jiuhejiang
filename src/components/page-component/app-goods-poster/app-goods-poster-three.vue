@@ -111,7 +111,7 @@
                     content: "";
                     background-repeat: no-repeat;
                     background-size: 100% 100%;
-                    background-image: url("../../../static/image/poster/three-love.png");
+                    background-image: url("https://yewi.vvv6g.cn/web/mini_images/poster/three-love.png");
                     height: #{24rpx};
                     width: #{24rpx};
                     display: inline-block;

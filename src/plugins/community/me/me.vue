@@ -30,23 +30,23 @@
             </view>
             <view @click="toProfit" class="look-money main-center cross-center">
                 <view>查看利润明细</view>
-                <image src="/static/image/icon/arrow-right.png"></image>
+                <image src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png"></image>
             </view>
         </view>
         <view class="menu">
             <view @click="toCash" class="menu-item main-between cross-center">
                 <view>利润提现</view>
-                <image src="/static/image/icon/arrow-right.png"></image>
+                <image src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png"></image>
             </view>
             <view @click="toClerk" class="menu-item main-between cross-center">
                 <view>提货核销</view>
-                <image src="/static/image/icon/arrow-right.png"></image>
+                <image src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png"></image>
             </view>
         </view>
         <view class="menu">
             <view @click="toAddress" class="menu-item main-between cross-center">
                 <view>我的地址</view>
-                <image src="/static/image/icon/arrow-right.png"></image>
+                <image src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png"></image>
             </view>
         </view>
         <app-menu :theme="getTheme" active="me"></app-menu>

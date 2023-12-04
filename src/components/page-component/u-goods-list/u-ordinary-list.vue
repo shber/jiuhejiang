@@ -1009,10 +1009,10 @@
         @extend %background-image;
     }
     .u-cart-btn-icon-cart {
-        background-image: url('../../../static/image/icon/cats.png');
+        background-image: url('https://yewi.vvv6g.cn/web/mini_images/icon/cats.png');
     }
     .u-cart-btn-icon-add {
-        background-image: url('../../../static/image/icon/add-to.png');
+        background-image: url('https://yewi.vvv6g.cn/web/mini_images/icon/add-to.png');
     }
     .u-goods-name {
         color: #353535;

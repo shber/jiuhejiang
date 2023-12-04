@@ -11,7 +11,7 @@
 						<view>
 							<text class="item-name">{{item.name}}</text>
 							<view class="item-time dir-left-wrap">
-								<image  class="icon" src="/static/image/icon/time.png"></image>
+								<image  class="icon" src="https://yewi.vvv6g.cn/web/mini_images/icon/time.png"></image>
 								<text class="text">距预售截止：</text>
 								<text class="text-time" :style="{'color': theme.color}">{{item.html}}</text>
 							</view>

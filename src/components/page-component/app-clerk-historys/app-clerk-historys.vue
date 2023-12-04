@@ -3,7 +3,7 @@
         <view class="history-box">
             <view class="top-box">
                 <span class="text">历史核销记录</span>
-                <image @click="close" class="close" src="/static/image/icon/icon-close.png"></image>
+                <image @click="close" class="close" src="https://yewi.vvv6g.cn/web/mini_images/icon/icon-close.png"></image>
             </view>
             <scroll-view class="scroll-view" scroll-y="true" @scrolltolower="lower">
                 <view class="item" v-for="item in list" :key="item.id">

@@ -52,7 +52,7 @@
             </view>
         </view>
         <!-- #endif -->
-        <image class="box-grow-0 arrow-image" src="/static/image/icon/arrow-right.png"></image>
+        <image class="box-grow-0 arrow-image" src="https://yewi.vvv6g.cn/web/mini_images/icon/arrow-right.png"></image>
     </view>
 </template>
 

@@ -198,7 +198,7 @@
 		border-radius: #{64upx};
 		position: absolute;
 		right: #{120upx};
-		background-image: url("../../../static/image/icon/delete-yuan.png");
+		background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/delete-yuan.png");
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 		z-index: 1000;
@@ -234,7 +234,7 @@
 	.delete-icon {
 		width: #{28upx};
 		height: #{32upx};
-		background-image: url("../../../static/image/icon/delete.png");
+		background-image: url("https://yewi.vvv6g.cn/web/mini_images/icon/delete.png");
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 		z-index: 1000;
