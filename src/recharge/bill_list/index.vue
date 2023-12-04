@@ -2,7 +2,7 @@
  * @Author: Shber
  * @Date: 2023-11-27 16:57:20
  * @LastEditors: Shber
- * @LastEditTime: 2023-12-02 10:56:44
+ * @LastEditTime: 2023-12-04 18:41:15
  * @Description: 
 -->
 <template>
@@ -15,35 +15,37 @@
             </view>
             <view class="list_box" v-if="list.length >0">
                 <view class="list" v-for="item in list" :key="item.id">
-                    <label class="label_group" @click="checkboxItem($event, item, item.status != '1')">
-						<checkbox :disabled="item.status != '1'" value="cb" color="#4887FF" style="transform:scale(0.7)" />
-                        <view class="flex_right">
-                            <view class="flex_center">
+                    <checkbox-group @change="checkboxChange">
+                        <label class="label_group" @click="checkboxItem($event, item, item.status != '1')">
+                            <checkbox :disabled="item.status != '1'" :value="item.id" color="#4887FF" style="transform:scale(0.7)" />
+                            <view class="flex_right">
+                                <view class="flex_center">
+                                    <view style="display: flex; align-items: center;">
+                                        <image src="https://yewi.vvv6g.cn/web/mini_images/recharge/time.png" class='icon_time'></image>
+                                        <text class="time_text">{{item.created_at}}</text>
+                                    </view>
+                                    <text class="status_text status1" v-if="item.status === '1'">待缴费</text>
+                                    <text class="status_text status2" v-else-if="item.status === '2'">已缴费</text>
+                                    <text class="status_text" v-else>免缴费</text>
+                                </view>
                                 <view style="display: flex; align-items: center;">
-                                    <image src="https://yewi.vvv6g.cn/web/mini_images/recharge/time.png" class='icon_time'></image>
-                                    <text class="time_text">{{item.created_at}}</text>
+                                    <image src="https://yewi.vvv6g.cn/web/mini_images/recharge/fast.png" class='icon_fast'></image>
+                                    <view>
+                                        楼宇: <text class="mr_5">{{item.build_name}}</text> 
+                                        单元: <text class="mr_5">{{item.unit}}</text> 
+                                        楼层: <text class="mr_5">{{item.floornum}}</text> 
+                                        楼号: <text>{{item.number}}</text>
+                                    </view>
                                 </view>
-                                <text class="status_text status1" v-if="item.status === '1'">待缴费</text>
-                                <text class="status_text status2" v-else-if="item.status === '1'">已缴费</text>
-                                <text class="status_text" v-else>免缴费</text>
-                            </view>
-                            <view style="display: flex; align-items: center;">
-                                <image src="https://yewi.vvv6g.cn/web/mini_images/recharge/fast.png" class='icon_fast'></image>
-                                <view>
-                                    楼宇: <text class="mr_5">{{item.build_name}}</text> 
-                                    单元: <text class="mr_5">{{item.unit}}</text> 
-                                    楼层: <text class="mr_5">{{item.floornum}}</text> 
-                                    楼号: <text>{{item.number}}</text>
+                                <view class="bottom_right">
+                                    <view class="right_points">
+                                        <!-- 积分抵扣：{{dataInfo.dikou_price_max}} -->
+                                    </view>
+                                    <view class="right_money">缴费金额：{{item.price}}</view>
                                 </view>
                             </view>
-                            <view class="bottom_right">
-                                <view class="right_points">
-                                    <!-- 积分抵扣：{{dataInfo.dikou_price_max}} -->
-                                </view>
-                                <view class="right_money">缴费金额：{{item.price}}</view>
-                            </view>
-                        </view>
-					</label>
+                        </label>
+                    </checkbox-group>
                 </view>
             </view>
             <view v-else class="empty_group"> 
@@ -51,7 +53,7 @@
                 暂无数据
             </view>
             <view class="fixed_group" v-if="list.length > 0">
-                <view class="text">共记：<text class="money">¥{{allcost}}</text> 
+                <view class="text">共记：<text class="money">¥{{realPrice}}</text> 
                     <text class="points">积分抵扣：{{allscore}}</text>
                 </view>
                 <button class="fixed_button" type="primary" @click="createOrder">立即缴费</button>
@@ -104,11 +106,12 @@
                 dikou_price_max: 0
             },
             list:[],
-            checkItem:[],
+            checkItem:[], // 选中的数据id
             itemCurrent: '1',
-            itemsInfo:[{name:'预支金', val:'1'}, {name:'微信支付', val:'2'}],
+            itemsInfo:[{name:'预付金', val:'1'}, {name:'微信支付', val:'2'}],
             realPrice: 0, // 实际支付
             order_id: '', // 订单id
+            isChecked: false,
         }
     },
     components: {
@@ -128,10 +131,7 @@
             if(this.allcost <= 0){
                 return uni.showToast({title: '无需缴费', icon: 'none'});
             }
-
             let ids = this.checkItem.map(item=>item.id)
-            this.realPrice = this.allcost - this.allscore
-            console.log(ids, this.realPrice, this.allcost, this.allscore, this.checkItem);
             uni.showLoading({mask: true, title: '订单创建中...',})
             try{
                 let info =  await this.$request({
@@ -142,7 +142,7 @@
                         price: this.allcost,
                         price_real: this.realPrice,
                         integral: this.allscore,
-                        house_id: this.checkItem[0].house_id
+                        house_id: this.list[0].house_id
                     }
                 })
                 let { code, data, msg } = info;
@@ -160,6 +160,7 @@
             this.itemCurrent = e.detail.value
         },
         async sellSave(){
+            const self = this
             if(this.itemCurrent === '1' && this.realPrice > parseInt(this.dataInfo.price)){
                 return uni.showToast({title: '余额不足，请选择其他支付方式', icon: 'none'});
             }
@@ -176,26 +177,52 @@
                 })
                 let { code, data, msg } = info;
             if (code === 1) {
-                uni.showToast({title: msg, icon: 'none'});
-                this.changeShow = false
-                this.resetList()
+                if(this.itemCurrent == '2'){
+                    wx.requestPayment({
+                        timeStamp: data.timeStamp,
+                        nonceStr: data.nonceStr,
+                        package: data.package,
+                        signType: data.signType,
+                        paySign: data.paySign,
+                        success (res) { 
+                            console.log('成功', res);
+                            uni.showToast({title: '充值成功', icon: 'none'});
+                            self.changeShow = false
+                            self.resetList()
+                        },
+                        fail (res) { 
+                            console.log('失败', res);
+                            uni.showToast({title: '充值失败', icon: 'none'});
+                        },
+                        complete(res){
+                            console.log('complete', res);
+                        }
+                    })
+                }else{
+                    uni.showToast({title: '充值成功', icon: 'none'});
+                    self.changeShow = false
+                    self.resetList()
+                }
             } else {
                 uni.showToast({title: msg, icon: 'none'});
             }
             }catch(e){}
             uni.hideLoading();;
         },
+        checkboxChange(e){
+            let value = e.detail.value
+            this.isChecked = value.length != 0
+            console.log('isChecked', this.isChecked);
+        },
         checkboxItem(e, obj, disabled){
             if(disabled){return false}
-            let index = this.checkItem.findIndex(item => item.id === obj.id);
-            // 如果找到了匹配的元素，就从数组中移除该元素
-            if (index !== -1) {
-                this.checkItem.splice(index, 1);
-            }else{
-                this.checkItem.push(obj) 
-            }
             
-            // 根据勾选计算总价格
+            if(this.isChecked){
+                this.checkItem.push(obj)
+            }else{
+                this.checkItem = this.checkItem.filter(item => item.id !== obj.id);
+            }
+
             if(this.checkItem.length > 0){
                 this.allcost = this.checkItem.reduce((accumulator, currentValue) => {
                     return accumulator + parseInt(currentValue.price, 10);
@@ -204,10 +231,13 @@
                     return accumulator + parseInt(currentValue.dikou_price, 10);
                 }, 0);
                 this.allscore = this.allscore > this.dataInfo.dikou_price_max ? this.dataInfo.dikou_price_max : this.allscore
+                this.realPrice = this.allcost - this.allscore
             }else{
                 this.allcost = 0
                 this.allscore = 0
+                this.realPrice = 0
             }
+            console.log('总金额，总积分，实付金额', this.allcost, this.allscore, this.realPrice);
         },
         resetList(){
             this.page = 1
@@ -215,6 +245,7 @@
             this.allcost = 0
             this.allscore = 0
             this.realPrice = 0
+            this.checkItem = []
             this.list = []
             this.getDataList()
         },

@@ -2,7 +2,7 @@
  * @Author: Shber
  * @Date: 2023-11-27 16:58:01
  * @LastEditors: Shber
- * @LastEditTime: 2023-11-30 22:25:18
+ * @LastEditTime: 2023-12-04 16:42:59
  * @Description: 
 -->
 <template>
@@ -142,7 +142,7 @@
                     method:'post',
                     data: {
                         type:2,
-                        uid:this.checkitem.id, 
+                        uid:this.checkitem.uid, 
                         integral:this.integral
                     }
                 })

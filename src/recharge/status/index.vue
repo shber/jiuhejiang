@@ -2,7 +2,7 @@
  * @Author: Shber
  * @Date: 2023-11-27 16:55:52
  * @LastEditors: Shber
- * @LastEditTime: 2023-12-04 11:34:00
+ * @LastEditTime: 2023-12-04 17:13:13
  * @Description: 
 -->
 <template>
@@ -38,7 +38,7 @@
             </view>
             <view class="gray_line"></view>
             <view class="input_money">
-                <input v-model="price" type="number" @input="handleInput" maxlength="9" class="input-money" placeholder="请输入金额" />
+                <input v-model="price" type="digit" maxlength="9" class="input-money" placeholder="请输入金额" />
             </view>
                 <button class="submit_button" type="primary" @click="recharge">充值</button>
             </view>
@@ -93,6 +93,7 @@
                 this.price = this.price.replace(/\D/g, '');
             },
             async recharge(){
+                const self = this
                 try{
                     if(!this.price){return false}
                     uni.showLoading({mask: true, title: '充值中...',})
@@ -103,9 +104,26 @@
                     })
                     let { code, data, msg } = info;
                     if (code === 1) {
-                        this.getDataInfo()
-                        this.price = ''
-                        // uni.navigateTo({ url: '/pages/user-center/user-center' });
+                        wx.requestPayment({
+                            timeStamp: data.timeStamp,
+                            nonceStr: data.nonceStr,
+                            package: data.package,
+                            signType: data.signType,
+                            paySign: data.paySign,
+                            success (res) { 
+                                console.log('成功', res);
+                                uni.showToast({title: '充值成功', icon: 'none'});
+                                self.getDataInfo()
+                                self.price = ''
+                            },
+                            fail (res) { 
+                                console.log('失败', res);
+                                uni.showToast({title: '充值失败', icon: 'none'});
+                            },
+                            complete(res){
+                                console.log('complete', res);
+                            }
+                        })
                     }
                 }catch(e){
                     uni.showToast({title: e, icon: 'none'});
