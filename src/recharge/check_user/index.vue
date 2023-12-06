@@ -2,7 +2,7 @@
  * @Author: Shber
  * @Date: 2023-11-27 16:54:27
  * @LastEditors: Shber
- * @LastEditTime: 2023-12-04 11:12:57
+ * @LastEditTime: 2023-12-06 14:50:32
  * @Description: 
 -->
 <template>
@@ -124,6 +124,7 @@
             uni.showToast({title: msg, icon: 'none'});
           }
         }catch(e){
+          uni.showToast({title: e, icon: 'none'});
         }
         uni.hideLoading();;
 

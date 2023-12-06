@@ -2,7 +2,7 @@
  * @Author: Shber
  * @Date: 2023-11-27 16:57:20
  * @LastEditors: Shber
- * @LastEditTime: 2023-12-04 18:41:15
+ * @LastEditTime: 2023-12-06 14:42:48
  * @Description: 
 -->
 <template>
@@ -54,7 +54,7 @@
             </view>
             <view class="fixed_group" v-if="list.length > 0">
                 <view class="text">共记：<text class="money">¥{{realPrice}}</text> 
-                    <text class="points">积分抵扣：{{allscore}}</text>
+                    <text class="points">{{allscore * dataInfo.integral_dikou*1}}积分抵扣¥{{allscore}}</text>
                 </view>
                 <button class="fixed_button" type="primary" @click="createOrder">立即缴费</button>
             </view>
