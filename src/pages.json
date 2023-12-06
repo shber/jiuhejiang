@@ -2,7 +2,7 @@
  * @Author: Shber
  * @Date: 2022-11-17 11:09:30
  * @LastEditors: Shber
- * @LastEditTime: 2023-12-04 14:21:41
+ * @LastEditTime: 2023-12-06 18:17:10
  * @Description: 
  */
 {
@@ -40,12 +40,6 @@
                     "path": "check_user/index",
                     "style": {
                         "navigationBarTitleText": ""
-                    }
-                },
-                {
-                    "path": "index/index",
-                    "style": {
-                        "navigationBarTitleText": "充值缴费"
                     }
                 },
                 {
