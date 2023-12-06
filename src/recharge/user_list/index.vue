@@ -2,12 +2,12 @@
  * @Author: Shber
  * @Date: 2023-11-27 16:58:01
  * @LastEditors: Shber
- * @LastEditTime: 2023-12-04 16:42:59
+ * @LastEditTime: 2023-12-06 17:18:54
  * @Description: 
 -->
 <template>
     <app-layout>
-        <view class="rechargeList">
+        <view class="rechargeList" v-if="userList.length">
             <view class="list" v-for="item in userList" :key="item">
                 <view class="list_left">
                     <view class="user_group">
@@ -28,6 +28,10 @@
                     <button class="button" @click="rechange(item)">积分转赠</button>
                 </view>
             </view>
+        </view>
+        <view v-else class="empty_group"> 
+            <image src="https://yewi.vvv6g.cn/web/mini_images/recharge/empty.png" class='empty'></image>
+            暂无数据
         </view>
         <view class="dialog_bg" v-if="autoShow" @click="autoShow = false">
             <view class="dialog" @click.stop>
@@ -182,6 +186,8 @@
 </script>
 
 <style scoped lang="scss">
+.empty_group{text-align: center; font-size: 28rpx; color: #999; margin-top: 50rpx;}
+.empty{ display: block; width: 240rpx; height: 240rpx; margin: 0 auto 20rpx;}
 .rechargeList{padding: 0 24rpx;}
 .points_input{height: 100rpx; line-height: 100rpx; background: #F9F9F9;
 border-radius: 18rpx 18rpx 18rpx 18rpx; padding: 0rpx 34rpx;}

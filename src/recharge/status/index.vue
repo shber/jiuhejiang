@@ -2,7 +2,7 @@
  * @Author: Shber
  * @Date: 2023-11-27 16:55:52
  * @LastEditors: Shber
- * @LastEditTime: 2023-12-04 17:13:13
+ * @LastEditTime: 2023-12-06 18:10:14
  * @Description: 
 -->
 <template>
@@ -147,10 +147,12 @@
                     if (code === 1) {
                         uni.navigateTo({ url: '/pages/user-center/user-center' });
                     } else {
-                        // uni.showToast({title: msg, icon: 'none'});
+                        uni.showToast({title: msg, icon: 'none'});
                     }
                     uni.showToast({title: msg, icon: 'none'});
-                }catch(e){}
+                }catch(e){
+                    uni.showToast({title: e, icon: 'none'});
+                }
                 uni.hideLoading();;
 
             },

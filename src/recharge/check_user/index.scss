@@ -1,8 +1,7 @@
 .form_content{margin-top: 108rpx;
 	.full_bg{height: 166rpx;}
-	.send_code{position: absolute; right: 30rpx; top: 50%; transform: translateY(-50%); font-size: 28rpx; z-index: 19;
-		font-weight: 500;
-		color: #4887FF;}
+	.send_code{position: absolute; right: 30rpx; top: 50%; transform: translateY(-50%); font-size: 28rpx; z-index: 899;
+		font-weight: 500; color: #4887FF; height: 104rpx; line-height: 104rpx;}
 	.form_item{
 		margin-bottom: 54rpx;
 		.uni-input{line-height: 104rpx; margin-top: 32rpx; height: 104rpx; padding: 0 30rpx; background-color: #F3F3F3; border-radius: 20rpx;}

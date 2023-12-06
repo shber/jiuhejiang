@@ -2,12 +2,12 @@
  * @Author: Shber
  * @Date: 2023-11-27 16:58:01
  * @LastEditors: Shber
- * @LastEditTime: 2023-12-01 18:47:10
+ * @LastEditTime: 2023-12-06 17:20:13
  * @Description: 
 -->
 <template>
     <app-layout>
-        <view class="rechargeList">
+        <view class="rechargeList" v-if="payList.length">
             <view class="list" v-for="item in payList" :key="item.id">
                 <view class="list_left">
                     <image src="https://yewi.vvv6g.cn/web/mini_images/recharge/fast.png" class='icon_fast'></image>
@@ -26,6 +26,10 @@
                 </view>
                 <text class="money_right">{{item.price}}</text>
             </view>
+        </view>
+        <view v-else class="empty_group"> 
+            <image src="https://yewi.vvv6g.cn/web/mini_images/recharge/empty.png" class='empty'></image>
+            暂无数据
         </view>
     </app-layout>
 </template>
@@ -72,6 +76,8 @@
 </script>
 
 <style scoped lang="scss">
+.empty_group{text-align: center; font-size: 28rpx; color: #999; margin-top: 50rpx;}
+.empty{ display: block; width: 240rpx; height: 240rpx; margin: 0 auto 20rpx;}
 .rechargeList{padding: 0 24rpx;}
 .list{ margin-top: 20rpx; display: flex; justify-content: space-between; align-items: center;
     background: #FFFFFF; border-radius: 22rpx; padding: 32rpx 18rpx;

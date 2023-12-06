@@ -2,7 +2,7 @@
  * @Author: Shber
  * @Date: 2023-11-27 16:57:20
  * @LastEditors: Shber
- * @LastEditTime: 2023-12-06 14:42:48
+ * @LastEditTime: 2023-12-06 17:14:37
  * @Description: 
 -->
 <template>
@@ -152,7 +152,9 @@
             } else {
                 uni.showToast({title: msg, icon: 'none'});
             }
-            }catch(e){}
+            }catch(e){
+                uni.showToast({title: e, icon: 'none'});
+            }
             uni.hideLoading();;
         },
         radioChange(e,a){
@@ -206,7 +208,9 @@
             } else {
                 uni.showToast({title: msg, icon: 'none'});
             }
-            }catch(e){}
+            }catch(e){
+                uni.showToast({title: e, icon: 'none'});
+            }
             uni.hideLoading();;
         },
         checkboxChange(e){
