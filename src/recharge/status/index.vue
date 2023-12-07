@@ -2,7 +2,7 @@
  * @Author: Shber
  * @Date: 2023-11-27 16:55:52
  * @LastEditors: Shber
- * @LastEditTime: 2023-12-06 18:10:14
+ * @LastEditTime: 2023-12-07 11:10:09
  * @Description: 
 -->
 <template>
@@ -128,7 +128,7 @@
                 }catch(e){
                     uni.showToast({title: e, icon: 'none'});
                 }
-                uni.hideLoading();;
+                // uni.hideLoading();;
             },
             goPath(url){
                 uni.navigateTo({ url: url});
@@ -145,7 +145,7 @@
                     })
                     let { code, data, msg } = info;
                     if (code === 1) {
-                        uni.navigateTo({ url: '/pages/user-center/user-center' });
+                        uni.redirectTo({ url: '/pages/user-center/user-center' });
                     } else {
                         uni.showToast({title: msg, icon: 'none'});
                     }
@@ -153,7 +153,7 @@
                 }catch(e){
                     uni.showToast({title: e, icon: 'none'});
                 }
-                uni.hideLoading();;
+                // uni.hideLoading();;
 
             },
             async getDataInfo (){

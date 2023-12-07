@@ -2,7 +2,7 @@
  * @Author: Shber
  * @Date: 2023-11-27 16:58:01
  * @LastEditors: Shber
- * @LastEditTime: 2023-12-06 17:18:54
+ * @LastEditTime: 2023-12-07 11:04:08
  * @Description: 
 -->
 <template>
@@ -90,7 +90,7 @@
             }catch(e){
                 uni.showToast({title: e, icon: 'none'});
             }
-            uni.hideLoading();;
+            // uni.hideLoading();;
         },
         openAuto(item){
             this.checkitem = item
@@ -160,7 +160,7 @@
             }catch(e){
                 uni.showToast({title: e, icon: 'none'});
             }
-            uni.hideLoading();;
+            // uni.hideLoading();;
         },
         resetList(){
             this.page = 1

@@ -2,7 +2,7 @@
  * @Author: Shber
  * @Date: 2023-11-27 16:57:20
  * @LastEditors: Shber
- * @LastEditTime: 2023-12-06 17:14:37
+ * @LastEditTime: 2023-12-07 11:03:23
  * @Description: 
 -->
 <template>
@@ -155,7 +155,7 @@
             }catch(e){
                 uni.showToast({title: e, icon: 'none'});
             }
-            uni.hideLoading();;
+            // uni.hideLoading();;
         },
         radioChange(e,a){
             console.log(e, a);
@@ -211,7 +211,7 @@
             }catch(e){
                 uni.showToast({title: e, icon: 'none'});
             }
-            uni.hideLoading();;
+            // uni.hideLoading();;
         },
         checkboxChange(e){
             let value = e.detail.value
