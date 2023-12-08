@@ -118,7 +118,7 @@
 				console.log(beforePage,'cs-login');
 				
 				beforePage.$vm.$children[0].$children[0].getUserProfileClick(1,para);
-				return;
+				// return;
 				that.$request({
 					url: that.$api.user.change_user,
 					data: para,
@@ -166,6 +166,7 @@
 		border-radius: 8px;
 		margin-top: 40px;
 		margin-bottom: 40px;
+		border: 1px solid #e5e5e5;
 	}
 
 	.avatar {
