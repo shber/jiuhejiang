@@ -2,7 +2,7 @@
  * @Author: Shber
  * @Date: 2023-11-27 16:54:27
  * @LastEditors: Shber
- * @LastEditTime: 2023-12-07 10:55:02
+ * @LastEditTime: 2023-12-11 12:24:11
  * @Description: 
 -->
 <template>
@@ -108,7 +108,7 @@
           if(this.form.name == ''){ return  uni.showToast({title: '请输入姓名', icon: 'none'});}
         }
         if(!pattern.test(this.form.mobile)){return uni.showToast({title: '请输入正确的手机号', icon: 'none'});}
-        if(this.form.code == ''){ return  uni.showToast({title: '请输入验证码', icon: 'none'});}
+        if(this.form.code == ''){ return  uni.showToast({title: '请输入短信验证码', icon: 'none'});}
 
         uni.showLoading({mask: true, title: '加载中...',})
         try{

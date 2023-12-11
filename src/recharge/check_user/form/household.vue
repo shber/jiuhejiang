@@ -43,7 +43,7 @@
 		<view class="form_item">
 			<text class="label">验证码</text>
 			<view style="position: relative;">
-				<input v-model="form.code" @input="inputChange" type="number" maxlength="6" class="uni-input" placeholder="请输入手机号" />
+				<input v-model="form.code" @input="inputChange" type="number" maxlength="6" class="uni-input" placeholder="请输入短信验证码" />
 				<text class="send_code" @click="sendCode" v-if="time == 60">发送验证码</text>
 				<text class="send_code" v-else>{{time}}s</text>
 			</view>

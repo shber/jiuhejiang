@@ -17,7 +17,7 @@
 		</view>
 		<view class="form_item">
 			<text class="label">验证码</text>
-			<input type="number" @input="inputChange" v-model="form.code" maxlength="6" class="uni-input" placeholder="请输入验证码" />
+			<input type="number" @input="inputChange" v-model="form.code" maxlength="6" class="uni-input" placeholder="请输入短信验证码" />
 		</view>
 	</view>
 </template>

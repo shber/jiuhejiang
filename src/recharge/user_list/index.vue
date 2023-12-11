@@ -2,7 +2,7 @@
  * @Author: Shber
  * @Date: 2023-11-27 16:58:01
  * @LastEditors: Shber
- * @LastEditTime: 2023-12-07 11:04:08
+ * @LastEditTime: 2023-12-11 15:36:05
  * @Description: 
 -->
 <template>
@@ -37,7 +37,7 @@
             <view class="dialog" @click.stop>
                 <text class="title">开通自动转赠</text>
                 <text class="p">开通后该账号获得的积分自动转赠给选定用户</text>
-                <label class="radio"><radio @click.stop="is_auto = true" :checked="is_auto" color="#4887FF" style="transform:scale(0.6)" />同意规则积分转赠规则</label>
+                <label class="radio" @click.stop="is_auto = true"><radio :checked="is_auto" color="#4887FF" style="transform:scale(0.6)" />同意规则积分转赠规则</label>
                 <button class="dialog_button" @click.stop="saveauto">确定</button>
             </view>
         </view>
