@@ -89,7 +89,10 @@
         methods: {
             // #ifndef MP-ALIPAY
             getPhoneNumber(e) {
-                if (e.detail.errMsg === 'getPhoneNumber:fail user deny') return;
+                if (e.detail.errMsg === 'getPhoneNumber:fail user deny') {
+                    this.show = false;
+                    return false
+                };
                 this.$request({
                     method: 'post',
                     url: this.$api.phone.binding,
@@ -101,7 +104,9 @@
                 }).then(() => {
                     this.show = false;
                     this.$store.dispatch('user/refresh');
-                });
+                }).fail( res => {
+                    // this.show = false;
+                }) 
             },
             // #endif
             // #ifdef MP-ALIPAY
@@ -121,6 +126,7 @@
                         });
                     },
                     fail: () => {
+                        // _this.show = false;
                     }
                 });
             }
