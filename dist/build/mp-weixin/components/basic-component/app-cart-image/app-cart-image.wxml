@@ -1,0 +1,1 @@
+<view class="{{['bd-image data-v-5fffdefe',cartClass]}}" style="{{(cartStyle)}}"></view>

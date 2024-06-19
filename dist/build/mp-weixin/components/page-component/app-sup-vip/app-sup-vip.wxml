@@ -1,0 +1,1 @@
+<block wx:if="{{is_show}}"><view class="vip-price dir-left-nowrap data-v-8e6cb332" style="{{'margin:'+(''+margin)+';'}}"><view class="item vip-left data-v-8e6cb332"><image class="vip-icon data-v-8e6cb332" src="https://yewi.vvv6g.cn/web/mini_images/icon/S-VIP.png"></image></view><view class="item vip-right data-v-8e6cb332">{{discount==0?'免费':discount+'折'}}</view></view></block>

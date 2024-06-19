@@ -1,0 +1,1 @@
+<view class="bd-detail data-v-72951164"><block wx:if="{{newDetail}}"><view class="detail data-v-72951164"><image src="https://yewi.vvv6g.cn/web/mini_images/icon/goods-detail.png" class="data-v-72951164"></image><app-rich-text vue-id="1" content="{{newDetail}}" class="data-v-72951164" bind:__l="__l"></app-rich-text></view></block></view>
