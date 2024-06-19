@@ -152,9 +152,9 @@
 					// #ifdef H5
 					url = window.location.hash;
 					// #endif
-					uni.redirectTo({
-						url: url
-					});
+					// uni.redirectTo({
+					// 	url: url
+					// });
 				} else if (pages.length >= 2) {
 					uni.navigateBack({
 						delta: 1
