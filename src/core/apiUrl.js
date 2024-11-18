@@ -394,6 +394,7 @@ const apiUrl = {
         order_detail: 'plugin/mch/api/order/detail',
         manage_index: 'plugin/mch/api/mch/manage-index',
         qr_code: 'plugin/mch/api/mch/qr-code',
+        qr_pay: 'plugin/mch/api/mch/qr-pay',
         qr_code_parameter: 'api/default/qr-code-parameter',
         statistic: 'plugin/mch/api/mch/statistic',
         year_list: 'plugin/mch/api/mch/year-list',

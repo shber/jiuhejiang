@@ -3,7 +3,7 @@
  * @Date: 2022-11-17 11:09:30
  * @LastEditors: Shber
  * @LastEditTime: 2023-12-06 18:17:10
- * @Description: 
+ * @Description:
  */
 {
     "lazyCodeLoading": "requiredComponents",
@@ -53,13 +53,13 @@
                     "style": {
                         "navigationBarTitleText": "预存金说明"
                     }
-                },                
+                },
                 {
                     "path": "list/index",
                     "style": {
                         "navigationBarTitleText": "充值记录"
                     }
-                },                
+                },
                 {
                     "path": "user_list/index",
                     "style": {
@@ -1007,6 +1007,12 @@
                     }
                 },
                 {
+                    "path": "mch/qrpay/qrpay",
+                    "style": {
+                        "navigationBarTitleText": "当面付"
+                    }
+                },
+                {
                     "path": "mch/goods/goods",
                     "style": {
                         "navigationBarTitleText": "商品管理"
@@ -1391,7 +1397,7 @@
         {
             "root": "pages/live",
             "plugins": {
-                
+
             },
             "pages": [
                 {

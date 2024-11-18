@@ -1,1 +1,0 @@
-<view class="empty-bottom data-v-3185cf04" style="{{'background-color:'+(backgroundColor)+';'+('height:'+((botBool?BotHeight+height:height+emptyHeight)+'rpx')+';')}}"></view>

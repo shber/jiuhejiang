@@ -1,8 +1,0 @@
-{
-  "navigationBarTitleText": "",
-  "usingComponents": {
-    "boss": "/recharge/check_user/form/boss",
-    "household": "/recharge/check_user/form/household",
-    "app-datetime-picker": "/components/basic-component/app-datetime-picker/app-datetime-picker"
-  }
-}

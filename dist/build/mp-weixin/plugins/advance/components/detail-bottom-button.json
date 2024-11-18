@@ -1,6 +1,0 @@
-{
-  "usingComponents": {
-    "bd-service": "/components/page-component/goods/bd-service"
-  },
-  "component": true
-}

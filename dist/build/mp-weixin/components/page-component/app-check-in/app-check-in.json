@@ -1,6 +1,0 @@
-{
-  "usingComponents": {
-    "app-hotspot": "/components/basic-component/app-hotspot/app-hotspot"
-  },
-  "component": true
-}

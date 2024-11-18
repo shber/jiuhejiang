@@ -1,6 +1,0 @@
-{
-  "usingComponents": {
-    "app-order-time": "/plugins/pt/components/app-order-time"
-  },
-  "component": true
-}

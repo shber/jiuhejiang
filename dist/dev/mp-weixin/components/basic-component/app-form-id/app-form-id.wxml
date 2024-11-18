@@ -1,1 +1,0 @@
-<view class="app-form-id data-v-23169bd0"><form report-submit data-event-opts="{{[['submit',[['formSubmit',['$event']]]]]}}" bindsubmit="__e" class="data-v-23169bd0"><button style="{{'color:'+(color?color:'')+';'}}" formType="submit" hover-class="none" class="data-v-23169bd0"><slot></slot></button></form></view>

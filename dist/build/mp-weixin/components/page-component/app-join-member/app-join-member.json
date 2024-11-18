@@ -1,6 +1,0 @@
-{
-  "usingComponents": {
-    "app-price": "/components/page-component/goods/app-price"
-  },
-  "component": true
-}

@@ -64,6 +64,12 @@
                         <view>店铺二维码</view>
                     </app-form-id>
                 </view>
+              <view class="box-grow-0 menu-item">
+                <app-form-id @click="navPay">
+                  <image src="./../../image/myshop-code.png"></image>
+                  <view>当面付</view>
+                </app-form-id>
+              </view>
                 <!--#endif -->
             </view>
             <view  @click="showPcUrl" class="myshop-pc">PC端管理网址</view>
@@ -116,6 +122,7 @@
                     order_goods_count: 0,
                     form_id_count: 0,
                     template_message_list: null,
+                    qr_pay: "",
                 },
             }
         },
@@ -184,7 +191,27 @@
             navQrcode: function () {
                 uni.navigateTo({url: `/plugins/mch/mch/qrcode/qrcode?mch_id=` + this.mch_id});
             },
-            //MESSAGE
+            navPay: function () {
+              if(this.detail.qr_pay == ''){
+                uni.showModal({
+                  title: '提示',
+                  content: '店铺未开通该功能！请联系管理员',
+                  showCancel: false,
+                  // success: function (e) {
+                  //   if (e.confirm) {
+                  //     uni.redirectTo({
+                  //       url: '/plugins/mch/mch/login/login',
+                  //     })
+                  //   }
+                  // }
+                });
+                return;
+              }
+                uni.navigateTo({url: `/plugins/mch/mch/qrpay/qrpay?mch_id=` + this.mch_id});
+            },
+
+
+          //MESSAGE
             setMessage: function () {
                 //#ifndef MP-WEIXIN
                 this.detail.form_id_count++;

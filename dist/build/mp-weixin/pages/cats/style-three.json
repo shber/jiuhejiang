@@ -1,7 +1,0 @@
-{
-  "usingComponents": {
-    "goods-list": "/pages/cats/goods-list",
-    "app-no-goods": "/components/page-component/app-no-goods/app-no-goods"
-  },
-  "component": true
-}

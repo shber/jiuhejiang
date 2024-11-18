@@ -1,6 +1,0 @@
-{
-  "usingComponents": {
-    "app-diy-page": "/components/page-component/index/app-diy-page"
-  },
-  "component": true
-}

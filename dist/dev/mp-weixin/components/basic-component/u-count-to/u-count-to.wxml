@@ -1,1 +1,0 @@
-<view class="u-count-num data-v-5c31bcbe" style="{{'font-size:'+(fontSize+'rpx')+';'+('font-weight:'+(bold?'bold':'normal')+';')+('color:'+(color)+';')}}">{{''+displayValue+''}}</view>

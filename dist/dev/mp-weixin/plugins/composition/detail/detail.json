@@ -1,7 +1,0 @@
-{
-  "navigationBarTitleText": "",
-  "usingComponents": {
-    "app-list": "/plugins/composition/components/app-list/app-list",
-    "app-composition": "/components/basic-component/app-composition/app-composition"
-  }
-}
